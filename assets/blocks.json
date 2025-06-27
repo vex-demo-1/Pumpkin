@@ -8865,6 +8865,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 36,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oak_planks",
@@ -8917,6 +8921,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 37,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spruce_planks",
@@ -8969,6 +8977,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 38,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/birch_planks",
@@ -9021,6 +9033,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 39,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/jungle_planks",
@@ -9073,6 +9089,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 40,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/acacia_planks",
@@ -9125,6 +9145,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 41,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cherry_planks",
@@ -9177,6 +9201,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 42,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dark_oak_planks",
@@ -9229,6 +9257,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 177,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_oak_wood",
@@ -9251,7 +9283,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 23,
       "states": [
@@ -9315,6 +9347,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 43,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_oak_planks",
@@ -9367,6 +9403,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 44,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_planks",
@@ -9419,6 +9459,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 45,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_planks",
@@ -9471,6 +9515,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 48,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_mosaic",
@@ -12033,6 +12081,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 134,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oak_log",
@@ -12055,7 +12107,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 137,
       "states": [
@@ -12119,6 +12171,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 135,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spruce_log",
@@ -12141,7 +12197,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 140,
       "states": [
@@ -12205,6 +12261,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 136,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/birch_log",
@@ -12227,7 +12287,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 143,
       "states": [
@@ -12291,6 +12351,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 137,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/jungle_log",
@@ -12313,7 +12377,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 146,
       "states": [
@@ -12377,6 +12441,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 138,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/acacia_log",
@@ -12399,7 +12467,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 149,
       "states": [
@@ -12463,6 +12531,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 139,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cherry_log",
@@ -12485,7 +12557,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 152,
       "states": [
@@ -12549,6 +12621,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 141,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dark_oak_log",
@@ -12571,7 +12647,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 155,
       "states": [
@@ -12635,6 +12711,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 140,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_oak_log",
@@ -12657,7 +12737,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 158,
       "states": [
@@ -12721,6 +12801,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 142,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_log",
@@ -12743,7 +12827,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 161,
       "states": [
@@ -12807,6 +12891,10 @@
       "hardness": 0.7,
       "blast_resistance": 0.7,
       "item_id": 143,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_roots",
@@ -12897,7 +12985,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 166,
       "states": [
@@ -12961,6 +13049,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 147,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_block",
@@ -12983,7 +13075,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 169,
       "states": [
@@ -13047,6 +13139,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 149,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_spruce_log",
@@ -13069,7 +13165,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 172,
       "states": [
@@ -13133,6 +13229,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 150,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_birch_log",
@@ -13155,7 +13255,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 175,
       "states": [
@@ -13219,6 +13319,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 151,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_jungle_log",
@@ -13241,7 +13345,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 178,
       "states": [
@@ -13305,6 +13409,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 152,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_acacia_log",
@@ -13327,7 +13435,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 181,
       "states": [
@@ -13391,6 +13499,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 153,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_cherry_log",
@@ -13413,7 +13525,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 184,
       "states": [
@@ -13477,6 +13589,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 154,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_dark_oak_log",
@@ -13499,7 +13615,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 187,
       "states": [
@@ -13563,6 +13679,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 155,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_pale_oak_log",
@@ -13585,7 +13705,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 190,
       "states": [
@@ -13649,6 +13769,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 148,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_oak_log",
@@ -13671,7 +13795,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 193,
       "states": [
@@ -13735,6 +13859,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 156,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_mangrove_log",
@@ -13757,7 +13885,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 196,
       "states": [
@@ -13821,6 +13949,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 170,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_bamboo_block",
@@ -13843,7 +13975,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 199,
       "states": [
@@ -13907,6 +14039,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 171,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oak_wood",
@@ -13929,7 +14065,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 202,
       "states": [
@@ -13993,6 +14129,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 172,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spruce_wood",
@@ -14015,7 +14155,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 205,
       "states": [
@@ -14079,6 +14219,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 173,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/birch_wood",
@@ -14101,7 +14245,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 208,
       "states": [
@@ -14165,6 +14309,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 174,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/jungle_wood",
@@ -14187,7 +14335,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 211,
       "states": [
@@ -14251,6 +14399,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 175,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/acacia_wood",
@@ -14273,7 +14425,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 214,
       "states": [
@@ -14337,6 +14489,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 176,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cherry_wood",
@@ -14359,7 +14515,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 217,
       "states": [
@@ -14423,6 +14579,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 178,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dark_oak_wood",
@@ -14445,7 +14605,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 220,
       "states": [
@@ -14509,6 +14669,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 179,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_wood",
@@ -14531,7 +14695,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 223,
       "states": [
@@ -14595,6 +14759,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 159,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_oak_wood",
@@ -14617,7 +14785,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 226,
       "states": [
@@ -14681,6 +14849,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 160,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_spruce_wood",
@@ -14703,7 +14875,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 229,
       "states": [
@@ -14767,6 +14939,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 161,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_birch_wood",
@@ -14789,7 +14965,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 232,
       "states": [
@@ -14853,6 +15029,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 162,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_jungle_wood",
@@ -14875,7 +15055,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 235,
       "states": [
@@ -14939,6 +15119,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 163,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_acacia_wood",
@@ -14961,7 +15145,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 238,
       "states": [
@@ -15025,6 +15209,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 164,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_cherry_wood",
@@ -15047,7 +15235,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 241,
       "states": [
@@ -15111,6 +15299,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 165,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_dark_oak_wood",
@@ -15133,7 +15325,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 244,
       "states": [
@@ -15197,6 +15389,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 166,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_pale_oak_wood",
@@ -15219,7 +15415,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 247,
       "states": [
@@ -15283,6 +15479,10 @@
       "hardness": 2.0,
       "blast_resistance": 2.0,
       "item_id": 167,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/stripped_mangrove_wood",
@@ -15305,7 +15505,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 250,
       "states": [
@@ -15369,6 +15569,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 182,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oak_leaves",
@@ -16001,6 +16205,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 183,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spruce_leaves",
@@ -16576,6 +16784,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 184,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/birch_leaves",
@@ -17151,6 +17363,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 185,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/jungle_leaves",
@@ -17727,6 +17943,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 186,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/acacia_leaves",
@@ -18302,6 +18522,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 187,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cherry_leaves",
@@ -18877,6 +19101,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 188,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dark_oak_leaves",
@@ -19509,6 +19737,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 189,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_oak_leaves",
@@ -20084,6 +20316,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 190,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_leaves",
@@ -20603,6 +20839,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 191,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/azalea_leaves",
@@ -21178,6 +21418,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 192,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/flowering_azalea_leaves",
@@ -22203,7 +22447,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         -894880138
       ],
       "default_state_id": 567,
@@ -22602,7 +22846,7 @@
         ]
       },
       "properties": [
-        -1708238569,
+        -1071798941,
         -517152823,
         -634074493
       ],
@@ -41051,9 +41295,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1734,
       "states": [
@@ -41460,9 +41704,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1750,
       "states": [
@@ -41869,9 +42113,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1766,
       "states": [
@@ -42278,9 +42522,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1782,
       "states": [
@@ -42687,9 +42931,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1798,
       "states": [
@@ -43096,9 +43340,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1814,
       "states": [
@@ -43505,9 +43749,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1830,
       "states": [
@@ -43914,9 +44158,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1846,
       "states": [
@@ -44323,9 +44567,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1862,
       "states": [
@@ -44732,9 +44976,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1878,
       "states": [
@@ -45141,9 +45385,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1894,
       "states": [
@@ -45550,9 +45794,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1910,
       "states": [
@@ -45959,9 +46203,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1926,
       "states": [
@@ -46368,9 +46612,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1942,
       "states": [
@@ -46777,9 +47021,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1958,
       "states": [
@@ -47186,9 +47430,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         546620605,
-        -423380775
+        -1895516851
       ],
       "default_state_id": 1974,
       "states": [
@@ -47587,7 +47831,7 @@
       },
       "properties": [
         -634074493,
-        -923371509,
+        -993960287,
         795783032
       ],
       "default_state_id": 2000,
@@ -47939,7 +48183,7 @@
       },
       "properties": [
         -634074493,
-        -923371509,
+        -993960287,
         795783032
       ],
       "default_state_id": 2024,
@@ -48291,7 +48535,7 @@
       },
       "properties": [
         -2067017896,
-        -2004659998
+        -149681896
       ],
       "default_state_id": 2041,
       "states": [
@@ -48585,6 +48829,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 202,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/short_grass",
@@ -48665,6 +48913,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 203,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/fern",
@@ -48745,6 +48997,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 207,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dead_bush",
@@ -48820,6 +49076,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 204,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bush",
@@ -48892,6 +49152,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 209,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/short_dry_grass",
@@ -48964,6 +49228,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 210,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/tall_dry_grass",
@@ -49120,7 +49388,7 @@
         ]
       },
       "properties": [
-        -1345530441
+        -308005712
       ],
       "default_state_id": 2056,
       "states": [
@@ -49185,7 +49453,7 @@
       },
       "properties": [
         -2067017896,
-        -2004659998
+        -149681896
       ],
       "default_state_id": 2063,
       "states": [
@@ -49394,9 +49662,9 @@
       "blast_resistance": 1.5,
       "item_id": 0,
       "properties": [
-        -2004659998,
+        -149681896,
         -136714597,
-        979411644
+        707419896
       ],
       "default_state_id": 2071,
       "states": [
@@ -49868,6 +50136,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 213,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/white_wool",
@@ -49920,6 +50192,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 214,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/orange_wool",
@@ -49972,6 +50248,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 215,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/magenta_wool",
@@ -50024,6 +50304,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 216,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/light_blue_wool",
@@ -50076,6 +50360,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 217,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/yellow_wool",
@@ -50128,6 +50416,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 218,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/lime_wool",
@@ -50180,6 +50472,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 219,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pink_wool",
@@ -50232,6 +50528,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 220,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/gray_wool",
@@ -50284,6 +50584,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 221,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/light_gray_wool",
@@ -50336,6 +50640,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 222,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cyan_wool",
@@ -50388,6 +50696,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 223,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/purple_wool",
@@ -50440,6 +50752,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 224,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/blue_wool",
@@ -50492,6 +50808,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 225,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/brown_wool",
@@ -50544,6 +50864,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 226,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/green_wool",
@@ -50596,6 +50920,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 227,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/red_wool",
@@ -50648,6 +50976,10 @@
       "hardness": 0.8,
       "blast_resistance": 0.8,
       "item_id": 228,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/black_wool",
@@ -50701,8 +51033,8 @@
       "blast_resistance": 0.0,
       "item_id": 0,
       "properties": [
-        -2004659998,
-        979411644
+        -149681896,
+        707419896
       ],
       "default_state_id": 2109,
       "states": [
@@ -50862,6 +51194,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 229,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dandelion",
@@ -50911,6 +51247,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 244,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/torchflower",
@@ -50960,6 +51300,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 232,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/poppy",
@@ -51009,6 +51353,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 233,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/blue_orchid",
@@ -51058,6 +51406,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 234,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/allium",
@@ -51107,6 +51459,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 235,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/azure_bluet",
@@ -51156,6 +51512,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 236,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/red_tulip",
@@ -51205,6 +51565,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 237,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/orange_tulip",
@@ -51254,6 +51618,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 238,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/white_tulip",
@@ -51303,6 +51671,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 239,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pink_tulip",
@@ -51352,6 +51724,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 240,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oxeye_daisy",
@@ -51401,6 +51777,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 241,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cornflower",
@@ -51450,6 +51830,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 243,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/wither_rose",
@@ -51499,6 +51883,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 242,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/lily_of_the_valley",
@@ -51802,6 +52190,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 710,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 15
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/tnt",
@@ -51881,6 +52273,10 @@
       "hardness": 1.5,
       "blast_resistance": 1.5,
       "item_id": 305,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bookshelf",
@@ -51998,7 +52394,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -1022489395,
         -1219002900,
         -1415516405,
@@ -56547,7 +56943,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 2402,
       "states": [
@@ -64219,8 +64615,8 @@
         ]
       },
       "properties": [
-        43648364,
-        -1500982047,
+        -1818407380,
+        34481979,
         1482783304
       ],
       "default_state_id": 2927,
@@ -64543,6 +64939,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 412,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oak_stairs",
@@ -64565,9 +64965,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 2949,
@@ -66151,8 +66551,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        484492937,
+        552315733,
+        1073637128,
         795783032
       ],
       "default_state_id": 3019,
@@ -66599,11 +66999,11 @@
         ]
       },
       "properties": [
-        1023405483,
-        -112612957,
+        406520518,
+        -729497922,
         268053108,
-        30622171,
-        1040148025
+        -586262794,
+        423263060
       ],
       "default_state_id": 4202,
       "states": [
@@ -87276,7 +87676,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -246020938
       ],
       "default_state_id": 4359,
@@ -92330,9 +92730,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -93332,7 +93732,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4751,
@@ -93491,7 +93891,7 @@
         ]
       },
       "properties": [
-        -866005095,
+        -814604287,
         795783032
       ],
       "default_state_id": 4759,
@@ -93790,9 +94190,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 4789,
@@ -95367,7 +95767,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4859,
@@ -95518,7 +95918,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4867,
@@ -95669,7 +96069,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4875,
@@ -95820,7 +96220,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4883,
@@ -95971,7 +96371,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4891,
@@ -96122,7 +96522,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4899,
@@ -96273,7 +96673,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4907,
@@ -96424,7 +96824,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4915,
@@ -96575,7 +96975,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4923,
@@ -96726,7 +97126,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 4931,
@@ -108109,7 +108509,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5707,
@@ -108284,7 +108684,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5715,
@@ -108459,7 +108859,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5723,
@@ -108634,7 +109034,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5731,
@@ -108809,7 +109209,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5739,
@@ -108984,7 +109384,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5747,
@@ -109159,7 +109559,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5755,
@@ -109334,7 +109734,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5763,
@@ -109509,7 +109909,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5771,
@@ -109684,7 +110084,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5779,
@@ -109859,7 +110259,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5787,
@@ -110034,7 +110434,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 5795,
@@ -110209,8 +110609,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 5811,
@@ -110634,9 +111034,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -112566,7 +112966,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -246020938
       ],
       "default_state_id": 5918,
@@ -112709,8 +113109,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 5935,
@@ -113980,6 +114380,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 329,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cactus_flower",
@@ -114430,6 +114834,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 332,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oak_fence",
@@ -115206,7 +115614,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 6032,
       "states": [
@@ -115292,7 +115700,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 6035,
       "states": [
@@ -115427,7 +115835,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 6038,
       "states": [
@@ -115602,7 +116010,7 @@
         "random_sequence": "minecraft:blocks/nether_portal"
       },
       "properties": [
-        -1837277502
+        347116706
       ],
       "default_state_id": 6043,
       "states": [
@@ -115666,7 +116074,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 6045,
       "states": [
@@ -115768,7 +116176,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 6049,
       "states": [
@@ -116004,7 +116412,7 @@
       },
       "properties": [
         -980791440,
-        1590433576,
+        552315733,
         -1343580887,
         -634074493
       ],
@@ -118076,8 +118484,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -119078,8 +119486,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -120080,8 +120488,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -121082,8 +121490,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -122084,8 +122492,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -123086,8 +123494,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -124088,8 +124496,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -125090,8 +125498,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -126092,8 +126500,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -127094,8 +127502,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -132653,7 +133061,7 @@
         ]
       },
       "properties": [
-        43648364,
+        -1818407380,
         795783032
       ],
       "default_state_id": 7019,
@@ -133524,7 +133932,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 7056,
       "states": [
@@ -133625,7 +134033,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 7060,
       "states": [
@@ -134269,6 +134677,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 381,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 15
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/vine",
@@ -134779,6 +135191,10 @@
       "hardness": 0.2,
       "blast_resistance": 0.2,
       "item_id": 382,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 15
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/glow_lichen",
@@ -138897,6 +139313,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 785,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oak_fence_gate",
@@ -138919,7 +139339,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -139440,9 +139860,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 7411,
@@ -141017,9 +141437,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 7491,
@@ -142594,9 +143014,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 7571,
@@ -144422,9 +144842,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 7656,
@@ -146013,7 +146433,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 7728,
@@ -146148,12 +146568,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 7734,
       "states": [
@@ -153503,9 +153923,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 8100,
@@ -155963,7 +156383,7 @@
       "item_id": 405,
       "properties": [
         -246027184,
-        1590433576
+        552315733
       ],
       "default_state_id": 8195,
       "states": [
@@ -156320,7 +156740,7 @@
       },
       "properties": [
         356737073,
-        1590433576
+        552315733
       ],
       "default_state_id": 8203,
       "states": [
@@ -156538,9 +156958,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 8226,
@@ -158328,7 +158748,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 8298,
@@ -158504,7 +158924,7 @@
       },
       "properties": [
         292609987,
-        1590433576,
+        552315733,
         -634074493
       ],
       "default_state_id": 8314,
@@ -160489,6 +160909,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 413,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spruce_stairs",
@@ -160511,9 +160935,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 8461,
@@ -162066,6 +162490,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 414,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/birch_stairs",
@@ -162088,9 +162516,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 8541,
@@ -163643,6 +164071,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 415,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/jungle_stairs",
@@ -163665,9 +164097,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 8621,
@@ -165222,7 +165654,7 @@
       "item_id": 425,
       "properties": [
         962003109,
-        -2004659998
+        -149681896
       ],
       "default_state_id": 8696,
       "states": [
@@ -165520,12 +165952,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 8706,
       "states": [
@@ -172173,12 +172605,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 9030,
       "states": [
@@ -181094,8 +181526,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9405,
@@ -181446,8 +181878,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9429,
@@ -181798,8 +182230,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9453,
@@ -182150,8 +182582,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9477,
@@ -182502,8 +182934,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9501,
@@ -182854,8 +183286,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9525,
@@ -183206,8 +183638,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9549,
@@ -183558,8 +183990,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9573,
@@ -183910,8 +184342,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9597,
@@ -184262,8 +184694,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 9621,
@@ -185187,7 +185619,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -634074493
       ],
       "default_state_id": 9669,
@@ -185935,7 +186367,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -634074493
       ],
       "default_state_id": 9709,
@@ -186683,7 +187115,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -634074493
       ],
       "default_state_id": 9749,
@@ -187453,7 +187885,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -634074493
       ],
       "default_state_id": 9789,
@@ -188201,7 +188633,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -634074493
       ],
       "default_state_id": 9829,
@@ -188949,7 +189381,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -634074493
       ],
       "default_state_id": 9869,
@@ -189697,7 +190129,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -634074493
       ],
       "default_state_id": 9909,
@@ -189872,7 +190304,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 9916,
       "states": [
@@ -190022,7 +190454,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 9920,
       "states": [
@@ -190172,7 +190604,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 9924,
       "states": [
@@ -190331,8 +190763,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        484492937,
+        552315733,
+        1073637128,
         795783032
       ],
       "default_state_id": 9929,
@@ -191271,8 +191703,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -805679707,
+        552315733,
+        767997821,
         -634074493
       ],
       "default_state_id": 9985,
@@ -192319,7 +192751,7 @@
       },
       "properties": [
         -1855722144,
-        -1067152548
+        -381020761
       ],
       "default_state_id": 10034,
       "states": [
@@ -192821,7 +193253,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 10047,
       "states": [
@@ -192907,9 +193339,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 10060,
@@ -194485,7 +194917,7 @@
       },
       "properties": [
         -634074493,
-        -923371509,
+        -993960287,
         795783032
       ],
       "default_state_id": 10142,
@@ -194845,7 +195277,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         -894880138
       ],
       "default_state_id": 10154,
@@ -205146,6 +205578,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 416,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/acacia_stairs",
@@ -205168,9 +205604,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 10704,
@@ -206723,6 +207159,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 417,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cherry_stairs",
@@ -206745,9 +207185,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 10784,
@@ -208300,6 +208740,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 418,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dark_oak_stairs",
@@ -208322,9 +208766,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 10864,
@@ -209877,6 +210321,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 419,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_oak_stairs",
@@ -209899,9 +210347,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 10944,
@@ -211454,6 +211902,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 420,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_stairs",
@@ -211476,9 +211928,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 11024,
@@ -213031,6 +213483,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 421,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_stairs",
@@ -213053,9 +213509,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 11104,
@@ -214608,6 +215064,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 422,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_mosaic_stairs",
@@ -214630,9 +215090,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 11184,
@@ -216675,8 +217135,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -217833,9 +218293,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 11366,
@@ -219410,9 +219870,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 11446,
@@ -220987,9 +221447,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 11526,
@@ -222578,7 +223038,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 11598,
@@ -222727,7 +223187,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 11604,
@@ -222876,7 +223336,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 11610,
@@ -223091,6 +223551,10 @@
       "hardness": 0.5,
       "blast_resistance": 0.5,
       "item_id": 475,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/hay_block",
@@ -223113,7 +223577,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 11615,
       "states": [
@@ -223177,6 +223641,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 476,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/white_carpet",
@@ -223229,6 +223697,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 477,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/orange_carpet",
@@ -223281,6 +223753,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 478,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/magenta_carpet",
@@ -223333,6 +223809,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 479,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/light_blue_carpet",
@@ -223385,6 +223865,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 480,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/yellow_carpet",
@@ -223437,6 +223921,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 481,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/lime_carpet",
@@ -223489,6 +223977,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 482,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pink_carpet",
@@ -223541,6 +224033,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 483,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/gray_carpet",
@@ -223593,6 +224089,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 484,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/light_gray_carpet",
@@ -223645,6 +224145,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 485,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cyan_carpet",
@@ -223697,6 +224201,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 486,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/purple_carpet",
@@ -223749,6 +224257,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 487,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/blue_carpet",
@@ -223801,6 +224313,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 488,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/brown_carpet",
@@ -223853,6 +224369,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 489,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/green_carpet",
@@ -223905,6 +224425,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 490,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/red_carpet",
@@ -223957,6 +224481,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 491,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/black_carpet",
@@ -224061,6 +224589,10 @@
       "hardness": 5.0,
       "blast_resistance": 6.0,
       "item_id": 83,
+      "flammable": {
+        "spread_chance": 5,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/coal_block",
@@ -224177,6 +224709,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 495,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/sunflower",
@@ -224208,7 +224744,7 @@
         ]
       },
       "properties": [
-        -1345530441
+        -308005712
       ],
       "default_state_id": 11637,
       "states": [
@@ -224250,6 +224786,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 496,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/lilac",
@@ -224281,7 +224821,7 @@
         ]
       },
       "properties": [
-        -1345530441
+        -308005712
       ],
       "default_state_id": 11639,
       "states": [
@@ -224323,6 +224863,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 497,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/rose_bush",
@@ -224354,7 +224898,7 @@
         ]
       },
       "properties": [
-        -1345530441
+        -308005712
       ],
       "default_state_id": 11641,
       "states": [
@@ -224396,6 +224940,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 498,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/peony",
@@ -224427,7 +224975,7 @@
         ]
       },
       "properties": [
-        -1345530441
+        -308005712
       ],
       "default_state_id": 11643,
       "states": [
@@ -224469,6 +225017,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 499,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/tall_grass",
@@ -224604,7 +225156,7 @@
         ]
       },
       "properties": [
-        -1345530441
+        -308005712
       ],
       "default_state_id": 11645,
       "states": [
@@ -224646,6 +225198,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 500,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/large_fern",
@@ -224781,7 +225337,7 @@
         ]
       },
       "properties": [
-        -1345530441
+        -308005712
       ],
       "default_state_id": 11647,
       "states": [
@@ -229258,7 +229814,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11904,
       "states": [
@@ -229365,7 +229921,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11908,
       "states": [
@@ -229472,7 +230028,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11912,
       "states": [
@@ -229579,7 +230135,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11916,
       "states": [
@@ -229686,7 +230242,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11920,
       "states": [
@@ -229793,7 +230349,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11924,
       "states": [
@@ -229900,7 +230456,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11928,
       "states": [
@@ -230007,7 +230563,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11932,
       "states": [
@@ -230114,7 +230670,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11936,
       "states": [
@@ -230221,7 +230777,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11940,
       "states": [
@@ -230328,7 +230884,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11944,
       "states": [
@@ -230435,7 +230991,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11948,
       "states": [
@@ -230542,7 +231098,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11952,
       "states": [
@@ -230649,7 +231205,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11956,
       "states": [
@@ -230756,7 +231312,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11960,
       "states": [
@@ -230863,7 +231419,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 11964,
       "states": [
@@ -231113,9 +231669,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 11982,
@@ -232668,6 +233224,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 270,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/oak_slab",
@@ -232704,7 +233264,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12054,
@@ -232817,6 +233377,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 271,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spruce_slab",
@@ -232853,7 +233417,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12060,
@@ -232966,6 +233530,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 272,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/birch_slab",
@@ -233002,7 +233570,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12066,
@@ -233115,6 +233683,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 273,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/jungle_slab",
@@ -233151,7 +233723,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12072,
@@ -233264,6 +233836,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 274,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/acacia_slab",
@@ -233300,7 +233876,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12078,
@@ -233413,6 +233989,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 275,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cherry_slab",
@@ -233449,7 +234029,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12084,
@@ -233562,6 +234142,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 276,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dark_oak_slab",
@@ -233598,7 +234182,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12090,
@@ -233711,6 +234295,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 277,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_oak_slab",
@@ -233747,7 +234335,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12096,
@@ -233860,6 +234448,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 278,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_slab",
@@ -233896,7 +234488,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12102,
@@ -234009,6 +234601,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 279,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_slab",
@@ -234045,7 +234641,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12108,
@@ -234158,6 +234754,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 280,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_mosaic_slab",
@@ -234194,7 +234794,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12114,
@@ -234343,7 +234943,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12120,
@@ -234492,7 +235092,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12126,
@@ -234641,7 +235241,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12132,
@@ -234790,7 +235390,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12138,
@@ -234939,7 +235539,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12144,
@@ -235088,7 +235688,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12150,
@@ -235237,7 +235837,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12156,
@@ -235386,7 +235986,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12162,
@@ -235535,7 +236135,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12168,
@@ -235684,7 +236284,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12174,
@@ -235833,7 +236433,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12180,
@@ -235982,7 +236582,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12186,
@@ -236131,7 +236731,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12192,
@@ -236280,7 +236880,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 12198,
@@ -236601,6 +237201,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 786,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spruce_fence_gate",
@@ -236623,7 +237227,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -237122,6 +237726,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 787,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/birch_fence_gate",
@@ -237144,7 +237752,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -237643,6 +238251,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 788,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/jungle_fence_gate",
@@ -237665,7 +238277,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -238164,6 +238776,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 789,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/acacia_fence_gate",
@@ -238186,7 +238802,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -238685,6 +239301,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 790,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cherry_fence_gate",
@@ -238707,7 +239327,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -239206,6 +239826,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 791,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dark_oak_fence_gate",
@@ -239228,7 +239852,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -239727,6 +240351,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 792,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_oak_fence_gate",
@@ -239749,7 +240377,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -240248,6 +240876,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 793,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_fence_gate",
@@ -240270,7 +240902,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -240769,6 +241401,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 794,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_fence_gate",
@@ -240791,7 +241427,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -241290,6 +241926,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 333,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spruce_fence",
@@ -241888,6 +242528,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 334,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/birch_fence",
@@ -242486,6 +243130,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 335,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/jungle_fence",
@@ -243084,6 +243732,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 336,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/acacia_fence",
@@ -243682,6 +244334,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 337,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cherry_fence",
@@ -244280,6 +244936,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 338,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dark_oak_fence",
@@ -244878,6 +245538,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 339,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_oak_fence",
@@ -245476,6 +246140,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 340,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/mangrove_fence",
@@ -246074,6 +246742,10 @@
       "hardness": 2.0,
       "blast_resistance": 3.0,
       "item_id": 341,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo_fence",
@@ -246703,9 +247375,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -247714,9 +248386,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -248725,9 +249397,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -249736,9 +250408,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -250747,9 +251419,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -251758,9 +252430,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -252769,9 +253441,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -253780,9 +254452,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -254791,9 +255463,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -255793,7 +256465,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13361,
       "states": [
@@ -257320,7 +257992,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 13435,
       "states": [
@@ -257406,9 +258078,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 13448,
@@ -259236,7 +259908,7 @@
       },
       "properties": [
         385368210,
-        -1345530441
+        -308005712
       ],
       "default_state_id": 13521,
       "states": [
@@ -259386,6 +260058,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 245,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pitcher_plant",
@@ -259417,7 +260093,7 @@
         ]
       },
       "properties": [
-        -1345530441
+        -308005712
       ],
       "default_state_id": 13531,
       "states": [
@@ -259680,7 +260356,7 @@
       "item_id": 544,
       "properties": [
         962003109,
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13544,
       "states": [
@@ -259902,7 +260578,7 @@
       "item_id": 545,
       "properties": [
         962003109,
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13556,
       "states": [
@@ -260381,7 +261057,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 13570,
       "states": [
@@ -260495,7 +261171,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         -634074493
       ],
       "default_state_id": 13578,
@@ -260733,7 +261409,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13589,
       "states": [
@@ -260874,7 +261550,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13595,
       "states": [
@@ -261015,7 +261691,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13601,
       "states": [
@@ -261156,7 +261832,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13607,
       "states": [
@@ -261297,7 +261973,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13613,
       "states": [
@@ -261438,7 +262114,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13619,
       "states": [
@@ -261579,7 +262255,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13625,
       "states": [
@@ -261720,7 +262396,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13631,
       "states": [
@@ -261861,7 +262537,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13637,
       "states": [
@@ -262002,7 +262678,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13643,
       "states": [
@@ -262143,7 +262819,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13649,
       "states": [
@@ -262284,7 +262960,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13655,
       "states": [
@@ -262425,7 +263101,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13661,
       "states": [
@@ -262566,7 +263242,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13667,
       "states": [
@@ -262707,7 +263383,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13673,
       "states": [
@@ -262848,7 +263524,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13679,
       "states": [
@@ -262989,7 +263665,7 @@
         ]
       },
       "properties": [
-        -2004659998
+        -149681896
       ],
       "default_state_id": 13685,
       "states": [
@@ -263123,7 +263799,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13687,
       "states": [
@@ -263225,7 +263901,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13691,
       "states": [
@@ -263327,7 +264003,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13695,
       "states": [
@@ -263429,7 +264105,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13699,
       "states": [
@@ -263531,7 +264207,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13703,
       "states": [
@@ -263633,7 +264309,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13707,
       "states": [
@@ -263735,7 +264411,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13711,
       "states": [
@@ -263837,7 +264513,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13715,
       "states": [
@@ -263939,7 +264615,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13719,
       "states": [
@@ -264041,7 +264717,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13723,
       "states": [
@@ -264143,7 +264819,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13727,
       "states": [
@@ -264245,7 +264921,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13731,
       "states": [
@@ -264347,7 +265023,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13735,
       "states": [
@@ -264449,7 +265125,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13739,
       "states": [
@@ -264551,7 +265227,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13743,
       "states": [
@@ -264653,7 +265329,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 13747,
       "states": [
@@ -266822,6 +267498,10 @@
       "hardness": 0.5,
       "blast_resistance": 2.5,
       "item_id": 982,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/dried_kelp_block",
@@ -267210,7 +267890,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         904387101,
         795783032
       ],
@@ -269912,7 +270592,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13908,
@@ -270067,7 +270747,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13916,
@@ -270222,7 +270902,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13924,
@@ -270377,7 +271057,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13932,
@@ -270532,7 +271212,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13940,
@@ -270687,7 +271367,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13948,
@@ -270842,7 +271522,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13956,
@@ -270997,7 +271677,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13964,
@@ -271152,7 +271832,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13972,
@@ -271307,7 +271987,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 13980,
@@ -271807,6 +272487,10 @@
       "hardness": 1.0,
       "blast_resistance": 1.0,
       "item_id": 269,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bamboo",
@@ -271830,7 +272514,7 @@
       },
       "properties": [
         356708211,
-        -863462260,
+        -222226720,
         -538778284
       ],
       "default_state_id": 14000,
@@ -272206,9 +272890,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14028,
@@ -273783,9 +274467,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14108,
@@ -275360,9 +276044,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14188,
@@ -276937,9 +277621,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14268,
@@ -278514,9 +279198,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14348,
@@ -280091,9 +280775,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14428,
@@ -281668,9 +282352,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14508,
@@ -283245,9 +283929,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14588,
@@ -284822,9 +285506,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14668,
@@ -286399,9 +287083,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14748,
@@ -287976,9 +288660,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14828,
@@ -289553,9 +290237,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14908,
@@ -291130,9 +291814,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 14988,
@@ -292707,9 +293391,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 15068,
@@ -294298,7 +294982,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15140,
@@ -294447,7 +295131,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15146,
@@ -294596,7 +295280,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15152,
@@ -294745,7 +295429,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15158,
@@ -294894,7 +295578,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15164,
@@ -295043,7 +295727,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15170,
@@ -295192,7 +295876,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15176,
@@ -295341,7 +296025,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15182,
@@ -295490,7 +296174,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15188,
@@ -295639,7 +296323,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15194,
@@ -295788,7 +296472,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15200,
@@ -295937,7 +296621,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15206,
@@ -296086,7 +296770,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 15212,
@@ -296221,12 +296905,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 15218,
       "states": [
@@ -302874,12 +303558,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 15542,
       "states": [
@@ -309527,12 +310211,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 15866,
       "states": [
@@ -316180,12 +316864,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 16190,
       "states": [
@@ -322833,12 +323517,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 16514,
       "states": [
@@ -329486,12 +330170,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 16838,
       "states": [
@@ -336139,12 +336823,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 17162,
       "states": [
@@ -342792,12 +343476,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 17486,
       "states": [
@@ -349445,12 +350129,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 17810,
       "states": [
@@ -356098,12 +356782,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 18134,
       "states": [
@@ -362751,12 +363435,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 18458,
       "states": [
@@ -369404,12 +370088,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 18782,
       "states": [
@@ -376057,12 +376741,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 19106,
       "states": [
@@ -382688,6 +383372,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 687,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/scaffolding",
@@ -383630,7 +384318,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 19459,
       "states": [
@@ -383741,7 +384429,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         -242710423
       ],
       "default_state_id": 19464,
@@ -383993,7 +384681,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -246020938
       ],
       "default_state_id": 19476,
@@ -384177,7 +384865,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -246020938
       ],
       "default_state_id": 19484,
@@ -384456,8 +385144,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576
+        2101252584,
+        552315733
       ],
       "default_state_id": 19497,
       "states": [
@@ -384777,6 +385465,10 @@
       "hardness": 2.5,
       "blast_resistance": 2.5,
       "item_id": 701,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/lectern",
@@ -384799,7 +385491,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -105819251,
         -634074493
       ],
@@ -385315,7 +386007,7 @@
         ]
       },
       "properties": [
-        1590433576
+        552315733
       ],
       "default_state_id": 19522,
       "states": [
@@ -385417,8 +386109,8 @@
         ]
       },
       "properties": [
-        444972686,
-        1590433576,
+        -2113430785,
+        552315733,
         -634074493
       ],
       "default_state_id": 19527,
@@ -386344,7 +387036,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -246020938,
         426544012,
         795783032
@@ -386930,7 +387622,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -246020938,
         426544012,
         795783032
@@ -387461,6 +388153,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 1299,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/sweet_berry_bush",
@@ -387639,7 +388335,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 19635,
       "states": [
@@ -387725,7 +388421,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 19638,
       "states": [
@@ -387811,7 +388507,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 19641,
       "states": [
@@ -387897,7 +388593,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 19644,
       "states": [
@@ -388263,7 +388959,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 19652,
       "states": [
@@ -388349,7 +389045,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 19655,
       "states": [
@@ -388435,7 +389131,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 19658,
       "states": [
@@ -388521,7 +389217,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 19661,
       "states": [
@@ -389979,7 +390675,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 19726,
@@ -390128,7 +390824,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 19732,
@@ -391587,8 +392283,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -392589,8 +393285,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -393591,7 +394287,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -394112,7 +394808,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         1693060803,
         -242710423,
         -634074493
@@ -394633,9 +395329,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 20006,
@@ -396210,9 +396906,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 20086,
@@ -397787,8 +398483,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 20164,
@@ -398139,8 +398835,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 20188,
@@ -398500,9 +399196,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -399511,9 +400207,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -401487,7 +402183,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 20396,
@@ -401638,7 +402334,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 20404,
@@ -401768,7 +402464,7 @@
       "blast_resistance": 3600000.0,
       "item_id": 847,
       "properties": [
-        1834812879
+        1654439448
       ],
       "default_state_id": 20412,
       "states": [
@@ -401853,7 +402549,7 @@
       "blast_resistance": 3600000.0,
       "item_id": 848,
       "properties": [
-        1897860818
+        1361129526
       ],
       "default_state_id": 20425,
       "states": [
@@ -402074,7 +402770,7 @@
       "blast_resistance": 3600000.0,
       "item_id": 849,
       "properties": [
-        -1114389607
+        1067806639
       ],
       "default_state_id": 20427,
       "states": [
@@ -402189,6 +402885,10 @@
       "hardness": 0.6,
       "blast_resistance": 0.6,
       "item_id": 1287,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/composter",
@@ -402462,6 +403162,10 @@
       "hardness": 0.5,
       "blast_resistance": 0.5,
       "item_id": 702,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 15
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/target",
@@ -402756,6 +403460,10 @@
       "hardness": 0.3,
       "blast_resistance": 0.3,
       "item_id": 1305,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/bee_nest",
@@ -402806,7 +403514,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -388126060
       ],
       "default_state_id": 20457,
@@ -403231,6 +403939,10 @@
       "hardness": 0.6,
       "blast_resistance": 0.6,
       "item_id": 1306,
+      "flammable": {
+        "spread_chance": 20,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/beehive",
@@ -403290,7 +404002,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -388126060
       ],
       "default_state_id": 20481,
@@ -404482,9 +405194,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 20532,
@@ -406059,12 +406771,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 20604,
       "states": [
@@ -412726,7 +413438,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 20928,
@@ -413083,7 +413795,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 20938,
@@ -413218,9 +413930,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 20952,
@@ -414795,12 +415507,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 21024,
       "states": [
@@ -421558,9 +422270,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 21357,
@@ -423149,7 +423861,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 21429,
@@ -423348,8 +424060,8 @@
         ]
       },
       "properties": [
-        -2022016742,
-        1590433576,
+        2101252584,
+        552315733,
         -634074493
       ],
       "default_state_id": 21443,
@@ -423700,12 +424412,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 21461,
       "states": [
@@ -437303,7 +438015,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         795783032
       ],
       "default_state_id": 22102,
@@ -437534,7 +438246,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         795783032
       ],
       "default_state_id": 22114,
@@ -437765,7 +438477,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         795783032
       ],
       "default_state_id": 22126,
@@ -437996,7 +438708,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         795783032
       ],
       "default_state_id": 22138,
@@ -438281,7 +438993,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 22145,
@@ -438416,9 +439128,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 22159,
@@ -439993,12 +440705,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 22231,
       "states": [
@@ -446712,7 +447424,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 22556,
@@ -446847,9 +447559,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 22570,
@@ -448424,12 +449136,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 22642,
       "states": [
@@ -455195,7 +455907,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 22968,
@@ -455330,9 +456042,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 22982,
@@ -456907,12 +457619,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 23054,
       "states": [
@@ -463760,7 +464472,7 @@
       },
       "properties": [
         268053108,
-        -946996701,
+        -1749501666,
         795783032
       ],
       "default_state_id": 23380,
@@ -465443,9 +466155,9 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         268053108,
-        -946996701,
+        -1749501666,
         795783032
       ],
       "default_state_id": 23476,
@@ -475448,9 +476160,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 24027,
@@ -477025,9 +477737,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 24107,
@@ -478602,9 +479314,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 24187,
@@ -480179,9 +480891,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 24267,
@@ -481770,7 +482482,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 24339,
@@ -481919,7 +482631,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 24345,
@@ -482068,7 +482780,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 24351,
@@ -482217,7 +482929,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 24357,
@@ -482768,9 +483480,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 24379,
@@ -484345,9 +485057,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 24459,
@@ -485922,9 +486634,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 24539,
@@ -487499,9 +488211,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 24619,
@@ -489090,7 +489802,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 24691,
@@ -489239,7 +489951,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 24697,
@@ -489388,7 +490100,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 24703,
@@ -489537,7 +490249,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 24709,
@@ -489681,9 +490393,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -490692,9 +491404,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -491703,9 +492415,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -492714,9 +493426,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -493725,9 +494437,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -494736,9 +495448,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -495747,9 +496459,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -496758,9 +497470,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
-        -2135984141,
+        552315733,
+        -308005712,
+        -670463916,
         -242710423,
         -634074493
       ],
@@ -497760,8 +498472,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -498762,8 +499474,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -499764,8 +500476,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -500766,8 +501478,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -501768,8 +502480,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -502770,8 +503482,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -503772,8 +504484,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -504774,8 +505486,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
+        552315733,
+        1979767873,
         -242710423,
         -634074493,
         795783032
@@ -507144,7 +507856,7 @@
         ]
       },
       "properties": [
-        -2004659998,
+        -149681896,
         -634074493,
         795783032
       ],
@@ -507544,8 +508256,8 @@
         ]
       },
       "properties": [
-        170750635,
-        -1363609161,
+        -287736382,
+        2124793625,
         795783032
       ],
       "default_state_id": 25813,
@@ -507914,6 +508626,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 1300,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 15
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cave_vines",
@@ -508633,6 +509349,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 0,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 15
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/cave_vines_plant",
@@ -508701,6 +509421,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 246,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/spore_blossom",
@@ -508750,6 +509474,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 205,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/azalea",
@@ -508809,6 +509537,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 206,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/flowering_azalea",
@@ -508920,6 +509652,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 258,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pink_petals",
@@ -508998,7 +509734,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -21943977
       ],
       "default_state_id": 25887,
@@ -509223,6 +509959,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 259,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/wildflowers",
@@ -509301,7 +510041,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         -21943977
       ],
       "default_state_id": 25903,
@@ -509526,6 +510266,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 260,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/leaf_litter",
@@ -509604,7 +510348,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         159053359
       ],
       "default_state_id": 25919,
@@ -509881,6 +510625,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 267,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/big_dripleaf",
@@ -509903,8 +510651,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        793101946,
+        552315733,
+        -1800582664,
         795783032
       ],
       "default_state_id": 25937,
@@ -510513,6 +511261,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 267,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/big_dripleaf_stem",
@@ -510535,7 +511287,7 @@
         ]
       },
       "properties": [
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 25969,
@@ -510656,6 +511408,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 268,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/small_dripleaf",
@@ -510681,8 +511437,8 @@
         ]
       },
       "properties": [
-        1590433576,
-        -1345530441,
+        552315733,
+        -308005712,
         795783032
       ],
       "default_state_id": 25979,
@@ -510907,6 +511663,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 266,
+      "flammable": {
+        "spread_chance": 60,
+        "burn_chance": 30
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/hanging_roots",
@@ -511126,7 +511886,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 25997,
       "states": [
@@ -511264,9 +512024,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 26011,
@@ -512855,7 +513615,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 26083,
@@ -512990,12 +513750,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 26089,
       "states": [
@@ -519695,9 +520455,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 26422,
@@ -521286,7 +522046,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 26494,
@@ -521421,12 +522181,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 26500,
       "states": [
@@ -528126,9 +528886,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 26833,
@@ -529717,7 +530477,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 26905,
@@ -529852,12 +530612,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 26911,
       "states": [
@@ -536557,9 +537317,9 @@
         ]
       },
       "properties": [
-        1590433576,
-        -789194458,
-        -1044714416,
+        552315733,
+        1979767873,
+        -694595114,
         795783032
       ],
       "default_state_id": 27244,
@@ -538148,7 +538908,7 @@
         ]
       },
       "properties": [
-        -184903530,
+        1852158516,
         795783032
       ],
       "default_state_id": 27316,
@@ -538283,12 +539043,12 @@
         ]
       },
       "properties": [
-        962380246,
-        -173638194,
-        -30403066,
+        -1120959615,
+        2037989241,
+        -2113742927,
         -246124358,
         795783032,
-        979122788
+        -1104217073
       ],
       "default_state_id": 27322,
       "states": [
@@ -545104,7 +545864,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 27647,
       "states": [
@@ -545530,7 +546290,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 27656,
       "states": [
@@ -545616,7 +546376,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 27659,
       "states": [
@@ -545702,7 +546462,7 @@
         ]
       },
       "properties": [
-        43648364
+        -1818407380
       ],
       "default_state_id": 27662,
       "states": [
@@ -545878,7 +546638,7 @@
       },
       "properties": [
         778783224,
-        1590433576,
+        552315733,
         795783032
       ],
       "default_state_id": 27675,
@@ -546174,7 +546934,7 @@
       },
       "properties": [
         1464394721,
-        1897860818,
+        1361129526,
         -894880138
       ],
       "default_state_id": 27727,
@@ -547013,7 +547773,7 @@
       },
       "properties": [
         -1591500023,
-        -349213336
+        1455798416
       ],
       "default_state_id": 27736,
       "states": [
@@ -547226,9 +547986,9 @@
         "random_sequence": "minecraft:blocks/vault"
       },
       "properties": [
-        1590433576,
+        552315733,
         -1591500023,
-        -1806985461
+        -164080597
       ],
       "default_state_id": 27746,
       "states": [
@@ -547826,6 +548586,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 265,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_moss_block",
@@ -547878,6 +548642,10 @@
       "hardness": 0.1,
       "blast_resistance": 0.1,
       "item_id": 263,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_moss_carpet",
@@ -547910,10 +548678,10 @@
       },
       "properties": [
         -1629356982,
-        962380246,
-        -173638194,
-        -30403066,
-        979122788
+        -1120959615,
+        2037989241,
+        -2113742927,
+        -1104217073
       ],
       "default_state_id": 27777,
       "states": [
@@ -550783,6 +551551,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 264,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 5
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/pale_hanging_moss",
@@ -550870,6 +551642,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 230,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/open_eyeblossom",
@@ -550919,6 +551695,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 231,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/closed_eyeblossom",
@@ -551100,6 +551880,10 @@
       "hardness": 0.0,
       "blast_resistance": 0.0,
       "item_id": 208,
+      "flammable": {
+        "spread_chance": 100,
+        "burn_chance": 60
+      },
       "loot_table": {
         "type": "minecraft:block",
         "random_sequence": "minecraft:blocks/firefly_bush",
