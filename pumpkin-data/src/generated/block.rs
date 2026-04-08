@@ -41378,7 +41378,9 @@ impl Block {
                                 content: LootPoolEntryTypes::Item(ItemEntry {
                                     name: "minecraft:wheat_seeds",
                                 }),
-                                conditions: Some(&[LootCondition::RandomChance]),
+                                conditions: Some(&[LootCondition::RandomChance {
+                                    chance: 0.125f32,
+                                }]),
                                 functions: Some(&[
                                     LootFunction {
                                         content: LootFunctionTypes::ApplyBonus {
@@ -41468,7 +41470,9 @@ impl Block {
                                 content: LootPoolEntryTypes::Item(ItemEntry {
                                     name: "minecraft:wheat_seeds",
                                 }),
-                                conditions: Some(&[LootCondition::RandomChance]),
+                                conditions: Some(&[LootCondition::RandomChance {
+                                    chance: 0.125f32,
+                                }]),
                                 functions: Some(&[
                                     LootFunction {
                                         content: LootFunctionTypes::ApplyBonus {
@@ -166451,7 +166455,7 @@ impl Block {
                         content: LootPoolEntryTypes::Item(ItemEntry {
                             name: "minecraft:poisonous_potato",
                         }),
-                        conditions: Some(&[LootCondition::RandomChance]),
+                        conditions: Some(&[LootCondition::RandomChance { chance: 0.02f32 }]),
                         functions: None,
                     }],
                     rolls: LootNumberProviderTypes::Constant(1f32),
@@ -201193,7 +201197,7 @@ impl Block {
                                     }),
                                     conditions: Some(&[
                                         LootCondition::SurvivesExplosion,
-                                        LootCondition::RandomChance,
+                                        LootCondition::RandomChance { chance: 0.125f32 },
                                     ]),
                                     functions: None,
                                 },
@@ -201238,7 +201242,7 @@ impl Block {
                                     }),
                                     conditions: Some(&[
                                         LootCondition::SurvivesExplosion,
-                                        LootCondition::RandomChance,
+                                        LootCondition::RandomChance { chance: 0.125f32 },
                                     ]),
                                     functions: None,
                                 },
@@ -201345,7 +201349,7 @@ impl Block {
                                     }),
                                     conditions: Some(&[
                                         LootCondition::SurvivesExplosion,
-                                        LootCondition::RandomChance,
+                                        LootCondition::RandomChance { chance: 0.125f32 },
                                     ]),
                                     functions: None,
                                 },
@@ -201390,7 +201394,7 @@ impl Block {
                                     }),
                                     conditions: Some(&[
                                         LootCondition::SurvivesExplosion,
-                                        LootCondition::RandomChance,
+                                        LootCondition::RandomChance { chance: 0.125f32 },
                                     ]),
                                     functions: None,
                                 },
