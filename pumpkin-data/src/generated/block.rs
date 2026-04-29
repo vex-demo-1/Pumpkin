@@ -502418,1061 +502418,6 @@ impl EnumVariants for HorizontalFacing {
     }
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To1 {
-    L0,
-    L1,
-}
-impl EnumVariants for Integer0To1 {
-    fn variant_count() -> u16 {
-        2u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To15 {
-    L0,
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-    L6,
-    L7,
-    L8,
-    L9,
-    L10,
-    L11,
-    L12,
-    L13,
-    L14,
-    L15,
-}
-impl EnumVariants for Integer0To15 {
-    fn variant_count() -> u16 {
-        16u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-            Self::L4 => 4u16,
-            Self::L5 => 5u16,
-            Self::L6 => 6u16,
-            Self::L7 => 7u16,
-            Self::L8 => 8u16,
-            Self::L9 => 9u16,
-            Self::L10 => 10u16,
-            Self::L11 => 11u16,
-            Self::L12 => 12u16,
-            Self::L13 => 13u16,
-            Self::L14 => 14u16,
-            Self::L15 => 15u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            4u16 => Self::L4,
-            5u16 => Self::L5,
-            6u16 => Self::L6,
-            7u16 => Self::L7,
-            8u16 => Self::L8,
-            9u16 => Self::L9,
-            10u16 => Self::L10,
-            11u16 => Self::L11,
-            12u16 => Self::L12,
-            13u16 => Self::L13,
-            14u16 => Self::L14,
-            15u16 => Self::L15,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-            Self::L6 => "6",
-            Self::L7 => "7",
-            Self::L8 => "8",
-            Self::L9 => "9",
-            Self::L10 => "10",
-            Self::L11 => "11",
-            Self::L12 => "12",
-            Self::L13 => "13",
-            Self::L14 => "14",
-            Self::L15 => "15",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            "6" => Self::L6,
-            "7" => Self::L7,
-            "8" => Self::L8,
-            "9" => Self::L9,
-            "10" => Self::L10,
-            "11" => Self::L11,
-            "12" => Self::L12,
-            "13" => Self::L13,
-            "14" => Self::L14,
-            "15" => Self::L15,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To2 {
-    L0,
-    L1,
-    L2,
-}
-impl EnumVariants for Integer0To2 {
-    fn variant_count() -> u16 {
-        3u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To24 {
-    L0,
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-    L6,
-    L7,
-    L8,
-    L9,
-    L10,
-    L11,
-    L12,
-    L13,
-    L14,
-    L15,
-    L16,
-    L17,
-    L18,
-    L19,
-    L20,
-    L21,
-    L22,
-    L23,
-    L24,
-}
-impl EnumVariants for Integer0To24 {
-    fn variant_count() -> u16 {
-        25u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-            Self::L4 => 4u16,
-            Self::L5 => 5u16,
-            Self::L6 => 6u16,
-            Self::L7 => 7u16,
-            Self::L8 => 8u16,
-            Self::L9 => 9u16,
-            Self::L10 => 10u16,
-            Self::L11 => 11u16,
-            Self::L12 => 12u16,
-            Self::L13 => 13u16,
-            Self::L14 => 14u16,
-            Self::L15 => 15u16,
-            Self::L16 => 16u16,
-            Self::L17 => 17u16,
-            Self::L18 => 18u16,
-            Self::L19 => 19u16,
-            Self::L20 => 20u16,
-            Self::L21 => 21u16,
-            Self::L22 => 22u16,
-            Self::L23 => 23u16,
-            Self::L24 => 24u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            4u16 => Self::L4,
-            5u16 => Self::L5,
-            6u16 => Self::L6,
-            7u16 => Self::L7,
-            8u16 => Self::L8,
-            9u16 => Self::L9,
-            10u16 => Self::L10,
-            11u16 => Self::L11,
-            12u16 => Self::L12,
-            13u16 => Self::L13,
-            14u16 => Self::L14,
-            15u16 => Self::L15,
-            16u16 => Self::L16,
-            17u16 => Self::L17,
-            18u16 => Self::L18,
-            19u16 => Self::L19,
-            20u16 => Self::L20,
-            21u16 => Self::L21,
-            22u16 => Self::L22,
-            23u16 => Self::L23,
-            24u16 => Self::L24,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-            Self::L6 => "6",
-            Self::L7 => "7",
-            Self::L8 => "8",
-            Self::L9 => "9",
-            Self::L10 => "10",
-            Self::L11 => "11",
-            Self::L12 => "12",
-            Self::L13 => "13",
-            Self::L14 => "14",
-            Self::L15 => "15",
-            Self::L16 => "16",
-            Self::L17 => "17",
-            Self::L18 => "18",
-            Self::L19 => "19",
-            Self::L20 => "20",
-            Self::L21 => "21",
-            Self::L22 => "22",
-            Self::L23 => "23",
-            Self::L24 => "24",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            "6" => Self::L6,
-            "7" => Self::L7,
-            "8" => Self::L8,
-            "9" => Self::L9,
-            "10" => Self::L10,
-            "11" => Self::L11,
-            "12" => Self::L12,
-            "13" => Self::L13,
-            "14" => Self::L14,
-            "15" => Self::L15,
-            "16" => Self::L16,
-            "17" => Self::L17,
-            "18" => Self::L18,
-            "19" => Self::L19,
-            "20" => Self::L20,
-            "21" => Self::L21,
-            "22" => Self::L22,
-            "23" => Self::L23,
-            "24" => Self::L24,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To25 {
-    L0,
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-    L6,
-    L7,
-    L8,
-    L9,
-    L10,
-    L11,
-    L12,
-    L13,
-    L14,
-    L15,
-    L16,
-    L17,
-    L18,
-    L19,
-    L20,
-    L21,
-    L22,
-    L23,
-    L24,
-    L25,
-}
-impl EnumVariants for Integer0To25 {
-    fn variant_count() -> u16 {
-        26u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-            Self::L4 => 4u16,
-            Self::L5 => 5u16,
-            Self::L6 => 6u16,
-            Self::L7 => 7u16,
-            Self::L8 => 8u16,
-            Self::L9 => 9u16,
-            Self::L10 => 10u16,
-            Self::L11 => 11u16,
-            Self::L12 => 12u16,
-            Self::L13 => 13u16,
-            Self::L14 => 14u16,
-            Self::L15 => 15u16,
-            Self::L16 => 16u16,
-            Self::L17 => 17u16,
-            Self::L18 => 18u16,
-            Self::L19 => 19u16,
-            Self::L20 => 20u16,
-            Self::L21 => 21u16,
-            Self::L22 => 22u16,
-            Self::L23 => 23u16,
-            Self::L24 => 24u16,
-            Self::L25 => 25u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            4u16 => Self::L4,
-            5u16 => Self::L5,
-            6u16 => Self::L6,
-            7u16 => Self::L7,
-            8u16 => Self::L8,
-            9u16 => Self::L9,
-            10u16 => Self::L10,
-            11u16 => Self::L11,
-            12u16 => Self::L12,
-            13u16 => Self::L13,
-            14u16 => Self::L14,
-            15u16 => Self::L15,
-            16u16 => Self::L16,
-            17u16 => Self::L17,
-            18u16 => Self::L18,
-            19u16 => Self::L19,
-            20u16 => Self::L20,
-            21u16 => Self::L21,
-            22u16 => Self::L22,
-            23u16 => Self::L23,
-            24u16 => Self::L24,
-            25u16 => Self::L25,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-            Self::L6 => "6",
-            Self::L7 => "7",
-            Self::L8 => "8",
-            Self::L9 => "9",
-            Self::L10 => "10",
-            Self::L11 => "11",
-            Self::L12 => "12",
-            Self::L13 => "13",
-            Self::L14 => "14",
-            Self::L15 => "15",
-            Self::L16 => "16",
-            Self::L17 => "17",
-            Self::L18 => "18",
-            Self::L19 => "19",
-            Self::L20 => "20",
-            Self::L21 => "21",
-            Self::L22 => "22",
-            Self::L23 => "23",
-            Self::L24 => "24",
-            Self::L25 => "25",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            "6" => Self::L6,
-            "7" => Self::L7,
-            "8" => Self::L8,
-            "9" => Self::L9,
-            "10" => Self::L10,
-            "11" => Self::L11,
-            "12" => Self::L12,
-            "13" => Self::L13,
-            "14" => Self::L14,
-            "15" => Self::L15,
-            "16" => Self::L16,
-            "17" => Self::L17,
-            "18" => Self::L18,
-            "19" => Self::L19,
-            "20" => Self::L20,
-            "21" => Self::L21,
-            "22" => Self::L22,
-            "23" => Self::L23,
-            "24" => Self::L24,
-            "25" => Self::L25,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To3 {
-    L0,
-    L1,
-    L2,
-    L3,
-}
-impl EnumVariants for Integer0To3 {
-    fn variant_count() -> u16 {
-        4u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To4 {
-    L0,
-    L1,
-    L2,
-    L3,
-    L4,
-}
-impl EnumVariants for Integer0To4 {
-    fn variant_count() -> u16 {
-        5u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-            Self::L4 => 4u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            4u16 => Self::L4,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To5 {
-    L0,
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-}
-impl EnumVariants for Integer0To5 {
-    fn variant_count() -> u16 {
-        6u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-            Self::L4 => 4u16,
-            Self::L5 => 5u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            4u16 => Self::L4,
-            5u16 => Self::L5,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To6 {
-    L0,
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-    L6,
-}
-impl EnumVariants for Integer0To6 {
-    fn variant_count() -> u16 {
-        7u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-            Self::L4 => 4u16,
-            Self::L5 => 5u16,
-            Self::L6 => 6u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            4u16 => Self::L4,
-            5u16 => Self::L5,
-            6u16 => Self::L6,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-            Self::L6 => "6",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            "6" => Self::L6,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To7 {
-    L0,
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-    L6,
-    L7,
-}
-impl EnumVariants for Integer0To7 {
-    fn variant_count() -> u16 {
-        8u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-            Self::L4 => 4u16,
-            Self::L5 => 5u16,
-            Self::L6 => 6u16,
-            Self::L7 => 7u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            4u16 => Self::L4,
-            5u16 => Self::L5,
-            6u16 => Self::L6,
-            7u16 => Self::L7,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-            Self::L6 => "6",
-            Self::L7 => "7",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            "6" => Self::L6,
-            "7" => Self::L7,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer0To8 {
-    L0,
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-    L6,
-    L7,
-    L8,
-}
-impl EnumVariants for Integer0To8 {
-    fn variant_count() -> u16 {
-        9u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L0 => 0u16,
-            Self::L1 => 1u16,
-            Self::L2 => 2u16,
-            Self::L3 => 3u16,
-            Self::L4 => 4u16,
-            Self::L5 => 5u16,
-            Self::L6 => 6u16,
-            Self::L7 => 7u16,
-            Self::L8 => 8u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L0,
-            1u16 => Self::L1,
-            2u16 => Self::L2,
-            3u16 => Self::L3,
-            4u16 => Self::L4,
-            5u16 => Self::L5,
-            6u16 => Self::L6,
-            7u16 => Self::L7,
-            8u16 => Self::L8,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L0 => "0",
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-            Self::L6 => "6",
-            Self::L7 => "7",
-            Self::L8 => "8",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "0" => Self::L0,
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            "6" => Self::L6,
-            "7" => Self::L7,
-            "8" => Self::L8,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer1To3 {
-    L1,
-    L2,
-    L3,
-}
-impl EnumVariants for Integer1To3 {
-    fn variant_count() -> u16 {
-        3u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L1 => 0u16,
-            Self::L2 => 1u16,
-            Self::L3 => 2u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L1,
-            1u16 => Self::L2,
-            2u16 => Self::L3,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer1To4 {
-    L1,
-    L2,
-    L3,
-    L4,
-}
-impl EnumVariants for Integer1To4 {
-    fn variant_count() -> u16 {
-        4u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L1 => 0u16,
-            Self::L2 => 1u16,
-            Self::L3 => 2u16,
-            Self::L4 => 3u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L1,
-            1u16 => Self::L2,
-            2u16 => Self::L3,
-            3u16 => Self::L4,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer1To7 {
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-    L6,
-    L7,
-}
-impl EnumVariants for Integer1To7 {
-    fn variant_count() -> u16 {
-        7u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L1 => 0u16,
-            Self::L2 => 1u16,
-            Self::L3 => 2u16,
-            Self::L4 => 3u16,
-            Self::L5 => 4u16,
-            Self::L6 => 5u16,
-            Self::L7 => 6u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L1,
-            1u16 => Self::L2,
-            2u16 => Self::L3,
-            3u16 => Self::L4,
-            4u16 => Self::L5,
-            5u16 => Self::L6,
-            6u16 => Self::L7,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-            Self::L6 => "6",
-            Self::L7 => "7",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            "6" => Self::L6,
-            "7" => Self::L7,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
-pub enum Integer1To8 {
-    L1,
-    L2,
-    L3,
-    L4,
-    L5,
-    L6,
-    L7,
-    L8,
-}
-impl EnumVariants for Integer1To8 {
-    fn variant_count() -> u16 {
-        8u16
-    }
-    fn to_index(&self) -> u16 {
-        match self {
-            Self::L1 => 0u16,
-            Self::L2 => 1u16,
-            Self::L3 => 2u16,
-            Self::L4 => 3u16,
-            Self::L5 => 4u16,
-            Self::L6 => 5u16,
-            Self::L7 => 6u16,
-            Self::L8 => 7u16,
-        }
-    }
-    fn from_index(index: u16) -> Self {
-        match index {
-            0u16 => Self::L1,
-            1u16 => Self::L2,
-            2u16 => Self::L3,
-            3u16 => Self::L4,
-            4u16 => Self::L5,
-            5u16 => Self::L6,
-            6u16 => Self::L7,
-            7u16 => Self::L8,
-            _ => panic!("Invalid index: {index}"),
-        }
-    }
-    fn to_value(&self) -> &'static str {
-        match self {
-            Self::L1 => "1",
-            Self::L2 => "2",
-            Self::L3 => "3",
-            Self::L4 => "4",
-            Self::L5 => "5",
-            Self::L6 => "6",
-            Self::L7 => "7",
-            Self::L8 => "8",
-        }
-    }
-    fn from_value(value: &str) -> Self {
-        match value {
-            "1" => Self::L1,
-            "2" => Self::L2,
-            "3" => Self::L3,
-            "4" => Self::L4,
-            "5" => Self::L5,
-            "6" => Self::L6,
-            "7" => Self::L7,
-            "8" => Self::L8,
-            _ => panic!("Invalid value: {value}"),
-        }
-    }
-}
-#[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub enum ModeComparator {
     Compare,
     Subtract,
@@ -506206,7 +505151,7 @@ impl BlockProperties for VineLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct FireLikeProperties {
-    pub r#age: Integer0To15,
+    pub r#age: u8,
     pub r#east: bool,
     pub r#north: bool,
     pub r#south: bool,
@@ -506221,7 +505166,7 @@ impl BlockProperties for FireLikeProperties {
             (!self.r#south as u16, 2),
             (!self.r#north as u16, 2),
             (!self.r#east as u16, 2),
-            (self.r#age.to_index(), Integer0To15::variant_count()),
+            (self.r#age as u16, 16u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -506258,9 +505203,9 @@ impl BlockProperties for FireLikeProperties {
                 value == 0
             },
             r#age: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
         }
     }
@@ -506310,7 +505255,28 @@ impl BlockProperties for FireLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("age", self.r#age.to_value()),
+            (
+                "age",
+                match self.r#age {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
             ("east", if self.r#east { "true" } else { "false" }),
             ("north", if self.r#north { "true" } else { "false" }),
             ("south", if self.r#south { "true" } else { "false" }),
@@ -506330,7 +505296,27 @@ impl BlockProperties for FireLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "age" => block_props.r#age = Integer0To15::from_value(value),
+                "age" => {
+                    block_props.r#age = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 "east" => block_props.r#east = matches!(*value, "true"),
                 "north" => block_props.r#north = matches!(*value, "true"),
                 "south" => block_props.r#south = matches!(*value, "true"),
@@ -506901,7 +505887,7 @@ impl BlockProperties for CampfireLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct CandleLikeProperties {
-    pub r#candles: Integer1To4,
+    pub r#candles: u8,
     pub r#lit: bool,
     pub r#waterlogged: bool,
 }
@@ -506910,7 +505896,7 @@ impl BlockProperties for CandleLikeProperties {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
             (!self.r#lit as u16, 2),
-            (self.r#candles.to_index(), Integer1To4::variant_count()),
+            ((self.r#candles - 1u8) as u16, 4u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -506932,9 +505918,9 @@ impl BlockProperties for CandleLikeProperties {
                 value == 0
             },
             r#candles: {
-                let value = index % Integer1To4::variant_count();
-                index /= Integer1To4::variant_count();
-                Integer1To4::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value + 1u8
             },
         }
     }
@@ -507003,7 +505989,16 @@ impl BlockProperties for CandleLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("candles", self.r#candles.to_value()),
+            (
+                "candles",
+                match self.r#candles {
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    _ => unreachable!(),
+                },
+            ),
             ("lit", if self.r#lit { "true" } else { "false" }),
             (
                 "waterlogged",
@@ -507042,7 +506037,15 @@ impl BlockProperties for CandleLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "candles" => block_props.r#candles = Integer1To4::from_value(value),
+                "candles" => {
+                    block_props.r#candles = match *value {
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        _ => 1u8,
+                    }
+                }
                 "lit" => block_props.r#lit = matches!(*value, "true"),
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
@@ -508406,7 +507409,7 @@ impl BlockProperties for ComparatorLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct CalibratedSculkSensorLikeProperties {
     pub r#facing: HorizontalFacing,
-    pub r#power: Integer0To15,
+    pub r#power: u8,
     pub r#sculk_sensor_phase: SculkSensorPhase,
     pub r#waterlogged: bool,
 }
@@ -508418,7 +507421,7 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
                 self.r#sculk_sensor_phase.to_index(),
                 SculkSensorPhase::variant_count(),
             ),
-            (self.r#power.to_index(), Integer0To15::variant_count()),
+            (self.r#power as u16, 16u16),
             (self.r#facing.to_index(), HorizontalFacing::variant_count()),
         ]
         .iter()
@@ -508441,9 +507444,9 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
                 SculkSensorPhase::from_index(value)
             },
             r#power: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
             r#facing: {
                 let value = index % HorizontalFacing::variant_count();
@@ -508499,7 +507502,28 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("facing", self.r#facing.to_value()),
-            ("power", self.r#power.to_value()),
+            (
+                "power",
+                match self.r#power {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
             ("sculk_sensor_phase", self.r#sculk_sensor_phase.to_value()),
             (
                 "waterlogged",
@@ -508520,7 +507544,27 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
         for (key, value) in props {
             match *key {
                 "facing" => block_props.r#facing = HorizontalFacing::from_value(value),
-                "power" => block_props.r#power = Integer0To15::from_value(value),
+                "power" => {
+                    block_props.r#power = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 "sculk_sensor_phase" => {
                     block_props.r#sculk_sensor_phase = SculkSensorPhase::from_value(value)
                 }
@@ -508533,7 +507577,7 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct SculkSensorLikeProperties {
-    pub r#power: Integer0To15,
+    pub r#power: u8,
     pub r#sculk_sensor_phase: SculkSensorPhase,
     pub r#waterlogged: bool,
 }
@@ -508545,7 +507589,7 @@ impl BlockProperties for SculkSensorLikeProperties {
                 self.r#sculk_sensor_phase.to_index(),
                 SculkSensorPhase::variant_count(),
             ),
-            (self.r#power.to_index(), Integer0To15::variant_count()),
+            (self.r#power as u16, 16u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -508567,9 +507611,9 @@ impl BlockProperties for SculkSensorLikeProperties {
                 SculkSensorPhase::from_index(value)
             },
             r#power: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
         }
     }
@@ -508619,7 +507663,28 @@ impl BlockProperties for SculkSensorLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("power", self.r#power.to_value()),
+            (
+                "power",
+                match self.r#power {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
             ("sculk_sensor_phase", self.r#sculk_sensor_phase.to_value()),
             (
                 "waterlogged",
@@ -508639,7 +507704,27 @@ impl BlockProperties for SculkSensorLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "power" => block_props.r#power = Integer0To15::from_value(value),
+                "power" => {
+                    block_props.r#power = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 "sculk_sensor_phase" => {
                     block_props.r#sculk_sensor_phase = SculkSensorPhase::from_value(value)
                 }
@@ -509132,11 +508217,11 @@ impl BlockProperties for CrafterLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct RespawnAnchorLikeProperties {
-    pub r#charges: Integer0To4,
+    pub r#charges: u8,
 }
 impl BlockProperties for RespawnAnchorLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#charges.to_index(), Integer0To4::variant_count())]
+        let (index, _) = [(self.r#charges as u16, 5u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -509147,9 +508232,9 @@ impl BlockProperties for RespawnAnchorLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#charges: {
-                let value = index % Integer0To4::variant_count();
-                index /= Integer0To4::variant_count();
-                Integer0To4::from_index(value)
+                let value = (index % 5u16) as u8;
+                index /= 5u16;
+                value
             },
         }
     }
@@ -509198,7 +508283,17 @@ impl BlockProperties for RespawnAnchorLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("charges", self.r#charges.to_value())]
+        vec![(
+            "charges",
+            match self.r#charges {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -509211,7 +508306,16 @@ impl BlockProperties for RespawnAnchorLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "charges" { block_props.r#charges = Integer0To4::from_value(value) }
+            if *key == "charges" {
+                block_props.r#charges = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
@@ -509571,7 +508675,7 @@ impl BlockProperties for PointedDripstoneLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct OakLeavesLikeProperties {
-    pub r#distance: Integer1To7,
+    pub r#distance: u8,
     pub r#persistent: bool,
     pub r#waterlogged: bool,
 }
@@ -509580,7 +508684,7 @@ impl BlockProperties for OakLeavesLikeProperties {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
             (!self.r#persistent as u16, 2),
-            (self.r#distance.to_index(), Integer1To7::variant_count()),
+            ((self.r#distance - 1u8) as u16, 7u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -509602,9 +508706,9 @@ impl BlockProperties for OakLeavesLikeProperties {
                 value == 0
             },
             r#distance: {
-                let value = index % Integer1To7::variant_count();
-                index /= Integer1To7::variant_count();
-                Integer1To7::from_index(value)
+                let value = (index % 7u16) as u8;
+                index /= 7u16;
+                value + 1u8
             },
         }
     }
@@ -509657,7 +508761,19 @@ impl BlockProperties for OakLeavesLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("distance", self.r#distance.to_value()),
+            (
+                "distance",
+                match self.r#distance {
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    _ => unreachable!(),
+                },
+            ),
             (
                 "persistent",
                 if self.r#persistent { "true" } else { "false" },
@@ -509683,7 +508799,18 @@ impl BlockProperties for OakLeavesLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "distance" => block_props.r#distance = Integer1To7::from_value(value),
+                "distance" => {
+                    block_props.r#distance = match *value {
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        _ => 1u8,
+                    }
+                }
                 "persistent" => block_props.r#persistent = matches!(*value, "true"),
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
@@ -509695,14 +508822,14 @@ impl BlockProperties for OakLeavesLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct OakHangingSignLikeProperties {
     pub r#attached: bool,
-    pub r#rotation: Integer0To15,
+    pub r#rotation: u8,
     pub r#waterlogged: bool,
 }
 impl BlockProperties for OakHangingSignLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
-            (self.r#rotation.to_index(), Integer0To15::variant_count()),
+            (self.r#rotation as u16, 16u16),
             (!self.r#attached as u16, 2),
         ]
         .iter()
@@ -509720,9 +508847,9 @@ impl BlockProperties for OakHangingSignLikeProperties {
                 value == 0
             },
             r#rotation: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
             r#attached: {
                 let value = index % 2;
@@ -509792,7 +508919,28 @@ impl BlockProperties for OakHangingSignLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("attached", if self.r#attached { "true" } else { "false" }),
-            ("rotation", self.r#rotation.to_value()),
+            (
+                "rotation",
+                match self.r#rotation {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
             (
                 "waterlogged",
                 if self.r#waterlogged { "true" } else { "false" },
@@ -509826,7 +508974,27 @@ impl BlockProperties for OakHangingSignLikeProperties {
         for (key, value) in props {
             match *key {
                 "attached" => block_props.r#attached = matches!(*value, "true"),
-                "rotation" => block_props.r#rotation = Integer0To15::from_value(value),
+                "rotation" => {
+                    block_props.r#rotation = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
             }
@@ -510034,12 +509202,12 @@ impl BlockProperties for TestBlockLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct DaylightDetectorLikeProperties {
     pub r#inverted: bool,
-    pub r#power: Integer0To15,
+    pub r#power: u8,
 }
 impl BlockProperties for DaylightDetectorLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
-            (self.r#power.to_index(), Integer0To15::variant_count()),
+            (self.r#power as u16, 16u16),
             (!self.r#inverted as u16, 2),
         ]
         .iter()
@@ -510052,9 +509220,9 @@ impl BlockProperties for DaylightDetectorLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#power: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
             r#inverted: {
                 let value = index % 2;
@@ -510110,7 +509278,28 @@ impl BlockProperties for DaylightDetectorLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("inverted", if self.r#inverted { "true" } else { "false" }),
-            ("power", self.r#power.to_value()),
+            (
+                "power",
+                match self.r#power {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
         ]
     }
     #[allow(clippy::manual_range_patterns)]
@@ -510126,7 +509315,27 @@ impl BlockProperties for DaylightDetectorLikeProperties {
         for (key, value) in props {
             match *key {
                 "inverted" => block_props.r#inverted = matches!(*value, "true"),
-                "power" => block_props.r#power = Integer0To15::from_value(value),
+                "power" => {
+                    block_props.r#power = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 _ => {}
             }
         }
@@ -510135,11 +509344,11 @@ impl BlockProperties for DaylightDetectorLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct SnowLikeProperties {
-    pub r#layers: Integer1To8,
+    pub r#layers: u8,
 }
 impl BlockProperties for SnowLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#layers.to_index(), Integer1To8::variant_count())]
+        let (index, _) = [((self.r#layers - 1u8) as u16, 8u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -510150,9 +509359,9 @@ impl BlockProperties for SnowLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#layers: {
-                let value = index % Integer1To8::variant_count();
-                index /= Integer1To8::variant_count();
-                Integer1To8::from_index(value)
+                let value = (index % 8u16) as u8;
+                index /= 8u16;
+                value + 1u8
             },
         }
     }
@@ -510201,7 +509410,20 @@ impl BlockProperties for SnowLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("layers", self.r#layers.to_value())]
+        vec![(
+            "layers",
+            match self.r#layers {
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                8u8 => "8",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -510214,7 +509436,19 @@ impl BlockProperties for SnowLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "layers" { block_props.r#layers = Integer1To8::from_value(value) }
+            if *key == "layers" {
+                block_props.r#layers = match *value {
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    "8" => 8u8,
+                    _ => 1u8,
+                }
+            }
         }
         block_props
     }
@@ -510329,18 +509563,18 @@ impl BlockProperties for LanternLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct MangrovePropaguleLikeProperties {
-    pub r#age: Integer0To4,
+    pub r#age: u8,
     pub r#hanging: bool,
-    pub r#stage: Integer0To1,
+    pub r#stage: u8,
     pub r#waterlogged: bool,
 }
 impl BlockProperties for MangrovePropaguleLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
-            (self.r#stage.to_index(), Integer0To1::variant_count()),
+            (self.r#stage as u16, 2u16),
             (!self.r#hanging as u16, 2),
-            (self.r#age.to_index(), Integer0To4::variant_count()),
+            (self.r#age as u16, 5u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -510357,9 +509591,9 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
                 value == 0
             },
             r#stage: {
-                let value = index % Integer0To1::variant_count();
-                index /= Integer0To1::variant_count();
-                Integer0To1::from_index(value)
+                let value = (index % 2u16) as u8;
+                index /= 2u16;
+                value
             },
             r#hanging: {
                 let value = index % 2;
@@ -510367,9 +509601,9 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
                 value == 0
             },
             r#age: {
-                let value = index % Integer0To4::variant_count();
-                index /= Integer0To4::variant_count();
-                Integer0To4::from_index(value)
+                let value = (index % 5u16) as u8;
+                index /= 5u16;
+                value
             },
         }
     }
@@ -510419,9 +509653,26 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("age", self.r#age.to_value()),
+            (
+                "age",
+                match self.r#age {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    _ => unreachable!(),
+                },
+            ),
             ("hanging", if self.r#hanging { "true" } else { "false" }),
-            ("stage", self.r#stage.to_value()),
+            (
+                "stage",
+                match self.r#stage {
+                    0u8 => "0",
+                    1u8 => "1",
+                    _ => unreachable!(),
+                },
+            ),
             (
                 "waterlogged",
                 if self.r#waterlogged { "true" } else { "false" },
@@ -510440,9 +509691,24 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "age" => block_props.r#age = Integer0To4::from_value(value),
+                "age" => {
+                    block_props.r#age = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        _ => 0u8,
+                    }
+                }
                 "hanging" => block_props.r#hanging = matches!(*value, "true"),
-                "stage" => block_props.r#stage = Integer0To1::from_value(value),
+                "stage" => {
+                    block_props.r#stage = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        _ => 0u8,
+                    }
+                }
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
             }
@@ -510713,11 +509979,11 @@ impl BlockProperties for BellLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct FarmlandLikeProperties {
-    pub r#moisture: Integer0To7,
+    pub r#moisture: u8,
 }
 impl BlockProperties for FarmlandLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#moisture.to_index(), Integer0To7::variant_count())]
+        let (index, _) = [(self.r#moisture as u16, 8u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -510728,9 +509994,9 @@ impl BlockProperties for FarmlandLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#moisture: {
-                let value = index % Integer0To7::variant_count();
-                index /= Integer0To7::variant_count();
-                Integer0To7::from_index(value)
+                let value = (index % 8u16) as u8;
+                index /= 8u16;
+                value
             },
         }
     }
@@ -510779,7 +510045,20 @@ impl BlockProperties for FarmlandLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("moisture", self.r#moisture.to_value())]
+        vec![(
+            "moisture",
+            match self.r#moisture {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -510792,18 +510071,30 @@ impl BlockProperties for FarmlandLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "moisture" { block_props.r#moisture = Integer0To7::from_value(value) }
+            if *key == "moisture" {
+                block_props.r#moisture = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct SuspiciousSandLikeProperties {
-    pub r#dusted: Integer0To3,
+    pub r#dusted: u8,
 }
 impl BlockProperties for SuspiciousSandLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#dusted.to_index(), Integer0To3::variant_count())]
+        let (index, _) = [(self.r#dusted as u16, 4u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -510814,9 +510105,9 @@ impl BlockProperties for SuspiciousSandLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#dusted: {
-                let value = index % Integer0To3::variant_count();
-                index /= Integer0To3::variant_count();
-                Integer0To3::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value
             },
         }
     }
@@ -510865,7 +510156,16 @@ impl BlockProperties for SuspiciousSandLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("dusted", self.r#dusted.to_value())]
+        vec![(
+            "dusted",
+            match self.r#dusted {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -510878,7 +510178,15 @@ impl BlockProperties for SuspiciousSandLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "dusted" { block_props.r#dusted = Integer0To3::from_value(value) }
+            if *key == "dusted" {
+                block_props.r#dusted = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
@@ -512451,14 +511759,14 @@ impl BlockProperties for CopperGolemStatueLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct DriedGhastLikeProperties {
     pub r#facing: HorizontalFacing,
-    pub r#hydration: Integer0To3,
+    pub r#hydration: u8,
     pub r#waterlogged: bool,
 }
 impl BlockProperties for DriedGhastLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
-            (self.r#hydration.to_index(), Integer0To3::variant_count()),
+            (self.r#hydration as u16, 4u16),
             (self.r#facing.to_index(), HorizontalFacing::variant_count()),
         ]
         .iter()
@@ -512476,9 +511784,9 @@ impl BlockProperties for DriedGhastLikeProperties {
                 value == 0
             },
             r#hydration: {
-                let value = index % Integer0To3::variant_count();
-                index /= Integer0To3::variant_count();
-                Integer0To3::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value
             },
             r#facing: {
                 let value = index % HorizontalFacing::variant_count();
@@ -512534,7 +511842,16 @@ impl BlockProperties for DriedGhastLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("facing", self.r#facing.to_value()),
-            ("hydration", self.r#hydration.to_value()),
+            (
+                "hydration",
+                match self.r#hydration {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    _ => unreachable!(),
+                },
+            ),
             (
                 "waterlogged",
                 if self.r#waterlogged { "true" } else { "false" },
@@ -512554,7 +511871,15 @@ impl BlockProperties for DriedGhastLikeProperties {
         for (key, value) in props {
             match *key {
                 "facing" => block_props.r#facing = HorizontalFacing::from_value(value),
-                "hydration" => block_props.r#hydration = Integer0To3::from_value(value),
+                "hydration" => {
+                    block_props.r#hydration = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        _ => 0u8,
+                    }
+                }
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
             }
@@ -512678,14 +512003,14 @@ impl BlockProperties for SmallDripleafLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct SeaPickleLikeProperties {
-    pub r#pickles: Integer1To4,
+    pub r#pickles: u8,
     pub r#waterlogged: bool,
 }
 impl BlockProperties for SeaPickleLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
-            (self.r#pickles.to_index(), Integer1To4::variant_count()),
+            ((self.r#pickles - 1u8) as u16, 4u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -512702,9 +512027,9 @@ impl BlockProperties for SeaPickleLikeProperties {
                 value == 0
             },
             r#pickles: {
-                let value = index % Integer1To4::variant_count();
-                index /= Integer1To4::variant_count();
-                Integer1To4::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value + 1u8
             },
         }
     }
@@ -512754,7 +512079,16 @@ impl BlockProperties for SeaPickleLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("pickles", self.r#pickles.to_value()),
+            (
+                "pickles",
+                match self.r#pickles {
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    _ => unreachable!(),
+                },
+            ),
             (
                 "waterlogged",
                 if self.r#waterlogged { "true" } else { "false" },
@@ -512773,7 +512107,15 @@ impl BlockProperties for SeaPickleLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "pickles" => block_props.r#pickles = Integer1To4::from_value(value),
+                "pickles" => {
+                    block_props.r#pickles = match *value {
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        _ => 1u8,
+                    }
+                }
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
             }
@@ -512784,14 +512126,14 @@ impl BlockProperties for SeaPickleLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct ScaffoldingLikeProperties {
     pub r#bottom: bool,
-    pub r#distance: Integer0To7,
+    pub r#distance: u8,
     pub r#waterlogged: bool,
 }
 impl BlockProperties for ScaffoldingLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
-            (self.r#distance.to_index(), Integer0To7::variant_count()),
+            (self.r#distance as u16, 8u16),
             (!self.r#bottom as u16, 2),
         ]
         .iter()
@@ -512809,9 +512151,9 @@ impl BlockProperties for ScaffoldingLikeProperties {
                 value == 0
             },
             r#distance: {
-                let value = index % Integer0To7::variant_count();
-                index /= Integer0To7::variant_count();
-                Integer0To7::from_index(value)
+                let value = (index % 8u16) as u8;
+                index /= 8u16;
+                value
             },
             r#bottom: {
                 let value = index % 2;
@@ -512867,7 +512209,20 @@ impl BlockProperties for ScaffoldingLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("bottom", if self.r#bottom { "true" } else { "false" }),
-            ("distance", self.r#distance.to_value()),
+            (
+                "distance",
+                match self.r#distance {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    _ => unreachable!(),
+                },
+            ),
             (
                 "waterlogged",
                 if self.r#waterlogged { "true" } else { "false" },
@@ -512887,7 +512242,19 @@ impl BlockProperties for ScaffoldingLikeProperties {
         for (key, value) in props {
             match *key {
                 "bottom" => block_props.r#bottom = matches!(*value, "true"),
-                "distance" => block_props.r#distance = Integer0To7::from_value(value),
+                "distance" => {
+                    block_props.r#distance = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        _ => 0u8,
+                    }
+                }
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
             }
@@ -513008,14 +512375,14 @@ impl BlockProperties for IronChainLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct OakSignLikeProperties {
-    pub r#rotation: Integer0To15,
+    pub r#rotation: u8,
     pub r#waterlogged: bool,
 }
 impl BlockProperties for OakSignLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
-            (self.r#rotation.to_index(), Integer0To15::variant_count()),
+            (self.r#rotation as u16, 16u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -513032,9 +512399,9 @@ impl BlockProperties for OakSignLikeProperties {
                 value == 0
             },
             r#rotation: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
         }
     }
@@ -513098,7 +512465,28 @@ impl BlockProperties for OakSignLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("rotation", self.r#rotation.to_value()),
+            (
+                "rotation",
+                match self.r#rotation {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
             (
                 "waterlogged",
                 if self.r#waterlogged { "true" } else { "false" },
@@ -513131,7 +512519,27 @@ impl BlockProperties for OakSignLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "rotation" => block_props.r#rotation = Integer0To15::from_value(value),
+                "rotation" => {
+                    block_props.r#rotation = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
             }
@@ -513141,14 +512549,14 @@ impl BlockProperties for OakSignLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct LightLikeProperties {
-    pub r#level: Integer0To15,
+    pub r#level: u8,
     pub r#waterlogged: bool,
 }
 impl BlockProperties for LightLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#waterlogged as u16, 2),
-            (self.r#level.to_index(), Integer0To15::variant_count()),
+            (self.r#level as u16, 16u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -513165,9 +512573,9 @@ impl BlockProperties for LightLikeProperties {
                 value == 0
             },
             r#level: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
         }
     }
@@ -513217,7 +512625,28 @@ impl BlockProperties for LightLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("level", self.r#level.to_value()),
+            (
+                "level",
+                match self.r#level {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
             (
                 "waterlogged",
                 if self.r#waterlogged { "true" } else { "false" },
@@ -513236,7 +512665,27 @@ impl BlockProperties for LightLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "level" => block_props.r#level = Integer0To15::from_value(value),
+                "level" => {
+                    block_props.r#level = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 "waterlogged" => block_props.r#waterlogged = matches!(*value, "true"),
                 _ => {}
             }
@@ -513375,11 +512824,11 @@ impl BlockProperties for PaleMossCarpetLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct ComposterLikeProperties {
-    pub r#level: Integer0To8,
+    pub r#level: u8,
 }
 impl BlockProperties for ComposterLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#level.to_index(), Integer0To8::variant_count())]
+        let (index, _) = [(self.r#level as u16, 9u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -513390,9 +512839,9 @@ impl BlockProperties for ComposterLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#level: {
-                let value = index % Integer0To8::variant_count();
-                index /= Integer0To8::variant_count();
-                Integer0To8::from_index(value)
+                let value = (index % 9u16) as u8;
+                index /= 9u16;
+                value
             },
         }
     }
@@ -513441,7 +512890,21 @@ impl BlockProperties for ComposterLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("level", self.r#level.to_value())]
+        vec![(
+            "level",
+            match self.r#level {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                8u8 => "8",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -513454,7 +512917,20 @@ impl BlockProperties for ComposterLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "level" { block_props.r#level = Integer0To8::from_value(value) }
+            if *key == "level" {
+                block_props.r#level = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    "8" => 8u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
@@ -513580,16 +513056,16 @@ impl BlockProperties for CreakingHeartLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct BambooLikeProperties {
-    pub r#age: Integer0To1,
+    pub r#age: u8,
     pub r#leaves: BambooLeaves,
-    pub r#stage: Integer0To1,
+    pub r#stage: u8,
 }
 impl BlockProperties for BambooLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
-            (self.r#stage.to_index(), Integer0To1::variant_count()),
+            (self.r#stage as u16, 2u16),
             (self.r#leaves.to_index(), BambooLeaves::variant_count()),
-            (self.r#age.to_index(), Integer0To1::variant_count()),
+            (self.r#age as u16, 2u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -513601,9 +513077,9 @@ impl BlockProperties for BambooLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#stage: {
-                let value = index % Integer0To1::variant_count();
-                index /= Integer0To1::variant_count();
-                Integer0To1::from_index(value)
+                let value = (index % 2u16) as u8;
+                index /= 2u16;
+                value
             },
             r#leaves: {
                 let value = index % BambooLeaves::variant_count();
@@ -513611,9 +513087,9 @@ impl BlockProperties for BambooLikeProperties {
                 BambooLeaves::from_index(value)
             },
             r#age: {
-                let value = index % Integer0To1::variant_count();
-                index /= Integer0To1::variant_count();
-                Integer0To1::from_index(value)
+                let value = (index % 2u16) as u8;
+                index /= 2u16;
+                value
             },
         }
     }
@@ -513663,9 +513139,23 @@ impl BlockProperties for BambooLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("age", self.r#age.to_value()),
+            (
+                "age",
+                match self.r#age {
+                    0u8 => "0",
+                    1u8 => "1",
+                    _ => unreachable!(),
+                },
+            ),
             ("leaves", self.r#leaves.to_value()),
-            ("stage", self.r#stage.to_value()),
+            (
+                "stage",
+                match self.r#stage {
+                    0u8 => "0",
+                    1u8 => "1",
+                    _ => unreachable!(),
+                },
+            ),
         ]
     }
     #[allow(clippy::manual_range_patterns)]
@@ -513680,9 +513170,21 @@ impl BlockProperties for BambooLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "age" => block_props.r#age = Integer0To1::from_value(value),
+                "age" => {
+                    block_props.r#age = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        _ => 0u8,
+                    }
+                }
                 "leaves" => block_props.r#leaves = BambooLeaves::from_value(value),
-                "stage" => block_props.r#stage = Integer0To1::from_value(value),
+                "stage" => {
+                    block_props.r#stage = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        _ => 0u8,
+                    }
+                }
                 _ => {}
             }
         }
@@ -513691,7 +513193,7 @@ impl BlockProperties for BambooLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct RepeaterLikeProperties {
-    pub r#delay: Integer1To4,
+    pub r#delay: u8,
     pub r#facing: HorizontalFacing,
     pub r#locked: bool,
     pub r#powered: bool,
@@ -513702,7 +513204,7 @@ impl BlockProperties for RepeaterLikeProperties {
             (!self.r#powered as u16, 2),
             (!self.r#locked as u16, 2),
             (self.r#facing.to_index(), HorizontalFacing::variant_count()),
-            (self.r#delay.to_index(), Integer1To4::variant_count()),
+            ((self.r#delay - 1u8) as u16, 4u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -513729,9 +513231,9 @@ impl BlockProperties for RepeaterLikeProperties {
                 HorizontalFacing::from_index(value)
             },
             r#delay: {
-                let value = index % Integer1To4::variant_count();
-                index /= Integer1To4::variant_count();
-                Integer1To4::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value + 1u8
             },
         }
     }
@@ -513781,7 +513283,16 @@ impl BlockProperties for RepeaterLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("delay", self.r#delay.to_value()),
+            (
+                "delay",
+                match self.r#delay {
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    _ => unreachable!(),
+                },
+            ),
             ("facing", self.r#facing.to_value()),
             ("locked", if self.r#locked { "true" } else { "false" }),
             ("powered", if self.r#powered { "true" } else { "false" }),
@@ -513799,7 +513310,15 @@ impl BlockProperties for RepeaterLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "delay" => block_props.r#delay = Integer1To4::from_value(value),
+                "delay" => {
+                    block_props.r#delay = match *value {
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        _ => 1u8,
+                    }
+                }
                 "facing" => block_props.r#facing = HorizontalFacing::from_value(value),
                 "locked" => block_props.r#locked = matches!(*value, "true"),
                 "powered" => block_props.r#powered = matches!(*value, "true"),
@@ -513990,12 +513509,12 @@ impl BlockProperties for WallTorchLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct BeeNestLikeProperties {
     pub r#facing: HorizontalFacing,
-    pub r#honey_level: Integer0To5,
+    pub r#honey_level: u8,
 }
 impl BlockProperties for BeeNestLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
-            (self.r#honey_level.to_index(), Integer0To5::variant_count()),
+            (self.r#honey_level as u16, 6u16),
             (self.r#facing.to_index(), HorizontalFacing::variant_count()),
         ]
         .iter()
@@ -514008,9 +513527,9 @@ impl BlockProperties for BeeNestLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#honey_level: {
-                let value = index % Integer0To5::variant_count();
-                index /= Integer0To5::variant_count();
-                Integer0To5::from_index(value)
+                let value = (index % 6u16) as u8;
+                index /= 6u16;
+                value
             },
             r#facing: {
                 let value = index % HorizontalFacing::variant_count();
@@ -514066,7 +513585,18 @@ impl BlockProperties for BeeNestLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("facing", self.r#facing.to_value()),
-            ("honey_level", self.r#honey_level.to_value()),
+            (
+                "honey_level",
+                match self.r#honey_level {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    _ => unreachable!(),
+                },
+            ),
         ]
     }
     #[allow(clippy::manual_range_patterns)]
@@ -514082,7 +513612,17 @@ impl BlockProperties for BeeNestLikeProperties {
         for (key, value) in props {
             match *key {
                 "facing" => block_props.r#facing = HorizontalFacing::from_value(value),
-                "honey_level" => block_props.r#honey_level = Integer0To5::from_value(value),
+                "honey_level" => {
+                    block_props.r#honey_level = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        _ => 0u8,
+                    }
+                }
                 _ => {}
             }
         }
@@ -514528,15 +514068,12 @@ impl BlockProperties for LeverLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct PinkPetalsLikeProperties {
     pub r#facing: HorizontalFacing,
-    pub r#flower_amount: Integer1To4,
+    pub r#flower_amount: u8,
 }
 impl BlockProperties for PinkPetalsLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
-            (
-                self.r#flower_amount.to_index(),
-                Integer1To4::variant_count(),
-            ),
+            ((self.r#flower_amount - 1u8) as u16, 4u16),
             (self.r#facing.to_index(), HorizontalFacing::variant_count()),
         ]
         .iter()
@@ -514549,9 +514086,9 @@ impl BlockProperties for PinkPetalsLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#flower_amount: {
-                let value = index % Integer1To4::variant_count();
-                index /= Integer1To4::variant_count();
-                Integer1To4::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value + 1u8
             },
             r#facing: {
                 let value = index % HorizontalFacing::variant_count();
@@ -514607,7 +514144,16 @@ impl BlockProperties for PinkPetalsLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("facing", self.r#facing.to_value()),
-            ("flower_amount", self.r#flower_amount.to_value()),
+            (
+                "flower_amount",
+                match self.r#flower_amount {
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    _ => unreachable!(),
+                },
+            ),
         ]
     }
     #[allow(clippy::manual_range_patterns)]
@@ -514623,7 +514169,15 @@ impl BlockProperties for PinkPetalsLikeProperties {
         for (key, value) in props {
             match *key {
                 "facing" => block_props.r#facing = HorizontalFacing::from_value(value),
-                "flower_amount" => block_props.r#flower_amount = Integer1To4::from_value(value),
+                "flower_amount" => {
+                    block_props.r#flower_amount = match *value {
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        _ => 1u8,
+                    }
+                }
                 _ => {}
             }
         }
@@ -514744,15 +514298,12 @@ impl BlockProperties for VaultLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct LeafLitterLikeProperties {
     pub r#facing: HorizontalFacing,
-    pub r#segment_amount: Integer1To4,
+    pub r#segment_amount: u8,
 }
 impl BlockProperties for LeafLitterLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
-            (
-                self.r#segment_amount.to_index(),
-                Integer1To4::variant_count(),
-            ),
+            ((self.r#segment_amount - 1u8) as u16, 4u16),
             (self.r#facing.to_index(), HorizontalFacing::variant_count()),
         ]
         .iter()
@@ -514765,9 +514316,9 @@ impl BlockProperties for LeafLitterLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#segment_amount: {
-                let value = index % Integer1To4::variant_count();
-                index /= Integer1To4::variant_count();
-                Integer1To4::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value + 1u8
             },
             r#facing: {
                 let value = index % HorizontalFacing::variant_count();
@@ -514823,7 +514374,16 @@ impl BlockProperties for LeafLitterLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("facing", self.r#facing.to_value()),
-            ("segment_amount", self.r#segment_amount.to_value()),
+            (
+                "segment_amount",
+                match self.r#segment_amount {
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    _ => unreachable!(),
+                },
+            ),
         ]
     }
     #[allow(clippy::manual_range_patterns)]
@@ -514839,7 +514399,15 @@ impl BlockProperties for LeafLitterLikeProperties {
         for (key, value) in props {
             match *key {
                 "facing" => block_props.r#facing = HorizontalFacing::from_value(value),
-                "segment_amount" => block_props.r#segment_amount = Integer1To4::from_value(value),
+                "segment_amount" => {
+                    block_props.r#segment_amount = match *value {
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        _ => 1u8,
+                    }
+                }
                 _ => {}
             }
         }
@@ -514848,14 +514416,14 @@ impl BlockProperties for LeafLitterLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct CocoaLikeProperties {
-    pub r#age: Integer0To2,
+    pub r#age: u8,
     pub r#facing: HorizontalFacing,
 }
 impl BlockProperties for CocoaLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (self.r#facing.to_index(), HorizontalFacing::variant_count()),
-            (self.r#age.to_index(), Integer0To2::variant_count()),
+            (self.r#age as u16, 3u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -514872,9 +514440,9 @@ impl BlockProperties for CocoaLikeProperties {
                 HorizontalFacing::from_index(value)
             },
             r#age: {
-                let value = index % Integer0To2::variant_count();
-                index /= Integer0To2::variant_count();
-                Integer0To2::from_index(value)
+                let value = (index % 3u16) as u8;
+                index /= 3u16;
+                value
             },
         }
     }
@@ -514924,7 +514492,15 @@ impl BlockProperties for CocoaLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("age", self.r#age.to_value()),
+            (
+                "age",
+                match self.r#age {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    _ => unreachable!(),
+                },
+            ),
             ("facing", self.r#facing.to_value()),
         ]
     }
@@ -514940,7 +514516,14 @@ impl BlockProperties for CocoaLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "age" => block_props.r#age = Integer0To2::from_value(value),
+                "age" => {
+                    block_props.r#age = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        _ => 0u8,
+                    }
+                }
                 "facing" => block_props.r#facing = HorizontalFacing::from_value(value),
                 _ => {}
             }
@@ -515058,11 +514641,11 @@ impl BlockProperties for SkeletonWallSkullLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct SnifferEggLikeProperties {
-    pub r#hatch: Integer0To2,
+    pub r#hatch: u8,
 }
 impl BlockProperties for SnifferEggLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#hatch.to_index(), Integer0To2::variant_count())]
+        let (index, _) = [(self.r#hatch as u16, 3u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -515073,9 +514656,9 @@ impl BlockProperties for SnifferEggLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#hatch: {
-                let value = index % Integer0To2::variant_count();
-                index /= Integer0To2::variant_count();
-                Integer0To2::from_index(value)
+                let value = (index % 3u16) as u8;
+                index /= 3u16;
+                value
             },
         }
     }
@@ -515124,7 +514707,15 @@ impl BlockProperties for SnifferEggLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("hatch", self.r#hatch.to_value())]
+        vec![(
+            "hatch",
+            match self.r#hatch {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -515137,21 +514728,28 @@ impl BlockProperties for SnifferEggLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "hatch" { block_props.r#hatch = Integer0To2::from_value(value) }
+            if *key == "hatch" {
+                block_props.r#hatch = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct TurtleEggLikeProperties {
-    pub r#eggs: Integer1To4,
-    pub r#hatch: Integer0To2,
+    pub r#eggs: u8,
+    pub r#hatch: u8,
 }
 impl BlockProperties for TurtleEggLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
-            (self.r#hatch.to_index(), Integer0To2::variant_count()),
-            (self.r#eggs.to_index(), Integer1To4::variant_count()),
+            (self.r#hatch as u16, 3u16),
+            ((self.r#eggs - 1u8) as u16, 4u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -515163,14 +514761,14 @@ impl BlockProperties for TurtleEggLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#hatch: {
-                let value = index % Integer0To2::variant_count();
-                index /= Integer0To2::variant_count();
-                Integer0To2::from_index(value)
+                let value = (index % 3u16) as u8;
+                index /= 3u16;
+                value
             },
             r#eggs: {
-                let value = index % Integer1To4::variant_count();
-                index /= Integer1To4::variant_count();
-                Integer1To4::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value + 1u8
             },
         }
     }
@@ -515220,8 +514818,25 @@ impl BlockProperties for TurtleEggLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("eggs", self.r#eggs.to_value()),
-            ("hatch", self.r#hatch.to_value()),
+            (
+                "eggs",
+                match self.r#eggs {
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    _ => unreachable!(),
+                },
+            ),
+            (
+                "hatch",
+                match self.r#hatch {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    _ => unreachable!(),
+                },
+            ),
         ]
     }
     #[allow(clippy::manual_range_patterns)]
@@ -515236,8 +514851,23 @@ impl BlockProperties for TurtleEggLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "eggs" => block_props.r#eggs = Integer1To4::from_value(value),
-                "hatch" => block_props.r#hatch = Integer0To2::from_value(value),
+                "eggs" => {
+                    block_props.r#eggs = match *value {
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        _ => 1u8,
+                    }
+                }
+                "hatch" => {
+                    block_props.r#hatch = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        _ => 0u8,
+                    }
+                }
                 _ => {}
             }
         }
@@ -515246,11 +514876,11 @@ impl BlockProperties for TurtleEggLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct WaterCauldronLikeProperties {
-    pub r#level: Integer1To3,
+    pub r#level: u8,
 }
 impl BlockProperties for WaterCauldronLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#level.to_index(), Integer1To3::variant_count())]
+        let (index, _) = [((self.r#level - 1u8) as u16, 3u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -515261,9 +514891,9 @@ impl BlockProperties for WaterCauldronLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#level: {
-                let value = index % Integer1To3::variant_count();
-                index /= Integer1To3::variant_count();
-                Integer1To3::from_index(value)
+                let value = (index % 3u16) as u8;
+                index /= 3u16;
+                value + 1u8
             },
         }
     }
@@ -515312,7 +514942,15 @@ impl BlockProperties for WaterCauldronLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("level", self.r#level.to_value())]
+        vec![(
+            "level",
+            match self.r#level {
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -515325,7 +514963,14 @@ impl BlockProperties for WaterCauldronLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "level" { block_props.r#level = Integer1To3::from_value(value) }
+            if *key == "level" {
+                block_props.r#level = match *value {
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    _ => 1u8,
+                }
+            }
         }
         block_props
     }
@@ -515334,7 +514979,7 @@ impl BlockProperties for WaterCauldronLikeProperties {
 pub struct RedstoneWireLikeProperties {
     pub r#east: EastRedstone,
     pub r#north: NorthRedstone,
-    pub r#power: Integer0To15,
+    pub r#power: u8,
     pub r#south: SouthRedstone,
     pub r#west: WestRedstone,
 }
@@ -515343,7 +514988,7 @@ impl BlockProperties for RedstoneWireLikeProperties {
         let (index, _) = [
             (self.r#west.to_index(), WestRedstone::variant_count()),
             (self.r#south.to_index(), SouthRedstone::variant_count()),
-            (self.r#power.to_index(), Integer0To15::variant_count()),
+            (self.r#power as u16, 16u16),
             (self.r#north.to_index(), NorthRedstone::variant_count()),
             (self.r#east.to_index(), EastRedstone::variant_count()),
         ]
@@ -515367,9 +515012,9 @@ impl BlockProperties for RedstoneWireLikeProperties {
                 SouthRedstone::from_index(value)
             },
             r#power: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
             r#north: {
                 let value = index % NorthRedstone::variant_count();
@@ -515431,7 +515076,28 @@ impl BlockProperties for RedstoneWireLikeProperties {
         vec![
             ("east", self.r#east.to_value()),
             ("north", self.r#north.to_value()),
-            ("power", self.r#power.to_value()),
+            (
+                "power",
+                match self.r#power {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
             ("south", self.r#south.to_value()),
             ("west", self.r#west.to_value()),
         ]
@@ -515450,7 +515116,27 @@ impl BlockProperties for RedstoneWireLikeProperties {
             match *key {
                 "east" => block_props.r#east = EastRedstone::from_value(value),
                 "north" => block_props.r#north = NorthRedstone::from_value(value),
-                "power" => block_props.r#power = Integer0To15::from_value(value),
+                "power" => {
+                    block_props.r#power = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 "south" => block_props.r#south = SouthRedstone::from_value(value),
                 "west" => block_props.r#west = WestRedstone::from_value(value),
                 _ => {}
@@ -515550,11 +515236,11 @@ impl BlockProperties for JukeboxLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct OakSaplingLikeProperties {
-    pub r#stage: Integer0To1,
+    pub r#stage: u8,
 }
 impl BlockProperties for OakSaplingLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#stage.to_index(), Integer0To1::variant_count())]
+        let (index, _) = [(self.r#stage as u16, 2u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -515565,9 +515251,9 @@ impl BlockProperties for OakSaplingLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#stage: {
-                let value = index % Integer0To1::variant_count();
-                index /= Integer0To1::variant_count();
-                Integer0To1::from_index(value)
+                let value = (index % 2u16) as u8;
+                index /= 2u16;
+                value
             },
         }
     }
@@ -515619,7 +515305,14 @@ impl BlockProperties for OakSaplingLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("stage", self.r#stage.to_value())]
+        vec![(
+            "stage",
+            match self.r#stage {
+                0u8 => "0",
+                1u8 => "1",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -515635,7 +515328,13 @@ impl BlockProperties for OakSaplingLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "stage" { block_props.r#stage = Integer0To1::from_value(value) }
+            if *key == "stage" {
+                block_props.r#stage = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
@@ -515643,14 +515342,14 @@ impl BlockProperties for OakSaplingLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct NoteBlockLikeProperties {
     pub r#instrument: NoteblockInstrument,
-    pub r#note: Integer0To24,
+    pub r#note: u8,
     pub r#powered: bool,
 }
 impl BlockProperties for NoteBlockLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#powered as u16, 2),
-            (self.r#note.to_index(), Integer0To24::variant_count()),
+            (self.r#note as u16, 25u16),
             (
                 self.r#instrument.to_index(),
                 NoteblockInstrument::variant_count(),
@@ -515671,9 +515370,9 @@ impl BlockProperties for NoteBlockLikeProperties {
                 value == 0
             },
             r#note: {
-                let value = index % Integer0To24::variant_count();
-                index /= Integer0To24::variant_count();
-                Integer0To24::from_index(value)
+                let value = (index % 25u16) as u8;
+                index /= 25u16;
+                value
             },
             r#instrument: {
                 let value = index % NoteblockInstrument::variant_count();
@@ -515729,7 +515428,37 @@ impl BlockProperties for NoteBlockLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("instrument", self.r#instrument.to_value()),
-            ("note", self.r#note.to_value()),
+            (
+                "note",
+                match self.r#note {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    16u8 => "16",
+                    17u8 => "17",
+                    18u8 => "18",
+                    19u8 => "19",
+                    20u8 => "20",
+                    21u8 => "21",
+                    22u8 => "22",
+                    23u8 => "23",
+                    24u8 => "24",
+                    _ => unreachable!(),
+                },
+            ),
             ("powered", if self.r#powered { "true" } else { "false" }),
         ]
     }
@@ -515746,7 +515475,36 @@ impl BlockProperties for NoteBlockLikeProperties {
         for (key, value) in props {
             match *key {
                 "instrument" => block_props.r#instrument = NoteblockInstrument::from_value(value),
-                "note" => block_props.r#note = Integer0To24::from_value(value),
+                "note" => {
+                    block_props.r#note = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        "16" => 16u8,
+                        "17" => 17u8,
+                        "18" => 18u8,
+                        "19" => 19u8,
+                        "20" => 20u8,
+                        "21" => 21u8,
+                        "22" => 22u8,
+                        "23" => 23u8,
+                        "24" => 24u8,
+                        _ => 0u8,
+                    }
+                }
                 "powered" => block_props.r#powered = matches!(*value, "true"),
                 _ => {}
             }
@@ -515756,11 +515514,11 @@ impl BlockProperties for NoteBlockLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct WheatLikeProperties {
-    pub r#age: Integer0To7,
+    pub r#age: u8,
 }
 impl BlockProperties for WheatLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#age.to_index(), Integer0To7::variant_count())]
+        let (index, _) = [(self.r#age as u16, 8u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -515771,9 +515529,9 @@ impl BlockProperties for WheatLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#age: {
-                let value = index % Integer0To7::variant_count();
-                index /= Integer0To7::variant_count();
-                Integer0To7::from_index(value)
+                let value = (index % 8u16) as u8;
+                index /= 8u16;
+                value
             },
         }
     }
@@ -515822,7 +515580,20 @@ impl BlockProperties for WheatLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("age", self.r#age.to_value())]
+        vec![(
+            "age",
+            match self.r#age {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -515835,7 +515606,19 @@ impl BlockProperties for WheatLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "age" { block_props.r#age = Integer0To7::from_value(value) }
+            if *key == "age" {
+                block_props.r#age = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
@@ -516150,11 +515933,11 @@ impl BlockProperties for PaleOakWoodLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct WhiteBannerLikeProperties {
-    pub r#rotation: Integer0To15,
+    pub r#rotation: u8,
 }
 impl BlockProperties for WhiteBannerLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#rotation.to_index(), Integer0To15::variant_count())]
+        let (index, _) = [(self.r#rotation as u16, 16u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -516165,9 +515948,9 @@ impl BlockProperties for WhiteBannerLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#rotation: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
         }
     }
@@ -516234,7 +516017,28 @@ impl BlockProperties for WhiteBannerLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("rotation", self.r#rotation.to_value())]
+        vec![(
+            "rotation",
+            match self.r#rotation {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                8u8 => "8",
+                9u8 => "9",
+                10u8 => "10",
+                11u8 => "11",
+                12u8 => "12",
+                13u8 => "13",
+                14u8 => "14",
+                15u8 => "15",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -516265,7 +516069,27 @@ impl BlockProperties for WhiteBannerLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "rotation" { block_props.r#rotation = Integer0To15::from_value(value) }
+            if *key == "rotation" {
+                block_props.r#rotation = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    "8" => 8u8,
+                    "9" => 9u8,
+                    "10" => 10u8,
+                    "11" => 11u8,
+                    "12" => 12u8,
+                    "13" => 13u8,
+                    "14" => 14u8,
+                    "15" => 15u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
@@ -516273,12 +516097,12 @@ impl BlockProperties for WhiteBannerLikeProperties {
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct SkeletonSkullLikeProperties {
     pub r#powered: bool,
-    pub r#rotation: Integer0To15,
+    pub r#rotation: u8,
 }
 impl BlockProperties for SkeletonSkullLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
-            (self.r#rotation.to_index(), Integer0To15::variant_count()),
+            (self.r#rotation as u16, 16u16),
             (!self.r#powered as u16, 2),
         ]
         .iter()
@@ -516291,9 +516115,9 @@ impl BlockProperties for SkeletonSkullLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#rotation: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
             r#powered: {
                 let value = index % 2;
@@ -516352,7 +516176,28 @@ impl BlockProperties for SkeletonSkullLikeProperties {
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
             ("powered", if self.r#powered { "true" } else { "false" }),
-            ("rotation", self.r#rotation.to_value()),
+            (
+                "rotation",
+                match self.r#rotation {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    _ => unreachable!(),
+                },
+            ),
         ]
     }
     #[allow(clippy::manual_range_patterns)]
@@ -516371,7 +516216,27 @@ impl BlockProperties for SkeletonSkullLikeProperties {
         for (key, value) in props {
             match *key {
                 "powered" => block_props.r#powered = matches!(*value, "true"),
-                "rotation" => block_props.r#rotation = Integer0To15::from_value(value),
+                "rotation" => {
+                    block_props.r#rotation = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        _ => 0u8,
+                    }
+                }
                 _ => {}
             }
         }
@@ -516487,11 +516352,11 @@ impl BlockProperties for TrialSpawnerLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct WaterLikeProperties {
-    pub r#level: Integer0To15,
+    pub r#level: u8,
 }
 impl BlockProperties for WaterLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#level.to_index(), Integer0To15::variant_count())]
+        let (index, _) = [(self.r#level as u16, 16u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -516502,9 +516367,9 @@ impl BlockProperties for WaterLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#level: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
         }
     }
@@ -516553,7 +516418,28 @@ impl BlockProperties for WaterLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("level", self.r#level.to_value())]
+        vec![(
+            "level",
+            match self.r#level {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                8u8 => "8",
+                9u8 => "9",
+                10u8 => "10",
+                11u8 => "11",
+                12u8 => "12",
+                13u8 => "13",
+                14u8 => "14",
+                15u8 => "15",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -516566,18 +516452,38 @@ impl BlockProperties for WaterLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "level" { block_props.r#level = Integer0To15::from_value(value) }
+            if *key == "level" {
+                block_props.r#level = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    "8" => 8u8,
+                    "9" => 9u8,
+                    "10" => 10u8,
+                    "11" => 11u8,
+                    "12" => 12u8,
+                    "13" => 13u8,
+                    "14" => 14u8,
+                    "15" => 15u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct KelpLikeProperties {
-    pub r#age: Integer0To25,
+    pub r#age: u8,
 }
 impl BlockProperties for KelpLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#age.to_index(), Integer0To25::variant_count())]
+        let (index, _) = [(self.r#age as u16, 26u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -516588,9 +516494,9 @@ impl BlockProperties for KelpLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#age: {
-                let value = index % Integer0To25::variant_count();
-                index /= Integer0To25::variant_count();
-                Integer0To25::from_index(value)
+                let value = (index % 26u16) as u8;
+                index /= 26u16;
+                value
             },
         }
     }
@@ -516639,7 +516545,38 @@ impl BlockProperties for KelpLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("age", self.r#age.to_value())]
+        vec![(
+            "age",
+            match self.r#age {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                8u8 => "8",
+                9u8 => "9",
+                10u8 => "10",
+                11u8 => "11",
+                12u8 => "12",
+                13u8 => "13",
+                14u8 => "14",
+                15u8 => "15",
+                16u8 => "16",
+                17u8 => "17",
+                18u8 => "18",
+                19u8 => "19",
+                20u8 => "20",
+                21u8 => "21",
+                22u8 => "22",
+                23u8 => "23",
+                24u8 => "24",
+                25u8 => "25",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -516652,21 +516589,51 @@ impl BlockProperties for KelpLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "age" { block_props.r#age = Integer0To25::from_value(value) }
+            if *key == "age" {
+                block_props.r#age = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    "8" => 8u8,
+                    "9" => 9u8,
+                    "10" => 10u8,
+                    "11" => 11u8,
+                    "12" => 12u8,
+                    "13" => 13u8,
+                    "14" => 14u8,
+                    "15" => 15u8,
+                    "16" => 16u8,
+                    "17" => 17u8,
+                    "18" => 18u8,
+                    "19" => 19u8,
+                    "20" => 20u8,
+                    "21" => 21u8,
+                    "22" => 22u8,
+                    "23" => 23u8,
+                    "24" => 24u8,
+                    "25" => 25u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct CaveVinesLikeProperties {
-    pub r#age: Integer0To25,
+    pub r#age: u8,
     pub r#berries: bool,
 }
 impl BlockProperties for CaveVinesLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (!self.r#berries as u16, 2),
-            (self.r#age.to_index(), Integer0To25::variant_count()),
+            (self.r#age as u16, 26u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -516683,9 +516650,9 @@ impl BlockProperties for CaveVinesLikeProperties {
                 value == 0
             },
             r#age: {
-                let value = index % Integer0To25::variant_count();
-                index /= Integer0To25::variant_count();
-                Integer0To25::from_index(value)
+                let value = (index % 26u16) as u8;
+                index /= 26u16;
+                value
             },
         }
     }
@@ -516735,7 +516702,38 @@ impl BlockProperties for CaveVinesLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("age", self.r#age.to_value()),
+            (
+                "age",
+                match self.r#age {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    5u8 => "5",
+                    6u8 => "6",
+                    7u8 => "7",
+                    8u8 => "8",
+                    9u8 => "9",
+                    10u8 => "10",
+                    11u8 => "11",
+                    12u8 => "12",
+                    13u8 => "13",
+                    14u8 => "14",
+                    15u8 => "15",
+                    16u8 => "16",
+                    17u8 => "17",
+                    18u8 => "18",
+                    19u8 => "19",
+                    20u8 => "20",
+                    21u8 => "21",
+                    22u8 => "22",
+                    23u8 => "23",
+                    24u8 => "24",
+                    25u8 => "25",
+                    _ => unreachable!(),
+                },
+            ),
             ("berries", if self.r#berries { "true" } else { "false" }),
         ]
     }
@@ -516751,7 +516749,37 @@ impl BlockProperties for CaveVinesLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "age" => block_props.r#age = Integer0To25::from_value(value),
+                "age" => {
+                    block_props.r#age = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        "5" => 5u8,
+                        "6" => 6u8,
+                        "7" => 7u8,
+                        "8" => 8u8,
+                        "9" => 9u8,
+                        "10" => 10u8,
+                        "11" => 11u8,
+                        "12" => 12u8,
+                        "13" => 13u8,
+                        "14" => 14u8,
+                        "15" => 15u8,
+                        "16" => 16u8,
+                        "17" => 17u8,
+                        "18" => 18u8,
+                        "19" => 19u8,
+                        "20" => 20u8,
+                        "21" => 21u8,
+                        "22" => 22u8,
+                        "23" => 23u8,
+                        "24" => 24u8,
+                        "25" => 25u8,
+                        _ => 0u8,
+                    }
+                }
                 "berries" => block_props.r#berries = matches!(*value, "true"),
                 _ => {}
             }
@@ -516761,11 +516789,11 @@ impl BlockProperties for CaveVinesLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct LightWeightedPressurePlateLikeProperties {
-    pub r#power: Integer0To15,
+    pub r#power: u8,
 }
 impl BlockProperties for LightWeightedPressurePlateLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#power.to_index(), Integer0To15::variant_count())]
+        let (index, _) = [(self.r#power as u16, 16u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -516776,9 +516804,9 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#power: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
         }
     }
@@ -516827,7 +516855,28 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("power", self.r#power.to_value())]
+        vec![(
+            "power",
+            match self.r#power {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                8u8 => "8",
+                9u8 => "9",
+                10u8 => "10",
+                11u8 => "11",
+                12u8 => "12",
+                13u8 => "13",
+                14u8 => "14",
+                15u8 => "15",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -516840,7 +516889,27 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "power" { block_props.r#power = Integer0To15::from_value(value) }
+            if *key == "power" {
+                block_props.r#power = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    "8" => 8u8,
+                    "9" => 9u8,
+                    "10" => 10u8,
+                    "11" => 11u8,
+                    "12" => 12u8,
+                    "13" => 13u8,
+                    "14" => 14u8,
+                    "15" => 15u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
@@ -516933,11 +517002,11 @@ impl BlockProperties for StructureBlockLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct TorchflowerCropLikeProperties {
-    pub r#age: Integer0To1,
+    pub r#age: u8,
 }
 impl BlockProperties for TorchflowerCropLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#age.to_index(), Integer0To1::variant_count())]
+        let (index, _) = [(self.r#age as u16, 2u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -516948,9 +517017,9 @@ impl BlockProperties for TorchflowerCropLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#age: {
-                let value = index % Integer0To1::variant_count();
-                index /= Integer0To1::variant_count();
-                Integer0To1::from_index(value)
+                let value = (index % 2u16) as u8;
+                index /= 2u16;
+                value
             },
         }
     }
@@ -516999,7 +517068,14 @@ impl BlockProperties for TorchflowerCropLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("age", self.r#age.to_value())]
+        vec![(
+            "age",
+            match self.r#age {
+                0u8 => "0",
+                1u8 => "1",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -517012,18 +517088,24 @@ impl BlockProperties for TorchflowerCropLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "age" { block_props.r#age = Integer0To1::from_value(value) }
+            if *key == "age" {
+                block_props.r#age = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct NetherWartLikeProperties {
-    pub r#age: Integer0To3,
+    pub r#age: u8,
 }
 impl BlockProperties for NetherWartLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#age.to_index(), Integer0To3::variant_count())]
+        let (index, _) = [(self.r#age as u16, 4u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -517034,9 +517116,9 @@ impl BlockProperties for NetherWartLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#age: {
-                let value = index % Integer0To3::variant_count();
-                index /= Integer0To3::variant_count();
-                Integer0To3::from_index(value)
+                let value = (index % 4u16) as u8;
+                index /= 4u16;
+                value
             },
         }
     }
@@ -517085,7 +517167,16 @@ impl BlockProperties for NetherWartLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("age", self.r#age.to_value())]
+        vec![(
+            "age",
+            match self.r#age {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -517098,21 +517189,29 @@ impl BlockProperties for NetherWartLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "age" { block_props.r#age = Integer0To3::from_value(value) }
+            if *key == "age" {
+                block_props.r#age = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct PitcherCropLikeProperties {
-    pub r#age: Integer0To4,
+    pub r#age: u8,
     pub r#half: DoubleBlockHalf,
 }
 impl BlockProperties for PitcherCropLikeProperties {
     fn to_index(&self) -> u16 {
         let (index, _) = [
             (self.r#half.to_index(), DoubleBlockHalf::variant_count()),
-            (self.r#age.to_index(), Integer0To4::variant_count()),
+            (self.r#age as u16, 5u16),
         ]
         .iter()
         .fold((0, 1), |(curr, mul), &(val, count)| {
@@ -517129,9 +517228,9 @@ impl BlockProperties for PitcherCropLikeProperties {
                 DoubleBlockHalf::from_index(value)
             },
             r#age: {
-                let value = index % Integer0To4::variant_count();
-                index /= Integer0To4::variant_count();
-                Integer0To4::from_index(value)
+                let value = (index % 5u16) as u8;
+                index /= 5u16;
+                value
             },
         }
     }
@@ -517181,7 +517280,17 @@ impl BlockProperties for PitcherCropLikeProperties {
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
         vec![
-            ("age", self.r#age.to_value()),
+            (
+                "age",
+                match self.r#age {
+                    0u8 => "0",
+                    1u8 => "1",
+                    2u8 => "2",
+                    3u8 => "3",
+                    4u8 => "4",
+                    _ => unreachable!(),
+                },
+            ),
             ("half", self.r#half.to_value()),
         ]
     }
@@ -517197,7 +517306,16 @@ impl BlockProperties for PitcherCropLikeProperties {
         let mut block_props = Self::default(block);
         for (key, value) in props {
             match *key {
-                "age" => block_props.r#age = Integer0To4::from_value(value),
+                "age" => {
+                    block_props.r#age = match *value {
+                        "0" => 0u8,
+                        "1" => 1u8,
+                        "2" => 2u8,
+                        "3" => 3u8,
+                        "4" => 4u8,
+                        _ => 0u8,
+                    }
+                }
                 "half" => block_props.r#half = DoubleBlockHalf::from_value(value),
                 _ => {}
             }
@@ -517327,11 +517445,11 @@ impl BlockProperties for BrewingStandLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct CakeLikeProperties {
-    pub r#bites: Integer0To6,
+    pub r#bites: u8,
 }
 impl BlockProperties for CakeLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#bites.to_index(), Integer0To6::variant_count())]
+        let (index, _) = [(self.r#bites as u16, 7u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -517342,9 +517460,9 @@ impl BlockProperties for CakeLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#bites: {
-                let value = index % Integer0To6::variant_count();
-                index /= Integer0To6::variant_count();
-                Integer0To6::from_index(value)
+                let value = (index % 7u16) as u8;
+                index /= 7u16;
+                value
             },
         }
     }
@@ -517393,7 +517511,19 @@ impl BlockProperties for CakeLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("bites", self.r#bites.to_value())]
+        vec![(
+            "bites",
+            match self.r#bites {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -517406,7 +517536,18 @@ impl BlockProperties for CakeLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "bites" { block_props.r#bites = Integer0To6::from_value(value) }
+            if *key == "bites" {
+                block_props.r#bites = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
@@ -517795,11 +517936,11 @@ impl BlockProperties for CaveVinesPlantLikeProperties {
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct ChorusFlowerLikeProperties {
-    pub r#age: Integer0To5,
+    pub r#age: u8,
 }
 impl BlockProperties for ChorusFlowerLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#age.to_index(), Integer0To5::variant_count())]
+        let (index, _) = [(self.r#age as u16, 6u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -517810,9 +517951,9 @@ impl BlockProperties for ChorusFlowerLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#age: {
-                let value = index % Integer0To5::variant_count();
-                index /= Integer0To5::variant_count();
-                Integer0To5::from_index(value)
+                let value = (index % 6u16) as u8;
+                index /= 6u16;
+                value
             },
         }
     }
@@ -517861,7 +518002,18 @@ impl BlockProperties for ChorusFlowerLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("age", self.r#age.to_value())]
+        vec![(
+            "age",
+            match self.r#age {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -517874,18 +518026,28 @@ impl BlockProperties for ChorusFlowerLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "age" { block_props.r#age = Integer0To5::from_value(value) }
+            if *key == "age" {
+                block_props.r#age = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
 }
 #[derive(Clone, Copy, Debug, Eq, PartialEq)]
 pub struct CactusLikeProperties {
-    pub r#age: Integer0To15,
+    pub r#age: u8,
 }
 impl BlockProperties for CactusLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [(self.r#age.to_index(), Integer0To15::variant_count())]
+        let (index, _) = [(self.r#age as u16, 16u16)]
             .iter()
             .fold((0, 1), |(curr, mul), &(val, count)| {
                 (curr + val * mul, mul * count)
@@ -517896,9 +518058,9 @@ impl BlockProperties for CactusLikeProperties {
     fn from_index(mut index: u16) -> Self {
         Self {
             r#age: {
-                let value = index % Integer0To15::variant_count();
-                index /= Integer0To15::variant_count();
-                Integer0To15::from_index(value)
+                let value = (index % 16u16) as u8;
+                index /= 16u16;
+                value
             },
         }
     }
@@ -517947,7 +518109,28 @@ impl BlockProperties for CactusLikeProperties {
         Self::from_state_id(block.default_state.id, block)
     }
     fn to_props(&self) -> Vec<(&'static str, &'static str)> {
-        vec![("age", self.r#age.to_value())]
+        vec![(
+            "age",
+            match self.r#age {
+                0u8 => "0",
+                1u8 => "1",
+                2u8 => "2",
+                3u8 => "3",
+                4u8 => "4",
+                5u8 => "5",
+                6u8 => "6",
+                7u8 => "7",
+                8u8 => "8",
+                9u8 => "9",
+                10u8 => "10",
+                11u8 => "11",
+                12u8 => "12",
+                13u8 => "13",
+                14u8 => "14",
+                15u8 => "15",
+                _ => unreachable!(),
+            },
+        )]
     }
     #[allow(clippy::manual_range_patterns)]
     fn from_props(props: &[(&str, &str)], block: &Block) -> Self {
@@ -517960,7 +518143,27 @@ impl BlockProperties for CactusLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "age" { block_props.r#age = Integer0To15::from_value(value) }
+            if *key == "age" {
+                block_props.r#age = match *value {
+                    "0" => 0u8,
+                    "1" => 1u8,
+                    "2" => 2u8,
+                    "3" => 3u8,
+                    "4" => 4u8,
+                    "5" => 5u8,
+                    "6" => 6u8,
+                    "7" => 7u8,
+                    "8" => 8u8,
+                    "9" => 9u8,
+                    "10" => 10u8,
+                    "11" => 11u8,
+                    "12" => 12u8,
+                    "13" => 13u8,
+                    "14" => 14u8,
+                    "15" => 15u8,
+                    _ => 0u8,
+                }
+            }
         }
         block_props
     }
