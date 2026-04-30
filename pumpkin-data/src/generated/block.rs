@@ -503650,7 +503650,9 @@ impl BlockProperties for TntLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "unstable" { block_props.r#unstable = matches!(*value, "true") }
+            if *key == "unstable" {
+                block_props.r#unstable = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -503776,7 +503778,9 @@ impl BlockProperties for EndRodLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "facing" { block_props.r#facing = Facing::from_value(value) }
+            if *key == "facing" {
+                block_props.r#facing = Facing::from_value(value)
+            }
         }
         block_props
     }
@@ -505754,7 +505758,9 @@ impl BlockProperties for RedstoneOreLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "lit" { block_props.r#lit = matches!(*value, "true") }
+            if *key == "lit" {
+                block_props.r#lit = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -506342,7 +506348,9 @@ impl BlockProperties for PaleHangingMossLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "tip" { block_props.r#tip = matches!(*value, "true") }
+            if *key == "tip" {
+                block_props.r#tip = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -506428,7 +506436,9 @@ impl BlockProperties for BubbleColumnLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "drag" { block_props.r#drag = matches!(*value, "true") }
+            if *key == "drag" {
+                block_props.r#drag = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -507816,7 +507826,9 @@ impl BlockProperties for SculkCatalystLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "bloom" { block_props.r#bloom = matches!(*value, "true") }
+            if *key == "bloom" {
+                block_props.r#bloom = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -507902,7 +507914,9 @@ impl BlockProperties for GrassBlockLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "snowy" { block_props.r#snowy = matches!(*value, "true") }
+            if *key == "snowy" {
+                block_props.r#snowy = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -508099,7 +508113,9 @@ impl BlockProperties for JigsawLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "orientation" { block_props.r#orientation = Orientation::from_value(value) }
+            if *key == "orientation" {
+                block_props.r#orientation = Orientation::from_value(value)
+            }
         }
         block_props
     }
@@ -509194,7 +509210,9 @@ impl BlockProperties for TestBlockLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "mode" { block_props.r#mode = TestBlockMode::from_value(value) }
+            if *key == "mode" {
+                block_props.r#mode = TestBlockMode::from_value(value)
+            }
         }
         block_props
     }
@@ -509206,14 +509224,11 @@ pub struct DaylightDetectorLikeProperties {
 }
 impl BlockProperties for DaylightDetectorLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [
-            (self.r#power as u16, 16u16),
-            (!self.r#inverted as u16, 2),
-        ]
-        .iter()
-        .fold((0, 1), |(curr, mul), &(val, count)| {
-            (curr + val * mul, mul * count)
-        });
+        let (index, _) = [(self.r#power as u16, 16u16), (!self.r#inverted as u16, 2)]
+            .iter()
+            .fold((0, 1), |(curr, mul), &(val, count)| {
+                (curr + val * mul, mul * count)
+            });
         index
     }
     #[allow(unused_assignments)]
@@ -510573,7 +510588,9 @@ impl BlockProperties for MangroveRootsLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "waterlogged" { block_props.r#waterlogged = matches!(*value, "true") }
+            if *key == "waterlogged" {
+                block_props.r#waterlogged = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -513501,7 +513518,9 @@ impl BlockProperties for WallTorchLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "facing" { block_props.r#facing = HorizontalFacing::from_value(value) }
+            if *key == "facing" {
+                block_props.r#facing = HorizontalFacing::from_value(value)
+            }
         }
         block_props
     }
@@ -515229,7 +515248,9 @@ impl BlockProperties for JukeboxLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "has_record" { block_props.r#has_record = matches!(*value, "true") }
+            if *key == "has_record" {
+                block_props.r#has_record = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -515926,7 +515947,9 @@ impl BlockProperties for PaleOakWoodLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "axis" { block_props.r#axis = Axis::from_value(value) }
+            if *key == "axis" {
+                block_props.r#axis = Axis::from_value(value)
+            }
         }
         block_props
     }
@@ -516101,14 +516124,11 @@ pub struct SkeletonSkullLikeProperties {
 }
 impl BlockProperties for SkeletonSkullLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [
-            (self.r#rotation as u16, 16u16),
-            (!self.r#powered as u16, 2),
-        ]
-        .iter()
-        .fold((0, 1), |(curr, mul), &(val, count)| {
-            (curr + val * mul, mul * count)
-        });
+        let (index, _) = [(self.r#rotation as u16, 16u16), (!self.r#powered as u16, 2)]
+            .iter()
+            .fold((0, 1), |(curr, mul), &(val, count)| {
+                (curr + val * mul, mul * count)
+            });
         index
     }
     #[allow(unused_assignments)]
@@ -516631,14 +516651,11 @@ pub struct CaveVinesLikeProperties {
 }
 impl BlockProperties for CaveVinesLikeProperties {
     fn to_index(&self) -> u16 {
-        let (index, _) = [
-            (!self.r#berries as u16, 2),
-            (self.r#age as u16, 26u16),
-        ]
-        .iter()
-        .fold((0, 1), |(curr, mul), &(val, count)| {
-            (curr + val * mul, mul * count)
-        });
+        let (index, _) = [(!self.r#berries as u16, 2), (self.r#age as u16, 26u16)]
+            .iter()
+            .fold((0, 1), |(curr, mul), &(val, count)| {
+                (curr + val * mul, mul * count)
+            });
         index
     }
     #[allow(unused_assignments)]
@@ -516995,7 +517012,9 @@ impl BlockProperties for StructureBlockLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "mode" { block_props.r#mode = StructureblockMode::from_value(value) }
+            if *key == "mode" {
+                block_props.r#mode = StructureblockMode::from_value(value)
+            }
         }
         block_props
     }
@@ -517633,7 +517652,9 @@ impl BlockProperties for NetherPortalLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "axis" { block_props.r#axis = HorizontalAxis::from_value(value) }
+            if *key == "axis" {
+                block_props.r#axis = HorizontalAxis::from_value(value)
+            }
         }
         block_props
     }
@@ -517751,7 +517772,9 @@ impl BlockProperties for StonePressurePlateLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "powered" { block_props.r#powered = matches!(*value, "true") }
+            if *key == "powered" {
+                block_props.r#powered = matches!(*value, "true")
+            }
         }
         block_props
     }
@@ -517843,7 +517866,9 @@ impl BlockProperties for TallSeagrassLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "half" { block_props.r#half = DoubleBlockHalf::from_value(value) }
+            if *key == "half" {
+                block_props.r#half = DoubleBlockHalf::from_value(value)
+            }
         }
         block_props
     }
@@ -517929,7 +517954,9 @@ impl BlockProperties for CaveVinesPlantLikeProperties {
         }
         let mut block_props = Self::default(block);
         for (key, value) in props {
-            if *key == "berries" { block_props.r#berries = matches!(*value, "true") }
+            if *key == "berries" {
+                block_props.r#berries = matches!(*value, "true")
+            }
         }
         block_props
     }
