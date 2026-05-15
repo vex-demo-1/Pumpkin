@@ -504820,7 +504820,7 @@ impl BlockProperties for OakFenceGateLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakFenceGateLikeProperties"
+                block.name, "OakFenceGateLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -504829,7 +504829,7 @@ impl BlockProperties for OakFenceGateLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakFenceGateLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -504838,7 +504838,7 @@ impl BlockProperties for OakFenceGateLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -504847,7 +504847,7 @@ impl BlockProperties for OakFenceGateLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakFenceGateLikeProperties"
+                block.name, "OakFenceGateLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -504880,7 +504880,7 @@ impl BlockProperties for OakFenceGateLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakFenceGateLikeProperties"
+                block.name, "OakFenceGateLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -504931,7 +504931,7 @@ impl BlockProperties for CakeLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CakeLikeProperties"
+                block.name, "CakeLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -504940,7 +504940,7 @@ impl BlockProperties for CakeLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CakeLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -504949,7 +504949,7 @@ impl BlockProperties for CakeLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -504958,7 +504958,7 @@ impl BlockProperties for CakeLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CakeLikeProperties"
+                block.name, "CakeLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -504984,7 +504984,7 @@ impl BlockProperties for CakeLikeProperties {
         if !matches!(block.id, 298u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CakeLikeProperties"
+                block.name, "CakeLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -505040,7 +505040,7 @@ impl BlockProperties for JukeboxLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "JukeboxLikeProperties"
+                block.name, "JukeboxLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -505049,7 +505049,7 @@ impl BlockProperties for JukeboxLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "JukeboxLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -505058,7 +505058,7 @@ impl BlockProperties for JukeboxLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505067,7 +505067,7 @@ impl BlockProperties for JukeboxLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "JukeboxLikeProperties"
+                block.name, "JukeboxLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -505084,7 +505084,7 @@ impl BlockProperties for JukeboxLikeProperties {
         if !matches!(block.id, 283u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "JukeboxLikeProperties"
+                block.name, "JukeboxLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -505153,7 +505153,7 @@ impl BlockProperties for PointedDripstoneLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PointedDripstoneLikeProperties"
+                block.name, "PointedDripstoneLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -505162,7 +505162,7 @@ impl BlockProperties for PointedDripstoneLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "PointedDripstoneLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -505171,7 +505171,7 @@ impl BlockProperties for PointedDripstoneLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505180,7 +505180,7 @@ impl BlockProperties for PointedDripstoneLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PointedDripstoneLikeProperties"
+                block.name, "PointedDripstoneLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -505201,7 +505201,7 @@ impl BlockProperties for PointedDripstoneLikeProperties {
         if !matches!(block.id, 1105u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PointedDripstoneLikeProperties"
+                block.name, "PointedDripstoneLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -505326,7 +505326,7 @@ impl BlockProperties for ResinBrickSlabLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ResinBrickSlabLikeProperties"
+                block.name, "ResinBrickSlabLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -505335,7 +505335,7 @@ impl BlockProperties for ResinBrickSlabLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ResinBrickSlabLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -505344,7 +505344,7 @@ impl BlockProperties for ResinBrickSlabLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505353,7 +505353,7 @@ impl BlockProperties for ResinBrickSlabLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ResinBrickSlabLikeProperties"
+                block.name, "ResinBrickSlabLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -505437,7 +505437,7 @@ impl BlockProperties for ResinBrickSlabLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ResinBrickSlabLikeProperties"
+                block.name, "ResinBrickSlabLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -505502,7 +505502,7 @@ impl BlockProperties for DriedGhastLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DriedGhastLikeProperties"
+                block.name, "DriedGhastLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -505511,7 +505511,7 @@ impl BlockProperties for DriedGhastLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "DriedGhastLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -505520,7 +505520,7 @@ impl BlockProperties for DriedGhastLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505529,7 +505529,7 @@ impl BlockProperties for DriedGhastLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DriedGhastLikeProperties"
+                block.name, "DriedGhastLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -505559,7 +505559,7 @@ impl BlockProperties for DriedGhastLikeProperties {
         if !matches!(block.id, 747u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DriedGhastLikeProperties"
+                block.name, "DriedGhastLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -505647,7 +505647,7 @@ impl BlockProperties for RedstoneWireLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RedstoneWireLikeProperties"
+                block.name, "RedstoneWireLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -505656,7 +505656,7 @@ impl BlockProperties for RedstoneWireLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "RedstoneWireLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -505665,7 +505665,7 @@ impl BlockProperties for RedstoneWireLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505674,7 +505674,7 @@ impl BlockProperties for RedstoneWireLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RedstoneWireLikeProperties"
+                block.name, "RedstoneWireLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -505715,7 +505715,7 @@ impl BlockProperties for RedstoneWireLikeProperties {
         if !matches!(block.id, 202u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RedstoneWireLikeProperties"
+                block.name, "RedstoneWireLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -505796,7 +505796,7 @@ impl BlockProperties for StickyPistonLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StickyPistonLikeProperties"
+                block.name, "StickyPistonLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -505805,7 +505805,7 @@ impl BlockProperties for StickyPistonLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "StickyPistonLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -505814,7 +505814,7 @@ impl BlockProperties for StickyPistonLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505823,7 +505823,7 @@ impl BlockProperties for StickyPistonLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StickyPistonLikeProperties"
+                block.name, "StickyPistonLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -505840,7 +505840,7 @@ impl BlockProperties for StickyPistonLikeProperties {
         if !matches!(block.id, 128u16 | 138u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StickyPistonLikeProperties"
+                block.name, "StickyPistonLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -505933,7 +505933,7 @@ impl BlockProperties for ChiseledBookshelfLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChiseledBookshelfLikeProperties"
+                block.name, "ChiseledBookshelfLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -505942,7 +505942,7 @@ impl BlockProperties for ChiseledBookshelfLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ChiseledBookshelfLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -505951,7 +505951,7 @@ impl BlockProperties for ChiseledBookshelfLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505960,7 +505960,7 @@ impl BlockProperties for ChiseledBookshelfLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChiseledBookshelfLikeProperties"
+                block.name, "ChiseledBookshelfLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -506024,7 +506024,7 @@ impl BlockProperties for ChiseledBookshelfLikeProperties {
         if !matches!(block.id, 179u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChiseledBookshelfLikeProperties"
+                block.name, "ChiseledBookshelfLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -506094,7 +506094,7 @@ impl BlockProperties for PoweredRailLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PoweredRailLikeProperties"
+                block.name, "PoweredRailLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -506103,7 +506103,7 @@ impl BlockProperties for PoweredRailLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "PoweredRailLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -506112,7 +506112,7 @@ impl BlockProperties for PoweredRailLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506121,7 +506121,7 @@ impl BlockProperties for PoweredRailLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PoweredRailLikeProperties"
+                block.name, "PoweredRailLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -506142,7 +506142,7 @@ impl BlockProperties for PoweredRailLikeProperties {
         if !matches!(block.id, 126u16 | 127u16 | 482u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PoweredRailLikeProperties"
+                block.name, "PoweredRailLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -506226,7 +506226,7 @@ impl BlockProperties for WhiteBedLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WhiteBedLikeProperties"
+                block.name, "WhiteBedLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -506235,7 +506235,7 @@ impl BlockProperties for WhiteBedLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "WhiteBedLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -506244,7 +506244,7 @@ impl BlockProperties for WhiteBedLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506253,7 +506253,7 @@ impl BlockProperties for WhiteBedLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WhiteBedLikeProperties"
+                block.name, "WhiteBedLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -506289,7 +506289,7 @@ impl BlockProperties for WhiteBedLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WhiteBedLikeProperties"
+                block.name, "WhiteBedLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -506339,7 +506339,7 @@ impl BlockProperties for ChorusFlowerLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChorusFlowerLikeProperties"
+                block.name, "ChorusFlowerLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -506348,7 +506348,7 @@ impl BlockProperties for ChorusFlowerLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ChorusFlowerLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -506357,7 +506357,7 @@ impl BlockProperties for ChorusFlowerLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506366,7 +506366,7 @@ impl BlockProperties for ChorusFlowerLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChorusFlowerLikeProperties"
+                block.name, "ChorusFlowerLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -506391,7 +506391,7 @@ impl BlockProperties for ChorusFlowerLikeProperties {
         if !matches!(block.id, 657u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChorusFlowerLikeProperties"
+                block.name, "ChorusFlowerLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -506446,7 +506446,7 @@ impl BlockProperties for CactusLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CactusLikeProperties"
+                block.name, "CactusLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -506455,7 +506455,7 @@ impl BlockProperties for CactusLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CactusLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -506464,7 +506464,7 @@ impl BlockProperties for CactusLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506473,7 +506473,7 @@ impl BlockProperties for CactusLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CactusLikeProperties"
+                block.name, "CactusLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -506508,7 +506508,7 @@ impl BlockProperties for CactusLikeProperties {
         if !matches!(block.id, 279u16 | 282u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CactusLikeProperties"
+                block.name, "CactusLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -506610,7 +506610,7 @@ impl BlockProperties for FireLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FireLikeProperties"
+                block.name, "FireLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -506619,7 +506619,7 @@ impl BlockProperties for FireLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "FireLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -506628,7 +506628,7 @@ impl BlockProperties for FireLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506637,7 +506637,7 @@ impl BlockProperties for FireLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FireLikeProperties"
+                block.name, "FireLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -506679,7 +506679,7 @@ impl BlockProperties for FireLikeProperties {
         if !matches!(block.id, 196u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FireLikeProperties"
+                block.name, "FireLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -506761,7 +506761,7 @@ impl BlockProperties for HopperLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "HopperLikeProperties"
+                block.name, "HopperLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -506770,7 +506770,7 @@ impl BlockProperties for HopperLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "HopperLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -506779,7 +506779,7 @@ impl BlockProperties for HopperLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506788,7 +506788,7 @@ impl BlockProperties for HopperLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "HopperLikeProperties"
+                block.name, "HopperLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -506805,7 +506805,7 @@ impl BlockProperties for HopperLikeProperties {
         if !matches!(block.id, 477u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "HopperLikeProperties"
+                block.name, "HopperLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -506907,7 +506907,7 @@ impl BlockProperties for OakDoorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakDoorLikeProperties"
+                block.name, "OakDoorLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -506916,7 +506916,7 @@ impl BlockProperties for OakDoorLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakDoorLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -506925,7 +506925,7 @@ impl BlockProperties for OakDoorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506934,7 +506934,7 @@ impl BlockProperties for OakDoorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakDoorLikeProperties"
+                block.name, "OakDoorLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -506977,7 +506977,7 @@ impl BlockProperties for OakDoorLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakDoorLikeProperties"
+                block.name, "OakDoorLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507045,7 +507045,7 @@ impl BlockProperties for PistonHeadLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PistonHeadLikeProperties"
+                block.name, "PistonHeadLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507054,7 +507054,7 @@ impl BlockProperties for PistonHeadLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "PistonHeadLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -507063,7 +507063,7 @@ impl BlockProperties for PistonHeadLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507072,7 +507072,7 @@ impl BlockProperties for PistonHeadLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PistonHeadLikeProperties"
+                block.name, "PistonHeadLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -507090,7 +507090,7 @@ impl BlockProperties for PistonHeadLikeProperties {
         if !matches!(block.id, 139u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PistonHeadLikeProperties"
+                block.name, "PistonHeadLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507149,7 +507149,7 @@ impl BlockProperties for MovingPistonLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MovingPistonLikeProperties"
+                block.name, "MovingPistonLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507158,7 +507158,7 @@ impl BlockProperties for MovingPistonLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "MovingPistonLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -507167,7 +507167,7 @@ impl BlockProperties for MovingPistonLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507176,7 +507176,7 @@ impl BlockProperties for MovingPistonLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MovingPistonLikeProperties"
+                block.name, "MovingPistonLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -507193,7 +507193,7 @@ impl BlockProperties for MovingPistonLikeProperties {
         if !matches!(block.id, 156u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MovingPistonLikeProperties"
+                block.name, "MovingPistonLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507261,7 +507261,7 @@ impl BlockProperties for CreakingHeartLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CreakingHeartLikeProperties"
+                block.name, "CreakingHeartLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507270,7 +507270,7 @@ impl BlockProperties for CreakingHeartLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CreakingHeartLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -507279,7 +507279,7 @@ impl BlockProperties for CreakingHeartLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507288,7 +507288,7 @@ impl BlockProperties for CreakingHeartLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CreakingHeartLikeProperties"
+                block.name, "CreakingHeartLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -507309,7 +507309,7 @@ impl BlockProperties for CreakingHeartLikeProperties {
         if !matches!(block.id, 199u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CreakingHeartLikeProperties"
+                block.name, "CreakingHeartLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507391,7 +507391,7 @@ impl BlockProperties for PaleMossCarpetLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleMossCarpetLikeProperties"
+                block.name, "PaleMossCarpetLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507400,7 +507400,7 @@ impl BlockProperties for PaleMossCarpetLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "PaleMossCarpetLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -507409,7 +507409,7 @@ impl BlockProperties for PaleMossCarpetLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507418,7 +507418,7 @@ impl BlockProperties for PaleMossCarpetLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleMossCarpetLikeProperties"
+                block.name, "PaleMossCarpetLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -507438,7 +507438,7 @@ impl BlockProperties for PaleMossCarpetLikeProperties {
         if !matches!(block.id, 1161u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleMossCarpetLikeProperties"
+                block.name, "PaleMossCarpetLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507506,7 +507506,7 @@ impl BlockProperties for ScaffoldingLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ScaffoldingLikeProperties"
+                block.name, "ScaffoldingLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507515,7 +507515,7 @@ impl BlockProperties for ScaffoldingLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ScaffoldingLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -507524,7 +507524,7 @@ impl BlockProperties for ScaffoldingLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507533,7 +507533,7 @@ impl BlockProperties for ScaffoldingLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ScaffoldingLikeProperties"
+                block.name, "ScaffoldingLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -507567,7 +507567,7 @@ impl BlockProperties for ScaffoldingLikeProperties {
         if !matches!(block.id, 837u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ScaffoldingLikeProperties"
+                block.name, "ScaffoldingLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507645,7 +507645,7 @@ impl BlockProperties for VaultLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "VaultLikeProperties"
+                block.name, "VaultLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507654,7 +507654,7 @@ impl BlockProperties for VaultLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "VaultLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -507663,7 +507663,7 @@ impl BlockProperties for VaultLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507672,7 +507672,7 @@ impl BlockProperties for VaultLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "VaultLikeProperties"
+                block.name, "VaultLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -507690,7 +507690,7 @@ impl BlockProperties for VaultLikeProperties {
         if !matches!(block.id, 1158u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "VaultLikeProperties"
+                block.name, "VaultLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507752,7 +507752,7 @@ impl BlockProperties for TrialSpawnerLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TrialSpawnerLikeProperties"
+                block.name, "TrialSpawnerLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507761,7 +507761,7 @@ impl BlockProperties for TrialSpawnerLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "TrialSpawnerLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -507770,7 +507770,7 @@ impl BlockProperties for TrialSpawnerLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507779,7 +507779,7 @@ impl BlockProperties for TrialSpawnerLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TrialSpawnerLikeProperties"
+                block.name, "TrialSpawnerLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -507796,7 +507796,7 @@ impl BlockProperties for TrialSpawnerLikeProperties {
         if !matches!(block.id, 1157u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TrialSpawnerLikeProperties"
+                block.name, "TrialSpawnerLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507863,7 +507863,7 @@ impl BlockProperties for SculkShriekerLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkShriekerLikeProperties"
+                block.name, "SculkShriekerLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507872,7 +507872,7 @@ impl BlockProperties for SculkShriekerLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SculkShriekerLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -507881,7 +507881,7 @@ impl BlockProperties for SculkShriekerLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507890,7 +507890,7 @@ impl BlockProperties for SculkShriekerLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkShriekerLikeProperties"
+                block.name, "SculkShriekerLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -507914,7 +507914,7 @@ impl BlockProperties for SculkShriekerLikeProperties {
         if !matches!(block.id, 1006u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkShriekerLikeProperties"
+                block.name, "SculkShriekerLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -507987,7 +507987,7 @@ impl BlockProperties for RepeaterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RepeaterLikeProperties"
+                block.name, "RepeaterLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -507996,7 +507996,7 @@ impl BlockProperties for RepeaterLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "RepeaterLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -508005,7 +508005,7 @@ impl BlockProperties for RepeaterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508014,7 +508014,7 @@ impl BlockProperties for RepeaterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RepeaterLikeProperties"
+                block.name, "RepeaterLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -508042,7 +508042,7 @@ impl BlockProperties for RepeaterLikeProperties {
         if !matches!(block.id, 299u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RepeaterLikeProperties"
+                block.name, "RepeaterLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -508101,7 +508101,7 @@ impl BlockProperties for RespawnAnchorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RespawnAnchorLikeProperties"
+                block.name, "RespawnAnchorLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -508110,7 +508110,7 @@ impl BlockProperties for RespawnAnchorLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "RespawnAnchorLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -508119,7 +508119,7 @@ impl BlockProperties for RespawnAnchorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508128,7 +508128,7 @@ impl BlockProperties for RespawnAnchorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RespawnAnchorLikeProperties"
+                block.name, "RespawnAnchorLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -508152,7 +508152,7 @@ impl BlockProperties for RespawnAnchorLikeProperties {
         if !matches!(block.id, 918u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RespawnAnchorLikeProperties"
+                block.name, "RespawnAnchorLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -508243,7 +508243,7 @@ impl BlockProperties for AcaciaShelfLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "AcaciaShelfLikeProperties"
+                block.name, "AcaciaShelfLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -508252,7 +508252,7 @@ impl BlockProperties for AcaciaShelfLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "AcaciaShelfLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -508261,7 +508261,7 @@ impl BlockProperties for AcaciaShelfLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508270,7 +508270,7 @@ impl BlockProperties for AcaciaShelfLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "AcaciaShelfLikeProperties"
+                block.name, "AcaciaShelfLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -508306,7 +508306,7 @@ impl BlockProperties for AcaciaShelfLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "AcaciaShelfLikeProperties"
+                block.name, "AcaciaShelfLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -508422,7 +508422,7 @@ impl BlockProperties for ResinBrickWallLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ResinBrickWallLikeProperties"
+                block.name, "ResinBrickWallLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -508431,7 +508431,7 @@ impl BlockProperties for ResinBrickWallLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ResinBrickWallLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -508440,7 +508440,7 @@ impl BlockProperties for ResinBrickWallLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508449,7 +508449,7 @@ impl BlockProperties for ResinBrickWallLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ResinBrickWallLikeProperties"
+                block.name, "ResinBrickWallLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -508501,7 +508501,7 @@ impl BlockProperties for ResinBrickWallLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ResinBrickWallLikeProperties"
+                block.name, "ResinBrickWallLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -508570,7 +508570,7 @@ impl BlockProperties for BrewingStandLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BrewingStandLikeProperties"
+                block.name, "BrewingStandLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -508579,7 +508579,7 @@ impl BlockProperties for BrewingStandLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "BrewingStandLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -508588,7 +508588,7 @@ impl BlockProperties for BrewingStandLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508597,7 +508597,7 @@ impl BlockProperties for BrewingStandLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BrewingStandLikeProperties"
+                block.name, "BrewingStandLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -508624,7 +508624,7 @@ impl BlockProperties for BrewingStandLikeProperties {
         if !matches!(block.id, 386u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BrewingStandLikeProperties"
+                block.name, "BrewingStandLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -508674,7 +508674,7 @@ impl BlockProperties for SnowLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SnowLikeProperties"
+                block.name, "SnowLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -508683,7 +508683,7 @@ impl BlockProperties for SnowLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SnowLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -508692,7 +508692,7 @@ impl BlockProperties for SnowLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508701,7 +508701,7 @@ impl BlockProperties for SnowLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SnowLikeProperties"
+                block.name, "SnowLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -508728,7 +508728,7 @@ impl BlockProperties for SnowLikeProperties {
         if !matches!(block.id, 276u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SnowLikeProperties"
+                block.name, "SnowLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -508804,7 +508804,7 @@ impl BlockProperties for NoteBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NoteBlockLikeProperties"
+                block.name, "NoteBlockLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -508813,7 +508813,7 @@ impl BlockProperties for NoteBlockLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "NoteBlockLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -508822,7 +508822,7 @@ impl BlockProperties for NoteBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508831,7 +508831,7 @@ impl BlockProperties for NoteBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NoteBlockLikeProperties"
+                block.name, "NoteBlockLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -508879,7 +508879,7 @@ impl BlockProperties for NoteBlockLikeProperties {
         if !matches!(block.id, 109u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NoteBlockLikeProperties"
+                block.name, "NoteBlockLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -508967,7 +508967,7 @@ impl BlockProperties for DispenserLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DispenserLikeProperties"
+                block.name, "DispenserLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -508976,7 +508976,7 @@ impl BlockProperties for DispenserLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "DispenserLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -508985,7 +508985,7 @@ impl BlockProperties for DispenserLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508994,7 +508994,7 @@ impl BlockProperties for DispenserLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DispenserLikeProperties"
+                block.name, "DispenserLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -509011,7 +509011,7 @@ impl BlockProperties for DispenserLikeProperties {
         if !matches!(block.id, 105u16 | 483u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DispenserLikeProperties"
+                block.name, "DispenserLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -509076,7 +509076,7 @@ impl BlockProperties for CrafterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CrafterLikeProperties"
+                block.name, "CrafterLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -509085,7 +509085,7 @@ impl BlockProperties for CrafterLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CrafterLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -509094,7 +509094,7 @@ impl BlockProperties for CrafterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509103,7 +509103,7 @@ impl BlockProperties for CrafterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CrafterLikeProperties"
+                block.name, "CrafterLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -509121,7 +509121,7 @@ impl BlockProperties for CrafterLikeProperties {
         if !matches!(block.id, 1156u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CrafterLikeProperties"
+                block.name, "CrafterLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -509254,7 +509254,7 @@ impl BlockProperties for OakStairsLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakStairsLikeProperties"
+                block.name, "OakStairsLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -509263,7 +509263,7 @@ impl BlockProperties for OakStairsLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakStairsLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -509272,7 +509272,7 @@ impl BlockProperties for OakStairsLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509281,7 +509281,7 @@ impl BlockProperties for OakStairsLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakStairsLikeProperties"
+                block.name, "OakStairsLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -509363,7 +509363,7 @@ impl BlockProperties for OakStairsLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakStairsLikeProperties"
+                block.name, "OakStairsLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -509414,7 +509414,7 @@ impl BlockProperties for FarmlandLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FarmlandLikeProperties"
+                block.name, "FarmlandLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -509423,7 +509423,7 @@ impl BlockProperties for FarmlandLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "FarmlandLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -509432,7 +509432,7 @@ impl BlockProperties for FarmlandLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509441,7 +509441,7 @@ impl BlockProperties for FarmlandLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FarmlandLikeProperties"
+                block.name, "FarmlandLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -509468,7 +509468,7 @@ impl BlockProperties for FarmlandLikeProperties {
         if !matches!(block.id, 208u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FarmlandLikeProperties"
+                block.name, "FarmlandLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -509525,7 +509525,7 @@ impl BlockProperties for SuspiciousSandLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SuspiciousSandLikeProperties"
+                block.name, "SuspiciousSandLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -509534,7 +509534,7 @@ impl BlockProperties for SuspiciousSandLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SuspiciousSandLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -509543,7 +509543,7 @@ impl BlockProperties for SuspiciousSandLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509552,7 +509552,7 @@ impl BlockProperties for SuspiciousSandLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SuspiciousSandLikeProperties"
+                block.name, "SuspiciousSandLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -509575,7 +509575,7 @@ impl BlockProperties for SuspiciousSandLikeProperties {
         if !matches!(block.id, 38u16 | 41u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SuspiciousSandLikeProperties"
+                block.name, "SuspiciousSandLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -509644,7 +509644,7 @@ impl BlockProperties for BambooLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BambooLikeProperties"
+                block.name, "BambooLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -509653,7 +509653,7 @@ impl BlockProperties for BambooLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "BambooLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -509662,7 +509662,7 @@ impl BlockProperties for BambooLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509671,7 +509671,7 @@ impl BlockProperties for BambooLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BambooLikeProperties"
+                block.name, "BambooLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -509703,7 +509703,7 @@ impl BlockProperties for BambooLikeProperties {
         if !matches!(block.id, 792u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BambooLikeProperties"
+                block.name, "BambooLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -509781,7 +509781,7 @@ impl BlockProperties for StonePressurePlateLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StonePressurePlateLikeProperties"
+                block.name, "StonePressurePlateLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -509790,7 +509790,7 @@ impl BlockProperties for StonePressurePlateLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "StonePressurePlateLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -509799,7 +509799,7 @@ impl BlockProperties for StonePressurePlateLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509808,7 +509808,7 @@ impl BlockProperties for StonePressurePlateLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StonePressurePlateLikeProperties"
+                block.name, "StonePressurePlateLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -509838,7 +509838,7 @@ impl BlockProperties for StonePressurePlateLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StonePressurePlateLikeProperties"
+                block.name, "StonePressurePlateLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -509901,7 +509901,7 @@ impl BlockProperties for ComparatorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ComparatorLikeProperties"
+                block.name, "ComparatorLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -509910,7 +509910,7 @@ impl BlockProperties for ComparatorLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ComparatorLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -509919,7 +509919,7 @@ impl BlockProperties for ComparatorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509928,7 +509928,7 @@ impl BlockProperties for ComparatorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ComparatorLikeProperties"
+                block.name, "ComparatorLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -509946,7 +509946,7 @@ impl BlockProperties for ComparatorLikeProperties {
         if !matches!(block.id, 473u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ComparatorLikeProperties"
+                block.name, "ComparatorLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -510005,7 +510005,7 @@ impl BlockProperties for CopperBulbLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CopperBulbLikeProperties"
+                block.name, "CopperBulbLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -510014,7 +510014,7 @@ impl BlockProperties for CopperBulbLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CopperBulbLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -510023,7 +510023,7 @@ impl BlockProperties for CopperBulbLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510032,7 +510032,7 @@ impl BlockProperties for CopperBulbLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CopperBulbLikeProperties"
+                block.name, "CopperBulbLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -510052,7 +510052,7 @@ impl BlockProperties for CopperBulbLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CopperBulbLikeProperties"
+                block.name, "CopperBulbLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -510145,7 +510145,7 @@ impl BlockProperties for TripwireLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TripwireLikeProperties"
+                block.name, "TripwireLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -510154,7 +510154,7 @@ impl BlockProperties for TripwireLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "TripwireLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -510163,7 +510163,7 @@ impl BlockProperties for TripwireLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510172,7 +510172,7 @@ impl BlockProperties for TripwireLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TripwireLikeProperties"
+                block.name, "TripwireLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -510194,7 +510194,7 @@ impl BlockProperties for TripwireLikeProperties {
         if !matches!(block.id, 402u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TripwireLikeProperties"
+                block.name, "TripwireLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -510301,7 +510301,7 @@ impl BlockProperties for OakTrapdoorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakTrapdoorLikeProperties"
+                block.name, "OakTrapdoorLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -510310,7 +510310,7 @@ impl BlockProperties for OakTrapdoorLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakTrapdoorLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -510319,7 +510319,7 @@ impl BlockProperties for OakTrapdoorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510328,7 +510328,7 @@ impl BlockProperties for OakTrapdoorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakTrapdoorLikeProperties"
+                block.name, "OakTrapdoorLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -510374,7 +510374,7 @@ impl BlockProperties for OakTrapdoorLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakTrapdoorLikeProperties"
+                block.name, "OakTrapdoorLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -510442,7 +510442,7 @@ impl BlockProperties for LecternLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LecternLikeProperties"
+                block.name, "LecternLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -510451,7 +510451,7 @@ impl BlockProperties for LecternLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "LecternLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -510460,7 +510460,7 @@ impl BlockProperties for LecternLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510469,7 +510469,7 @@ impl BlockProperties for LecternLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LecternLikeProperties"
+                block.name, "LecternLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -510487,7 +510487,7 @@ impl BlockProperties for LecternLikeProperties {
         if !matches!(block.id, 845u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LecternLikeProperties"
+                block.name, "LecternLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -510553,7 +510553,7 @@ impl BlockProperties for TripwireHookLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TripwireHookLikeProperties"
+                block.name, "TripwireHookLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -510562,7 +510562,7 @@ impl BlockProperties for TripwireHookLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "TripwireHookLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -510571,7 +510571,7 @@ impl BlockProperties for TripwireHookLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510580,7 +510580,7 @@ impl BlockProperties for TripwireHookLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TripwireHookLikeProperties"
+                block.name, "TripwireHookLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -510598,7 +510598,7 @@ impl BlockProperties for TripwireHookLikeProperties {
         if !matches!(block.id, 401u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TripwireHookLikeProperties"
+                block.name, "TripwireHookLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -510667,7 +510667,7 @@ impl BlockProperties for BellLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BellLikeProperties"
+                block.name, "BellLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -510676,7 +510676,7 @@ impl BlockProperties for BellLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "BellLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -510685,7 +510685,7 @@ impl BlockProperties for BellLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510694,7 +510694,7 @@ impl BlockProperties for BellLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BellLikeProperties"
+                block.name, "BellLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -510712,7 +510712,7 @@ impl BlockProperties for BellLikeProperties {
         if !matches!(block.id, 848u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BellLikeProperties"
+                block.name, "BellLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -510774,7 +510774,7 @@ impl BlockProperties for SkeletonWallSkullLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SkeletonWallSkullLikeProperties"
+                block.name, "SkeletonWallSkullLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -510783,7 +510783,7 @@ impl BlockProperties for SkeletonWallSkullLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SkeletonWallSkullLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -510792,7 +510792,7 @@ impl BlockProperties for SkeletonWallSkullLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510801,7 +510801,7 @@ impl BlockProperties for SkeletonWallSkullLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SkeletonWallSkullLikeProperties"
+                block.name, "SkeletonWallSkullLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -510821,7 +510821,7 @@ impl BlockProperties for SkeletonWallSkullLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SkeletonWallSkullLikeProperties"
+                block.name, "SkeletonWallSkullLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -510903,7 +510903,7 @@ impl BlockProperties for LeverLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LeverLikeProperties"
+                block.name, "LeverLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -510912,7 +510912,7 @@ impl BlockProperties for LeverLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "LeverLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -510921,7 +510921,7 @@ impl BlockProperties for LeverLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510930,7 +510930,7 @@ impl BlockProperties for LeverLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LeverLikeProperties"
+                block.name, "LeverLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -510965,7 +510965,7 @@ impl BlockProperties for LeverLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LeverLikeProperties"
+                block.name, "LeverLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -511034,7 +511034,7 @@ impl BlockProperties for LightningRodLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightningRodLikeProperties"
+                block.name, "LightningRodLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -511043,7 +511043,7 @@ impl BlockProperties for LightningRodLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "LightningRodLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -511052,7 +511052,7 @@ impl BlockProperties for LightningRodLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511061,7 +511061,7 @@ impl BlockProperties for LightningRodLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightningRodLikeProperties"
+                block.name, "LightningRodLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -511085,7 +511085,7 @@ impl BlockProperties for LightningRodLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightningRodLikeProperties"
+                block.name, "LightningRodLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -511144,7 +511144,7 @@ impl BlockProperties for SkeletonSkullLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SkeletonSkullLikeProperties"
+                block.name, "SkeletonSkullLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -511153,7 +511153,7 @@ impl BlockProperties for SkeletonSkullLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SkeletonSkullLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -511162,7 +511162,7 @@ impl BlockProperties for SkeletonSkullLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511171,7 +511171,7 @@ impl BlockProperties for SkeletonSkullLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SkeletonSkullLikeProperties"
+                block.name, "SkeletonSkullLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -511212,7 +511212,7 @@ impl BlockProperties for SkeletonSkullLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SkeletonSkullLikeProperties"
+                block.name, "SkeletonSkullLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -511290,7 +511290,7 @@ impl BlockProperties for ObserverLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ObserverLikeProperties"
+                block.name, "ObserverLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -511299,7 +511299,7 @@ impl BlockProperties for ObserverLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ObserverLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -511308,7 +511308,7 @@ impl BlockProperties for ObserverLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511317,7 +511317,7 @@ impl BlockProperties for ObserverLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ObserverLikeProperties"
+                block.name, "ObserverLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -511334,7 +511334,7 @@ impl BlockProperties for ObserverLikeProperties {
         if !matches!(block.id, 676u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ObserverLikeProperties"
+                block.name, "ObserverLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -511383,7 +511383,7 @@ impl BlockProperties for ComposterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ComposterLikeProperties"
+                block.name, "ComposterLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -511392,7 +511392,7 @@ impl BlockProperties for ComposterLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ComposterLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -511401,7 +511401,7 @@ impl BlockProperties for ComposterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511410,7 +511410,7 @@ impl BlockProperties for ComposterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ComposterLikeProperties"
+                block.name, "ComposterLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -511438,7 +511438,7 @@ impl BlockProperties for ComposterLikeProperties {
         if !matches!(block.id, 909u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ComposterLikeProperties"
+                block.name, "ComposterLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -511496,7 +511496,7 @@ impl BlockProperties for CaveVinesPlantLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CaveVinesPlantLikeProperties"
+                block.name, "CaveVinesPlantLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -511505,7 +511505,7 @@ impl BlockProperties for CaveVinesPlantLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CaveVinesPlantLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -511514,7 +511514,7 @@ impl BlockProperties for CaveVinesPlantLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511523,7 +511523,7 @@ impl BlockProperties for CaveVinesPlantLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CaveVinesPlantLikeProperties"
+                block.name, "CaveVinesPlantLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -511537,7 +511537,7 @@ impl BlockProperties for CaveVinesPlantLikeProperties {
         if !matches!(block.id, 1108u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CaveVinesPlantLikeProperties"
+                block.name, "CaveVinesPlantLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -511590,7 +511590,7 @@ impl BlockProperties for CaveVinesLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CaveVinesLikeProperties"
+                block.name, "CaveVinesLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -511599,7 +511599,7 @@ impl BlockProperties for CaveVinesLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CaveVinesLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -511608,7 +511608,7 @@ impl BlockProperties for CaveVinesLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511617,7 +511617,7 @@ impl BlockProperties for CaveVinesLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CaveVinesLikeProperties"
+                block.name, "CaveVinesLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -511665,7 +511665,7 @@ impl BlockProperties for CaveVinesLikeProperties {
         if !matches!(block.id, 1107u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CaveVinesLikeProperties"
+                block.name, "CaveVinesLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -511744,7 +511744,7 @@ impl BlockProperties for TntLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TntLikeProperties"
+                block.name, "TntLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -511753,7 +511753,7 @@ impl BlockProperties for TntLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "TntLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -511762,7 +511762,7 @@ impl BlockProperties for TntLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511771,7 +511771,7 @@ impl BlockProperties for TntLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TntLikeProperties"
+                block.name, "TntLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -511785,7 +511785,7 @@ impl BlockProperties for TntLikeProperties {
         if !matches!(block.id, 177u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TntLikeProperties"
+                block.name, "TntLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -511869,7 +511869,7 @@ impl BlockProperties for BrownMushroomBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BrownMushroomBlockLikeProperties"
+                block.name, "BrownMushroomBlockLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -511878,7 +511878,7 @@ impl BlockProperties for BrownMushroomBlockLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "BrownMushroomBlockLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -511887,7 +511887,7 @@ impl BlockProperties for BrownMushroomBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511896,7 +511896,7 @@ impl BlockProperties for BrownMushroomBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BrownMushroomBlockLikeProperties"
+                block.name, "BrownMushroomBlockLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -511917,7 +511917,7 @@ impl BlockProperties for BrownMushroomBlockLikeProperties {
         if !matches!(block.id, 338u16 | 339u16 | 340u16 | 656u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BrownMushroomBlockLikeProperties"
+                block.name, "BrownMushroomBlockLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512014,7 +512014,7 @@ impl BlockProperties for GlowLichenLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GlowLichenLikeProperties"
+                block.name, "GlowLichenLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512023,7 +512023,7 @@ impl BlockProperties for GlowLichenLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "GlowLichenLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512032,7 +512032,7 @@ impl BlockProperties for GlowLichenLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512041,7 +512041,7 @@ impl BlockProperties for GlowLichenLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GlowLichenLikeProperties"
+                block.name, "GlowLichenLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -512066,7 +512066,7 @@ impl BlockProperties for GlowLichenLikeProperties {
         if !matches!(block.id, 367u16 | 368u16 | 1004u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GlowLichenLikeProperties"
+                block.name, "GlowLichenLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512150,7 +512150,7 @@ impl BlockProperties for VineLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "VineLikeProperties"
+                block.name, "VineLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512159,7 +512159,7 @@ impl BlockProperties for VineLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "VineLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512168,7 +512168,7 @@ impl BlockProperties for VineLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512177,7 +512177,7 @@ impl BlockProperties for VineLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "VineLikeProperties"
+                block.name, "VineLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -512197,7 +512197,7 @@ impl BlockProperties for VineLikeProperties {
         if !matches!(block.id, 366u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "VineLikeProperties"
+                block.name, "VineLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512258,7 +512258,7 @@ impl BlockProperties for EndPortalFrameLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "EndPortalFrameLikeProperties"
+                block.name, "EndPortalFrameLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512267,7 +512267,7 @@ impl BlockProperties for EndPortalFrameLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "EndPortalFrameLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512276,7 +512276,7 @@ impl BlockProperties for EndPortalFrameLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512285,7 +512285,7 @@ impl BlockProperties for EndPortalFrameLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "EndPortalFrameLikeProperties"
+                block.name, "EndPortalFrameLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -512302,7 +512302,7 @@ impl BlockProperties for EndPortalFrameLikeProperties {
         if !matches!(block.id, 392u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "EndPortalFrameLikeProperties"
+                block.name, "EndPortalFrameLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512374,7 +512374,7 @@ impl BlockProperties for RedstoneOreLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RedstoneOreLikeProperties"
+                block.name, "RedstoneOreLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512383,7 +512383,7 @@ impl BlockProperties for RedstoneOreLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "RedstoneOreLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512392,7 +512392,7 @@ impl BlockProperties for RedstoneOreLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512401,7 +512401,7 @@ impl BlockProperties for RedstoneOreLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RedstoneOreLikeProperties"
+                block.name, "RedstoneOreLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -512438,7 +512438,7 @@ impl BlockProperties for RedstoneOreLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RedstoneOreLikeProperties"
+                block.name, "RedstoneOreLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512508,7 +512508,7 @@ impl BlockProperties for CampfireLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CampfireLikeProperties"
+                block.name, "CampfireLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512517,7 +512517,7 @@ impl BlockProperties for CampfireLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CampfireLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512526,7 +512526,7 @@ impl BlockProperties for CampfireLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512535,7 +512535,7 @@ impl BlockProperties for CampfireLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CampfireLikeProperties"
+                block.name, "CampfireLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -512560,7 +512560,7 @@ impl BlockProperties for CampfireLikeProperties {
         if !matches!(block.id, 859u16 | 860u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CampfireLikeProperties"
+                block.name, "CampfireLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512620,7 +512620,7 @@ impl BlockProperties for FurnaceLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FurnaceLikeProperties"
+                block.name, "FurnaceLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512629,7 +512629,7 @@ impl BlockProperties for FurnaceLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "FurnaceLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512638,7 +512638,7 @@ impl BlockProperties for FurnaceLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512647,7 +512647,7 @@ impl BlockProperties for FurnaceLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FurnaceLikeProperties"
+                block.name, "FurnaceLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -512664,7 +512664,7 @@ impl BlockProperties for FurnaceLikeProperties {
         if !matches!(block.id, 209u16 | 274u16 | 840u16 | 841u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "FurnaceLikeProperties"
+                block.name, "FurnaceLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512748,7 +512748,7 @@ impl BlockProperties for CandleLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CandleLikeProperties"
+                block.name, "CandleLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512757,7 +512757,7 @@ impl BlockProperties for CandleLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CandleLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512766,7 +512766,7 @@ impl BlockProperties for CandleLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512775,7 +512775,7 @@ impl BlockProperties for CandleLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CandleLikeProperties"
+                block.name, "CandleLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -512824,7 +512824,7 @@ impl BlockProperties for CandleLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CandleLikeProperties"
+                block.name, "CandleLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512882,7 +512882,7 @@ impl BlockProperties for PaleHangingMossLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleHangingMossLikeProperties"
+                block.name, "PaleHangingMossLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512891,7 +512891,7 @@ impl BlockProperties for PaleHangingMossLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "PaleHangingMossLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512900,7 +512900,7 @@ impl BlockProperties for PaleHangingMossLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512909,7 +512909,7 @@ impl BlockProperties for PaleHangingMossLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleHangingMossLikeProperties"
+                block.name, "PaleHangingMossLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -512923,7 +512923,7 @@ impl BlockProperties for PaleHangingMossLikeProperties {
         if !matches!(block.id, 1162u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleHangingMossLikeProperties"
+                block.name, "PaleHangingMossLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -512970,7 +512970,7 @@ impl BlockProperties for BubbleColumnLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BubbleColumnLikeProperties"
+                block.name, "BubbleColumnLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -512979,7 +512979,7 @@ impl BlockProperties for BubbleColumnLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "BubbleColumnLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -512988,7 +512988,7 @@ impl BlockProperties for BubbleColumnLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512997,7 +512997,7 @@ impl BlockProperties for BubbleColumnLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BubbleColumnLikeProperties"
+                block.name, "BubbleColumnLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -513011,7 +513011,7 @@ impl BlockProperties for BubbleColumnLikeProperties {
         if !matches!(block.id, 796u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BubbleColumnLikeProperties"
+                block.name, "BubbleColumnLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -513129,7 +513129,7 @@ impl BlockProperties for OakFenceLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakFenceLikeProperties"
+                block.name, "OakFenceLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -513138,7 +513138,7 @@ impl BlockProperties for OakFenceLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakFenceLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -513147,7 +513147,7 @@ impl BlockProperties for OakFenceLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513156,7 +513156,7 @@ impl BlockProperties for OakFenceLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakFenceLikeProperties"
+                block.name, "OakFenceLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -513220,7 +513220,7 @@ impl BlockProperties for OakFenceLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakFenceLikeProperties"
+                block.name, "OakFenceLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -513281,7 +513281,7 @@ impl BlockProperties for BarrelLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BarrelLikeProperties"
+                block.name, "BarrelLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -513290,7 +513290,7 @@ impl BlockProperties for BarrelLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "BarrelLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -513299,7 +513299,7 @@ impl BlockProperties for BarrelLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513308,7 +513308,7 @@ impl BlockProperties for BarrelLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BarrelLikeProperties"
+                block.name, "BarrelLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -513325,7 +513325,7 @@ impl BlockProperties for BarrelLikeProperties {
         if !matches!(block.id, 839u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BarrelLikeProperties"
+                block.name, "BarrelLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -513374,7 +513374,7 @@ impl BlockProperties for SculkCatalystLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkCatalystLikeProperties"
+                block.name, "SculkCatalystLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -513383,7 +513383,7 @@ impl BlockProperties for SculkCatalystLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SculkCatalystLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -513392,7 +513392,7 @@ impl BlockProperties for SculkCatalystLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513401,7 +513401,7 @@ impl BlockProperties for SculkCatalystLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkCatalystLikeProperties"
+                block.name, "SculkCatalystLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -513415,7 +513415,7 @@ impl BlockProperties for SculkCatalystLikeProperties {
         if !matches!(block.id, 1005u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkCatalystLikeProperties"
+                block.name, "SculkCatalystLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -513462,7 +513462,7 @@ impl BlockProperties for GrassBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GrassBlockLikeProperties"
+                block.name, "GrassBlockLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -513471,7 +513471,7 @@ impl BlockProperties for GrassBlockLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "GrassBlockLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -513480,7 +513480,7 @@ impl BlockProperties for GrassBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513489,7 +513489,7 @@ impl BlockProperties for GrassBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GrassBlockLikeProperties"
+                block.name, "GrassBlockLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -513503,7 +513503,7 @@ impl BlockProperties for GrassBlockLikeProperties {
         if !matches!(block.id, 8u16 | 11u16 | 373u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GrassBlockLikeProperties"
+                block.name, "GrassBlockLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -513550,7 +513550,7 @@ impl BlockProperties for StructureBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StructureBlockLikeProperties"
+                block.name, "StructureBlockLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -513559,7 +513559,7 @@ impl BlockProperties for StructureBlockLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "StructureBlockLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -513568,7 +513568,7 @@ impl BlockProperties for StructureBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513577,7 +513577,7 @@ impl BlockProperties for StructureBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StructureBlockLikeProperties"
+                block.name, "StructureBlockLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -513591,7 +513591,7 @@ impl BlockProperties for StructureBlockLikeProperties {
         if !matches!(block.id, 905u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "StructureBlockLikeProperties"
+                block.name, "StructureBlockLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -513666,7 +513666,7 @@ impl BlockProperties for ChestLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChestLikeProperties"
+                block.name, "ChestLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -513675,7 +513675,7 @@ impl BlockProperties for ChestLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "ChestLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -513684,7 +513684,7 @@ impl BlockProperties for ChestLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513693,7 +513693,7 @@ impl BlockProperties for ChestLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChestLikeProperties"
+                block.name, "ChestLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -513726,7 +513726,7 @@ impl BlockProperties for ChestLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "ChestLikeProperties"
+                block.name, "ChestLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -513802,7 +513802,7 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CalibratedSculkSensorLikeProperties"
+                block.name, "CalibratedSculkSensorLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -513811,7 +513811,7 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CalibratedSculkSensorLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -513820,7 +513820,7 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513829,7 +513829,7 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CalibratedSculkSensorLikeProperties"
+                block.name, "CalibratedSculkSensorLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -513872,7 +513872,7 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
         if !matches!(block.id, 1002u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CalibratedSculkSensorLikeProperties"
+                block.name, "CalibratedSculkSensorLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -513964,7 +513964,7 @@ impl BlockProperties for SculkSensorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkSensorLikeProperties"
+                block.name, "SculkSensorLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -513973,7 +513973,7 @@ impl BlockProperties for SculkSensorLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SculkSensorLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -513982,7 +513982,7 @@ impl BlockProperties for SculkSensorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513991,7 +513991,7 @@ impl BlockProperties for SculkSensorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkSensorLikeProperties"
+                block.name, "SculkSensorLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -514033,7 +514033,7 @@ impl BlockProperties for SculkSensorLikeProperties {
         if !matches!(block.id, 1001u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SculkSensorLikeProperties"
+                block.name, "SculkSensorLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -514124,7 +514124,7 @@ impl BlockProperties for OakLeavesLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakLeavesLikeProperties"
+                block.name, "OakLeavesLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -514133,7 +514133,7 @@ impl BlockProperties for OakLeavesLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakLeavesLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -514142,7 +514142,7 @@ impl BlockProperties for OakLeavesLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514151,7 +514151,7 @@ impl BlockProperties for OakLeavesLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakLeavesLikeProperties"
+                block.name, "OakLeavesLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -514190,7 +514190,7 @@ impl BlockProperties for OakLeavesLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakLeavesLikeProperties"
+                block.name, "OakLeavesLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -514251,7 +514251,7 @@ impl BlockProperties for SnifferEggLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SnifferEggLikeProperties"
+                block.name, "SnifferEggLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -514260,7 +514260,7 @@ impl BlockProperties for SnifferEggLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SnifferEggLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -514269,7 +514269,7 @@ impl BlockProperties for SnifferEggLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514278,7 +514278,7 @@ impl BlockProperties for SnifferEggLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SnifferEggLikeProperties"
+                block.name, "SnifferEggLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -514300,7 +514300,7 @@ impl BlockProperties for SnifferEggLikeProperties {
         if !matches!(block.id, 746u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SnifferEggLikeProperties"
+                block.name, "SnifferEggLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -514361,7 +514361,7 @@ impl BlockProperties for TurtleEggLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TurtleEggLikeProperties"
+                block.name, "TurtleEggLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -514370,7 +514370,7 @@ impl BlockProperties for TurtleEggLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "TurtleEggLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -514379,7 +514379,7 @@ impl BlockProperties for TurtleEggLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514388,7 +514388,7 @@ impl BlockProperties for TurtleEggLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TurtleEggLikeProperties"
+                block.name, "TurtleEggLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -514422,7 +514422,7 @@ impl BlockProperties for TurtleEggLikeProperties {
         if !matches!(block.id, 745u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TurtleEggLikeProperties"
+                block.name, "TurtleEggLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -514516,7 +514516,7 @@ impl BlockProperties for OakHangingSignLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakHangingSignLikeProperties"
+                block.name, "OakHangingSignLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -514525,7 +514525,7 @@ impl BlockProperties for OakHangingSignLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakHangingSignLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -514534,7 +514534,7 @@ impl BlockProperties for OakHangingSignLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514543,7 +514543,7 @@ impl BlockProperties for OakHangingSignLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakHangingSignLikeProperties"
+                block.name, "OakHangingSignLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -514599,7 +514599,7 @@ impl BlockProperties for OakHangingSignLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakHangingSignLikeProperties"
+                block.name, "OakHangingSignLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -514675,7 +514675,7 @@ impl BlockProperties for DaylightDetectorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DaylightDetectorLikeProperties"
+                block.name, "DaylightDetectorLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -514684,7 +514684,7 @@ impl BlockProperties for DaylightDetectorLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "DaylightDetectorLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -514693,7 +514693,7 @@ impl BlockProperties for DaylightDetectorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514702,7 +514702,7 @@ impl BlockProperties for DaylightDetectorLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DaylightDetectorLikeProperties"
+                block.name, "DaylightDetectorLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -514740,7 +514740,7 @@ impl BlockProperties for DaylightDetectorLikeProperties {
         if !matches!(block.id, 474u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DaylightDetectorLikeProperties"
+                block.name, "DaylightDetectorLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -514809,7 +514809,7 @@ impl BlockProperties for WaterCauldronLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WaterCauldronLikeProperties"
+                block.name, "WaterCauldronLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -514818,7 +514818,7 @@ impl BlockProperties for WaterCauldronLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "WaterCauldronLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -514827,7 +514827,7 @@ impl BlockProperties for WaterCauldronLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514836,7 +514836,7 @@ impl BlockProperties for WaterCauldronLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WaterCauldronLikeProperties"
+                block.name, "WaterCauldronLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -514858,7 +514858,7 @@ impl BlockProperties for WaterCauldronLikeProperties {
         if !matches!(block.id, 388u16 | 390u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WaterCauldronLikeProperties"
+                block.name, "WaterCauldronLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -514933,7 +514933,7 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MangrovePropaguleLikeProperties"
+                block.name, "MangrovePropaguleLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -514942,7 +514942,7 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "MangrovePropaguleLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -514951,7 +514951,7 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514960,7 +514960,7 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MangrovePropaguleLikeProperties"
+                block.name, "MangrovePropaguleLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -514999,7 +514999,7 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
         if !matches!(block.id, 33u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MangrovePropaguleLikeProperties"
+                block.name, "MangrovePropaguleLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -515074,7 +515074,7 @@ impl BlockProperties for LanternLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LanternLikeProperties"
+                block.name, "LanternLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -515083,7 +515083,7 @@ impl BlockProperties for LanternLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "LanternLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -515092,7 +515092,7 @@ impl BlockProperties for LanternLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515101,7 +515101,7 @@ impl BlockProperties for LanternLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LanternLikeProperties"
+                block.name, "LanternLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -515124,7 +515124,7 @@ impl BlockProperties for LanternLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LanternLikeProperties"
+                block.name, "LanternLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -515173,7 +515173,7 @@ impl BlockProperties for NetherPortalLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NetherPortalLikeProperties"
+                block.name, "NetherPortalLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -515182,7 +515182,7 @@ impl BlockProperties for NetherPortalLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "NetherPortalLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -515191,7 +515191,7 @@ impl BlockProperties for NetherPortalLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515200,7 +515200,7 @@ impl BlockProperties for NetherPortalLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NetherPortalLikeProperties"
+                block.name, "NetherPortalLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -515214,7 +515214,7 @@ impl BlockProperties for NetherPortalLikeProperties {
         if !matches!(block.id, 295u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NetherPortalLikeProperties"
+                block.name, "NetherPortalLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -515264,7 +515264,7 @@ impl BlockProperties for OakSaplingLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakSaplingLikeProperties"
+                block.name, "OakSaplingLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -515273,7 +515273,7 @@ impl BlockProperties for OakSaplingLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakSaplingLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -515282,7 +515282,7 @@ impl BlockProperties for OakSaplingLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515291,7 +515291,7 @@ impl BlockProperties for OakSaplingLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakSaplingLikeProperties"
+                block.name, "OakSaplingLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -515315,7 +515315,7 @@ impl BlockProperties for OakSaplingLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakSaplingLikeProperties"
+                block.name, "OakSaplingLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -515388,7 +515388,7 @@ impl BlockProperties for CopperGolemStatueLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CopperGolemStatueLikeProperties"
+                block.name, "CopperGolemStatueLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -515397,7 +515397,7 @@ impl BlockProperties for CopperGolemStatueLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CopperGolemStatueLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -515406,7 +515406,7 @@ impl BlockProperties for CopperGolemStatueLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515415,7 +515415,7 @@ impl BlockProperties for CopperGolemStatueLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CopperGolemStatueLikeProperties"
+                block.name, "CopperGolemStatueLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -515439,7 +515439,7 @@ impl BlockProperties for CopperGolemStatueLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CopperGolemStatueLikeProperties"
+                block.name, "CopperGolemStatueLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -515491,7 +515491,7 @@ impl BlockProperties for WheatLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WheatLikeProperties"
+                block.name, "WheatLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -515500,7 +515500,7 @@ impl BlockProperties for WheatLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "WheatLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -515509,7 +515509,7 @@ impl BlockProperties for WheatLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515518,7 +515518,7 @@ impl BlockProperties for WheatLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WheatLikeProperties"
+                block.name, "WheatLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -515545,7 +515545,7 @@ impl BlockProperties for WheatLikeProperties {
         if !matches!(block.id, 207u16 | 364u16 | 365u16 | 441u16 | 442u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WheatLikeProperties"
+                block.name, "WheatLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -515648,7 +515648,7 @@ impl BlockProperties for WallTorchLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WallTorchLikeProperties"
+                block.name, "WallTorchLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -515657,7 +515657,7 @@ impl BlockProperties for WallTorchLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "WallTorchLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -515666,7 +515666,7 @@ impl BlockProperties for WallTorchLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515675,7 +515675,7 @@ impl BlockProperties for WallTorchLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WallTorchLikeProperties"
+                block.name, "WallTorchLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -515735,7 +515735,7 @@ impl BlockProperties for WallTorchLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WallTorchLikeProperties"
+                block.name, "WallTorchLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -515791,7 +515791,7 @@ impl BlockProperties for BeeNestLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BeeNestLikeProperties"
+                block.name, "BeeNestLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -515800,7 +515800,7 @@ impl BlockProperties for BeeNestLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "BeeNestLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -515809,7 +515809,7 @@ impl BlockProperties for BeeNestLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515818,7 +515818,7 @@ impl BlockProperties for BeeNestLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BeeNestLikeProperties"
+                block.name, "BeeNestLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -515846,7 +515846,7 @@ impl BlockProperties for BeeNestLikeProperties {
         if !matches!(block.id, 911u16 | 912u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BeeNestLikeProperties"
+                block.name, "BeeNestLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -515921,7 +515921,7 @@ impl BlockProperties for DecoratedPotLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DecoratedPotLikeProperties"
+                block.name, "DecoratedPotLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -515930,7 +515930,7 @@ impl BlockProperties for DecoratedPotLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "DecoratedPotLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -515939,7 +515939,7 @@ impl BlockProperties for DecoratedPotLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515948,7 +515948,7 @@ impl BlockProperties for DecoratedPotLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DecoratedPotLikeProperties"
+                block.name, "DecoratedPotLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -515969,7 +515969,7 @@ impl BlockProperties for DecoratedPotLikeProperties {
         if !matches!(block.id, 1155u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "DecoratedPotLikeProperties"
+                block.name, "DecoratedPotLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -516067,7 +516067,7 @@ impl BlockProperties for LadderLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LadderLikeProperties"
+                block.name, "LadderLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -516076,7 +516076,7 @@ impl BlockProperties for LadderLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "LadderLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -516085,7 +516085,7 @@ impl BlockProperties for LadderLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516094,7 +516094,7 @@ impl BlockProperties for LadderLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LadderLikeProperties"
+                block.name, "LadderLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -516153,7 +516153,7 @@ impl BlockProperties for LadderLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LadderLikeProperties"
+                block.name, "LadderLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -516218,7 +516218,7 @@ impl BlockProperties for BigDripleafLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BigDripleafLikeProperties"
+                block.name, "BigDripleafLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -516227,7 +516227,7 @@ impl BlockProperties for BigDripleafLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "BigDripleafLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -516236,7 +516236,7 @@ impl BlockProperties for BigDripleafLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516245,7 +516245,7 @@ impl BlockProperties for BigDripleafLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BigDripleafLikeProperties"
+                block.name, "BigDripleafLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -516266,7 +516266,7 @@ impl BlockProperties for BigDripleafLikeProperties {
         if !matches!(block.id, 1117u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "BigDripleafLikeProperties"
+                block.name, "BigDripleafLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -516332,7 +516332,7 @@ impl BlockProperties for SmallDripleafLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SmallDripleafLikeProperties"
+                block.name, "SmallDripleafLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -516341,7 +516341,7 @@ impl BlockProperties for SmallDripleafLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SmallDripleafLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -516350,7 +516350,7 @@ impl BlockProperties for SmallDripleafLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516359,7 +516359,7 @@ impl BlockProperties for SmallDripleafLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SmallDripleafLikeProperties"
+                block.name, "SmallDripleafLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -516380,7 +516380,7 @@ impl BlockProperties for SmallDripleafLikeProperties {
         if !matches!(block.id, 1119u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SmallDripleafLikeProperties"
+                block.name, "SmallDripleafLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -516439,7 +516439,7 @@ impl BlockProperties for GrindstoneLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GrindstoneLikeProperties"
+                block.name, "GrindstoneLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -516448,7 +516448,7 @@ impl BlockProperties for GrindstoneLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "GrindstoneLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -516457,7 +516457,7 @@ impl BlockProperties for GrindstoneLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516466,7 +516466,7 @@ impl BlockProperties for GrindstoneLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GrindstoneLikeProperties"
+                block.name, "GrindstoneLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -516483,7 +516483,7 @@ impl BlockProperties for GrindstoneLikeProperties {
         if !matches!(block.id, 844u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "GrindstoneLikeProperties"
+                block.name, "GrindstoneLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -516541,7 +516541,7 @@ impl BlockProperties for PinkPetalsLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PinkPetalsLikeProperties"
+                block.name, "PinkPetalsLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -516550,7 +516550,7 @@ impl BlockProperties for PinkPetalsLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "PinkPetalsLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -516559,7 +516559,7 @@ impl BlockProperties for PinkPetalsLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516568,7 +516568,7 @@ impl BlockProperties for PinkPetalsLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PinkPetalsLikeProperties"
+                block.name, "PinkPetalsLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -516594,7 +516594,7 @@ impl BlockProperties for PinkPetalsLikeProperties {
         if !matches!(block.id, 1113u16 | 1114u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PinkPetalsLikeProperties"
+                block.name, "PinkPetalsLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -516660,7 +516660,7 @@ impl BlockProperties for LeafLitterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LeafLitterLikeProperties"
+                block.name, "LeafLitterLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -516669,7 +516669,7 @@ impl BlockProperties for LeafLitterLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "LeafLitterLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -516678,7 +516678,7 @@ impl BlockProperties for LeafLitterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516687,7 +516687,7 @@ impl BlockProperties for LeafLitterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LeafLitterLikeProperties"
+                block.name, "LeafLitterLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -516713,7 +516713,7 @@ impl BlockProperties for LeafLitterLikeProperties {
         if !matches!(block.id, 1115u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LeafLitterLikeProperties"
+                block.name, "LeafLitterLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -516779,7 +516779,7 @@ impl BlockProperties for CocoaLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CocoaLikeProperties"
+                block.name, "CocoaLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -516788,7 +516788,7 @@ impl BlockProperties for CocoaLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CocoaLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -516797,7 +516797,7 @@ impl BlockProperties for CocoaLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516806,7 +516806,7 @@ impl BlockProperties for CocoaLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CocoaLikeProperties"
+                block.name, "CocoaLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -516831,7 +516831,7 @@ impl BlockProperties for CocoaLikeProperties {
         if !matches!(block.id, 396u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CocoaLikeProperties"
+                block.name, "CocoaLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -516896,7 +516896,7 @@ impl BlockProperties for RailLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RailLikeProperties"
+                block.name, "RailLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -516905,7 +516905,7 @@ impl BlockProperties for RailLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "RailLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -516914,7 +516914,7 @@ impl BlockProperties for RailLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516923,7 +516923,7 @@ impl BlockProperties for RailLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RailLikeProperties"
+                block.name, "RailLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -516943,7 +516943,7 @@ impl BlockProperties for RailLikeProperties {
         if !matches!(block.id, 222u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "RailLikeProperties"
+                block.name, "RailLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -517001,7 +517001,7 @@ impl BlockProperties for SeaPickleLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SeaPickleLikeProperties"
+                block.name, "SeaPickleLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -517010,7 +517010,7 @@ impl BlockProperties for SeaPickleLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "SeaPickleLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -517019,7 +517019,7 @@ impl BlockProperties for SeaPickleLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517028,7 +517028,7 @@ impl BlockProperties for SeaPickleLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SeaPickleLikeProperties"
+                block.name, "SeaPickleLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -517057,7 +517057,7 @@ impl BlockProperties for SeaPickleLikeProperties {
         if !matches!(block.id, 788u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "SeaPickleLikeProperties"
+                block.name, "SeaPickleLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -517149,7 +517149,7 @@ impl BlockProperties for MangroveRootsLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MangroveRootsLikeProperties"
+                block.name, "MangroveRootsLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -517158,7 +517158,7 @@ impl BlockProperties for MangroveRootsLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "MangroveRootsLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -517167,7 +517167,7 @@ impl BlockProperties for MangroveRootsLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517176,7 +517176,7 @@ impl BlockProperties for MangroveRootsLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MangroveRootsLikeProperties"
+                block.name, "MangroveRootsLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -517228,7 +517228,7 @@ impl BlockProperties for MangroveRootsLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "MangroveRootsLikeProperties"
+                block.name, "MangroveRootsLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -517298,7 +517298,7 @@ impl BlockProperties for OakSignLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakSignLikeProperties"
+                block.name, "OakSignLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -517307,7 +517307,7 @@ impl BlockProperties for OakSignLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "OakSignLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -517316,7 +517316,7 @@ impl BlockProperties for OakSignLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517325,7 +517325,7 @@ impl BlockProperties for OakSignLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakSignLikeProperties"
+                block.name, "OakSignLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -517380,7 +517380,7 @@ impl BlockProperties for OakSignLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "OakSignLikeProperties"
+                block.name, "OakSignLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -517458,7 +517458,7 @@ impl BlockProperties for AmethystClusterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "AmethystClusterLikeProperties"
+                block.name, "AmethystClusterLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -517467,7 +517467,7 @@ impl BlockProperties for AmethystClusterLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "AmethystClusterLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -517476,7 +517476,7 @@ impl BlockProperties for AmethystClusterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517485,7 +517485,7 @@ impl BlockProperties for AmethystClusterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "AmethystClusterLikeProperties"
+                block.name, "AmethystClusterLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -517505,7 +517505,7 @@ impl BlockProperties for AmethystClusterLikeProperties {
         if !matches!(block.id, 980u16 | 981u16 | 982u16 | 983u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "AmethystClusterLikeProperties"
+                block.name, "AmethystClusterLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -517563,7 +517563,7 @@ impl BlockProperties for LightLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightLikeProperties"
+                block.name, "LightLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -517572,7 +517572,7 @@ impl BlockProperties for LightLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "LightLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -517581,7 +517581,7 @@ impl BlockProperties for LightLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517590,7 +517590,7 @@ impl BlockProperties for LightLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightLikeProperties"
+                block.name, "LightLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -517631,7 +517631,7 @@ impl BlockProperties for LightLikeProperties {
         if !matches!(block.id, 525u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightLikeProperties"
+                block.name, "LightLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -517712,7 +517712,7 @@ impl BlockProperties for IronChainLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "IronChainLikeProperties"
+                block.name, "IronChainLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -517721,7 +517721,7 @@ impl BlockProperties for IronChainLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "IronChainLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -517730,7 +517730,7 @@ impl BlockProperties for IronChainLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517739,7 +517739,7 @@ impl BlockProperties for IronChainLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "IronChainLikeProperties"
+                block.name, "IronChainLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -517762,7 +517762,7 @@ impl BlockProperties for IronChainLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "IronChainLikeProperties"
+                block.name, "IronChainLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -517820,7 +517820,7 @@ impl BlockProperties for CommandBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CommandBlockLikeProperties"
+                block.name, "CommandBlockLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -517829,7 +517829,7 @@ impl BlockProperties for CommandBlockLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "CommandBlockLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -517838,7 +517838,7 @@ impl BlockProperties for CommandBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517847,7 +517847,7 @@ impl BlockProperties for CommandBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CommandBlockLikeProperties"
+                block.name, "CommandBlockLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -517867,7 +517867,7 @@ impl BlockProperties for CommandBlockLikeProperties {
         if !matches!(block.id, 407u16 | 668u16 | 669u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "CommandBlockLikeProperties"
+                block.name, "CommandBlockLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -517919,7 +517919,7 @@ impl BlockProperties for TallSeagrassLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TallSeagrassLikeProperties"
+                block.name, "TallSeagrassLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -517928,7 +517928,7 @@ impl BlockProperties for TallSeagrassLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "TallSeagrassLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -517937,7 +517937,7 @@ impl BlockProperties for TallSeagrassLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517946,7 +517946,7 @@ impl BlockProperties for TallSeagrassLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TallSeagrassLikeProperties"
+                block.name, "TallSeagrassLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -517963,7 +517963,7 @@ impl BlockProperties for TallSeagrassLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TallSeagrassLikeProperties"
+                block.name, "TallSeagrassLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -518019,7 +518019,7 @@ impl BlockProperties for PitcherCropLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PitcherCropLikeProperties"
+                block.name, "PitcherCropLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -518028,7 +518028,7 @@ impl BlockProperties for PitcherCropLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "PitcherCropLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -518037,7 +518037,7 @@ impl BlockProperties for PitcherCropLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518046,7 +518046,7 @@ impl BlockProperties for PitcherCropLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PitcherCropLikeProperties"
+                block.name, "PitcherCropLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -518073,7 +518073,7 @@ impl BlockProperties for PitcherCropLikeProperties {
         if !matches!(block.id, 663u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PitcherCropLikeProperties"
+                block.name, "PitcherCropLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -518149,7 +518149,7 @@ impl BlockProperties for WhiteBannerLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WhiteBannerLikeProperties"
+                block.name, "WhiteBannerLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -518158,7 +518158,7 @@ impl BlockProperties for WhiteBannerLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "WhiteBannerLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -518167,7 +518167,7 @@ impl BlockProperties for WhiteBannerLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518176,7 +518176,7 @@ impl BlockProperties for WhiteBannerLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WhiteBannerLikeProperties"
+                block.name, "WhiteBannerLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -518229,7 +518229,7 @@ impl BlockProperties for WhiteBannerLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WhiteBannerLikeProperties"
+                block.name, "WhiteBannerLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -518314,7 +518314,7 @@ impl BlockProperties for EndRodLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "EndRodLikeProperties"
+                block.name, "EndRodLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -518323,7 +518323,7 @@ impl BlockProperties for EndRodLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "EndRodLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -518332,7 +518332,7 @@ impl BlockProperties for EndRodLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518341,7 +518341,7 @@ impl BlockProperties for EndRodLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "EndRodLikeProperties"
+                block.name, "EndRodLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -518375,7 +518375,7 @@ impl BlockProperties for EndRodLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "EndRodLikeProperties"
+                block.name, "EndRodLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -518422,7 +518422,7 @@ impl BlockProperties for WaterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WaterLikeProperties"
+                block.name, "WaterLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -518431,7 +518431,7 @@ impl BlockProperties for WaterLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "WaterLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -518440,7 +518440,7 @@ impl BlockProperties for WaterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518449,7 +518449,7 @@ impl BlockProperties for WaterLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WaterLikeProperties"
+                block.name, "WaterLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -518484,7 +518484,7 @@ impl BlockProperties for WaterLikeProperties {
         if !matches!(block.id, 35u16 | 36u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "WaterLikeProperties"
+                block.name, "WaterLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -518549,7 +518549,7 @@ impl BlockProperties for KelpLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "KelpLikeProperties"
+                block.name, "KelpLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -518558,7 +518558,7 @@ impl BlockProperties for KelpLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "KelpLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -518567,7 +518567,7 @@ impl BlockProperties for KelpLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518576,7 +518576,7 @@ impl BlockProperties for KelpLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "KelpLikeProperties"
+                block.name, "KelpLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -518621,7 +518621,7 @@ impl BlockProperties for KelpLikeProperties {
         if !matches!(block.id, 742u16 | 878u16 | 880u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "KelpLikeProperties"
+                block.name, "KelpLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -518696,7 +518696,7 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightWeightedPressurePlateLikeProperties"
+                block.name, "LightWeightedPressurePlateLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -518705,7 +518705,7 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "LightWeightedPressurePlateLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -518714,7 +518714,7 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518723,7 +518723,7 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightWeightedPressurePlateLikeProperties"
+                block.name, "LightWeightedPressurePlateLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -518758,7 +518758,7 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
         if !matches!(block.id, 471u16 | 472u16 | 910u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "LightWeightedPressurePlateLikeProperties"
+                block.name, "LightWeightedPressurePlateLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -518823,7 +518823,7 @@ impl BlockProperties for TestBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TestBlockLikeProperties"
+                block.name, "TestBlockLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -518832,7 +518832,7 @@ impl BlockProperties for TestBlockLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "TestBlockLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -518841,7 +518841,7 @@ impl BlockProperties for TestBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518850,7 +518850,7 @@ impl BlockProperties for TestBlockLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TestBlockLikeProperties"
+                block.name, "TestBlockLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -518864,7 +518864,7 @@ impl BlockProperties for TestBlockLikeProperties {
         if !matches!(block.id, 907u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TestBlockLikeProperties"
+                block.name, "TestBlockLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -518911,7 +518911,7 @@ impl BlockProperties for TorchflowerCropLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TorchflowerCropLikeProperties"
+                block.name, "TorchflowerCropLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -518920,7 +518920,7 @@ impl BlockProperties for TorchflowerCropLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "TorchflowerCropLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -518929,7 +518929,7 @@ impl BlockProperties for TorchflowerCropLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518938,7 +518938,7 @@ impl BlockProperties for TorchflowerCropLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TorchflowerCropLikeProperties"
+                block.name, "TorchflowerCropLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -518959,7 +518959,7 @@ impl BlockProperties for TorchflowerCropLikeProperties {
         if !matches!(block.id, 662u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "TorchflowerCropLikeProperties"
+                block.name, "TorchflowerCropLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -519010,7 +519010,7 @@ impl BlockProperties for NetherWartLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NetherWartLikeProperties"
+                block.name, "NetherWartLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -519019,7 +519019,7 @@ impl BlockProperties for NetherWartLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "NetherWartLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -519028,7 +519028,7 @@ impl BlockProperties for NetherWartLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -519037,7 +519037,7 @@ impl BlockProperties for NetherWartLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NetherWartLikeProperties"
+                block.name, "NetherWartLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -519060,7 +519060,7 @@ impl BlockProperties for NetherWartLikeProperties {
         if !matches!(block.id, 384u16 | 665u16 | 670u16 | 861u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "NetherWartLikeProperties"
+                block.name, "NetherWartLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -519173,7 +519173,7 @@ impl BlockProperties for PaleOakWoodLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleOakWoodLikeProperties"
+                block.name, "PaleOakWoodLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -519182,7 +519182,7 @@ impl BlockProperties for PaleOakWoodLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "PaleOakWoodLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -519191,7 +519191,7 @@ impl BlockProperties for PaleOakWoodLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -519200,7 +519200,7 @@ impl BlockProperties for PaleOakWoodLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleOakWoodLikeProperties"
+                block.name, "PaleOakWoodLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -519274,7 +519274,7 @@ impl BlockProperties for PaleOakWoodLikeProperties {
         ) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "PaleOakWoodLikeProperties"
+                block.name, "PaleOakWoodLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
@@ -519321,7 +519321,7 @@ impl BlockProperties for JigsawLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "JigsawLikeProperties"
+                block.name, "JigsawLikeProperties"
             );
         }
         block.states[0].id + self.to_index()
@@ -519330,7 +519330,7 @@ impl BlockProperties for JigsawLikeProperties {
         debug_assert!(
             Self::handles_block_id(block.id),
             "{} is not a valid block for {}",
-            &block.name,
+            block.name,
             "JigsawLikeProperties"
         );
         let min_id = block.states[0].id;
@@ -519339,7 +519339,7 @@ impl BlockProperties for JigsawLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, &block.name);
+            panic!("State ID {} does not exist for {}", state_id, block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -519348,7 +519348,7 @@ impl BlockProperties for JigsawLikeProperties {
         if !Self::handles_block_id(block.id) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "JigsawLikeProperties"
+                block.name, "JigsawLikeProperties"
             );
         }
         Self::from_state_id(block.default_state.id, block)
@@ -519362,7 +519362,7 @@ impl BlockProperties for JigsawLikeProperties {
         if !matches!(block.id, 906u16) {
             panic!(
                 "{} is not a valid block for {}",
-                &block.name, "JigsawLikeProperties"
+                block.name, "JigsawLikeProperties"
             );
         }
         let mut block_props = Self::default(block);
