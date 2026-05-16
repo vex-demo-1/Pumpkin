@@ -504838,7 +504838,7 @@ impl BlockProperties for OakFenceGateLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -504949,7 +504949,7 @@ impl BlockProperties for CakeLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505058,7 +505058,7 @@ impl BlockProperties for JukeboxLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505171,7 +505171,7 @@ impl BlockProperties for PointedDripstoneLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505344,7 +505344,7 @@ impl BlockProperties for ResinBrickSlabLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505520,7 +505520,7 @@ impl BlockProperties for DriedGhastLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505665,7 +505665,7 @@ impl BlockProperties for RedstoneWireLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505814,7 +505814,7 @@ impl BlockProperties for StickyPistonLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -505951,7 +505951,7 @@ impl BlockProperties for ChiseledBookshelfLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506112,7 +506112,7 @@ impl BlockProperties for PoweredRailLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506244,7 +506244,7 @@ impl BlockProperties for WhiteBedLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506357,7 +506357,7 @@ impl BlockProperties for ChorusFlowerLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506464,7 +506464,7 @@ impl BlockProperties for CactusLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506628,7 +506628,7 @@ impl BlockProperties for FireLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506779,7 +506779,7 @@ impl BlockProperties for HopperLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -506925,7 +506925,7 @@ impl BlockProperties for OakDoorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507063,7 +507063,7 @@ impl BlockProperties for PistonHeadLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507167,7 +507167,7 @@ impl BlockProperties for MovingPistonLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507279,7 +507279,7 @@ impl BlockProperties for CreakingHeartLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507409,7 +507409,7 @@ impl BlockProperties for PaleMossCarpetLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507524,7 +507524,7 @@ impl BlockProperties for ScaffoldingLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507663,7 +507663,7 @@ impl BlockProperties for VaultLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507770,7 +507770,7 @@ impl BlockProperties for TrialSpawnerLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -507881,7 +507881,7 @@ impl BlockProperties for SculkShriekerLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508005,7 +508005,7 @@ impl BlockProperties for RepeaterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508119,7 +508119,7 @@ impl BlockProperties for RespawnAnchorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508261,7 +508261,7 @@ impl BlockProperties for AcaciaShelfLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508440,7 +508440,7 @@ impl BlockProperties for ResinBrickWallLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508588,7 +508588,7 @@ impl BlockProperties for BrewingStandLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508692,7 +508692,7 @@ impl BlockProperties for SnowLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508822,7 +508822,7 @@ impl BlockProperties for NoteBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -508985,7 +508985,7 @@ impl BlockProperties for DispenserLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509094,7 +509094,7 @@ impl BlockProperties for CrafterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509272,7 +509272,7 @@ impl BlockProperties for OakStairsLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509432,7 +509432,7 @@ impl BlockProperties for FarmlandLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509543,7 +509543,7 @@ impl BlockProperties for SuspiciousSandLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509662,7 +509662,7 @@ impl BlockProperties for BambooLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509799,7 +509799,7 @@ impl BlockProperties for StonePressurePlateLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -509919,7 +509919,7 @@ impl BlockProperties for ComparatorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510023,7 +510023,7 @@ impl BlockProperties for CopperBulbLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510163,7 +510163,7 @@ impl BlockProperties for TripwireLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510319,7 +510319,7 @@ impl BlockProperties for OakTrapdoorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510460,7 +510460,7 @@ impl BlockProperties for LecternLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510571,7 +510571,7 @@ impl BlockProperties for TripwireHookLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510685,7 +510685,7 @@ impl BlockProperties for BellLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510792,7 +510792,7 @@ impl BlockProperties for SkeletonWallSkullLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -510921,7 +510921,7 @@ impl BlockProperties for LeverLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511052,7 +511052,7 @@ impl BlockProperties for LightningRodLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511162,7 +511162,7 @@ impl BlockProperties for SkeletonSkullLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511308,7 +511308,7 @@ impl BlockProperties for ObserverLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511401,7 +511401,7 @@ impl BlockProperties for ComposterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511514,7 +511514,7 @@ impl BlockProperties for CaveVinesPlantLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511608,7 +511608,7 @@ impl BlockProperties for CaveVinesLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511762,7 +511762,7 @@ impl BlockProperties for TntLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -511887,7 +511887,7 @@ impl BlockProperties for BrownMushroomBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512032,7 +512032,7 @@ impl BlockProperties for GlowLichenLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512168,7 +512168,7 @@ impl BlockProperties for VineLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512276,7 +512276,7 @@ impl BlockProperties for EndPortalFrameLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512392,7 +512392,7 @@ impl BlockProperties for RedstoneOreLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512526,7 +512526,7 @@ impl BlockProperties for CampfireLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512638,7 +512638,7 @@ impl BlockProperties for FurnaceLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512766,7 +512766,7 @@ impl BlockProperties for CandleLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512900,7 +512900,7 @@ impl BlockProperties for PaleHangingMossLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -512988,7 +512988,7 @@ impl BlockProperties for BubbleColumnLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513147,7 +513147,7 @@ impl BlockProperties for OakFenceLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513299,7 +513299,7 @@ impl BlockProperties for BarrelLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513392,7 +513392,7 @@ impl BlockProperties for SculkCatalystLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513480,7 +513480,7 @@ impl BlockProperties for GrassBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513568,7 +513568,7 @@ impl BlockProperties for StructureBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513684,7 +513684,7 @@ impl BlockProperties for ChestLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513820,7 +513820,7 @@ impl BlockProperties for CalibratedSculkSensorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -513982,7 +513982,7 @@ impl BlockProperties for SculkSensorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514142,7 +514142,7 @@ impl BlockProperties for OakLeavesLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514269,7 +514269,7 @@ impl BlockProperties for SnifferEggLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514379,7 +514379,7 @@ impl BlockProperties for TurtleEggLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514534,7 +514534,7 @@ impl BlockProperties for OakHangingSignLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514693,7 +514693,7 @@ impl BlockProperties for DaylightDetectorLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514827,7 +514827,7 @@ impl BlockProperties for WaterCauldronLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -514951,7 +514951,7 @@ impl BlockProperties for MangrovePropaguleLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515092,7 +515092,7 @@ impl BlockProperties for LanternLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515191,7 +515191,7 @@ impl BlockProperties for NetherPortalLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515282,7 +515282,7 @@ impl BlockProperties for OakSaplingLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515406,7 +515406,7 @@ impl BlockProperties for CopperGolemStatueLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515509,7 +515509,7 @@ impl BlockProperties for WheatLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515666,7 +515666,7 @@ impl BlockProperties for WallTorchLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515809,7 +515809,7 @@ impl BlockProperties for BeeNestLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -515939,7 +515939,7 @@ impl BlockProperties for DecoratedPotLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516085,7 +516085,7 @@ impl BlockProperties for LadderLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516236,7 +516236,7 @@ impl BlockProperties for BigDripleafLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516350,7 +516350,7 @@ impl BlockProperties for SmallDripleafLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516457,7 +516457,7 @@ impl BlockProperties for GrindstoneLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516559,7 +516559,7 @@ impl BlockProperties for PinkPetalsLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516678,7 +516678,7 @@ impl BlockProperties for LeafLitterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516797,7 +516797,7 @@ impl BlockProperties for CocoaLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -516914,7 +516914,7 @@ impl BlockProperties for RailLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517019,7 +517019,7 @@ impl BlockProperties for SeaPickleLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517167,7 +517167,7 @@ impl BlockProperties for MangroveRootsLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517316,7 +517316,7 @@ impl BlockProperties for OakSignLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517476,7 +517476,7 @@ impl BlockProperties for AmethystClusterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517581,7 +517581,7 @@ impl BlockProperties for LightLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517730,7 +517730,7 @@ impl BlockProperties for IronChainLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517838,7 +517838,7 @@ impl BlockProperties for CommandBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -517937,7 +517937,7 @@ impl BlockProperties for TallSeagrassLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518037,7 +518037,7 @@ impl BlockProperties for PitcherCropLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518167,7 +518167,7 @@ impl BlockProperties for WhiteBannerLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518332,7 +518332,7 @@ impl BlockProperties for EndRodLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518440,7 +518440,7 @@ impl BlockProperties for WaterLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518567,7 +518567,7 @@ impl BlockProperties for KelpLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518714,7 +518714,7 @@ impl BlockProperties for LightWeightedPressurePlateLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518841,7 +518841,7 @@ impl BlockProperties for TestBlockLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -518929,7 +518929,7 @@ impl BlockProperties for TorchflowerCropLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -519028,7 +519028,7 @@ impl BlockProperties for NetherWartLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -519191,7 +519191,7 @@ impl BlockProperties for PaleOakWoodLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }
@@ -519339,7 +519339,7 @@ impl BlockProperties for JigsawLikeProperties {
             Self::from_index(state_id - min_id)
         } else {
             #[cfg(debug_assertions)]
-            panic!("State ID {} does not exist for {}", state_id, block.name);
+            panic!("State ID {} does not exist for {}", state_id, &block.name);
             #[cfg(not(debug_assertions))]
             Self::from_index(0)
         }

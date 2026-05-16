@@ -1,5 +1,5 @@
 /* This file is generated. Do not edit manually. */
-use pumpkin_util::version::MinecraftVersion;
+use pumpkin_util::version::JavaMinecraftVersion;
 pub type Tag = (&'static [&'static str], &'static [u16]);
 #[derive(Eq, PartialEq, Hash, Debug, Clone, Copy)]
 pub enum RegistryKey {
@@ -134561,20 +134561,36 @@ pub fn get_tag_ids(tag_category: RegistryKey, tag: &str) -> Option<&'static [u16
         .map(|t| t.1)
 }
 pub fn get_registry_key_tags(
-    version: MinecraftVersion,
+    version: JavaMinecraftVersion,
     tag_category: RegistryKey,
 ) -> Option<&'static phf::Map<&'static str, &'static Tag>> {
     match version {
-        pumpkin_util::version::MinecraftVersion::V_1_20_5 => tags_v1_20_5::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_1_21 => tags_v1_21::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_1_21_2 => tags_v1_21_2::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_1_21_4 => tags_v1_21_4::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_1_21_5 => tags_v1_21_5::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_1_21_6 => tags_v1_21_6::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_1_21_7 => tags_v1_21_7::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_1_21_9 => tags_v1_21_9::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_1_21_11 => tags_v1_21_11::get_map(tag_category),
-        pumpkin_util::version::MinecraftVersion::V_26_1 => get_latest_map(tag_category),
+        pumpkin_util::version::JavaMinecraftVersion::V_1_20_5 => {
+            tags_v1_20_5::get_map(tag_category)
+        }
+        pumpkin_util::version::JavaMinecraftVersion::V_1_21 => tags_v1_21::get_map(tag_category),
+        pumpkin_util::version::JavaMinecraftVersion::V_1_21_2 => {
+            tags_v1_21_2::get_map(tag_category)
+        }
+        pumpkin_util::version::JavaMinecraftVersion::V_1_21_4 => {
+            tags_v1_21_4::get_map(tag_category)
+        }
+        pumpkin_util::version::JavaMinecraftVersion::V_1_21_5 => {
+            tags_v1_21_5::get_map(tag_category)
+        }
+        pumpkin_util::version::JavaMinecraftVersion::V_1_21_6 => {
+            tags_v1_21_6::get_map(tag_category)
+        }
+        pumpkin_util::version::JavaMinecraftVersion::V_1_21_7 => {
+            tags_v1_21_7::get_map(tag_category)
+        }
+        pumpkin_util::version::JavaMinecraftVersion::V_1_21_9 => {
+            tags_v1_21_9::get_map(tag_category)
+        }
+        pumpkin_util::version::JavaMinecraftVersion::V_1_21_11 => {
+            tags_v1_21_11::get_map(tag_category)
+        }
+        pumpkin_util::version::JavaMinecraftVersion::V_26_1 => get_latest_map(tag_category),
         _ => get_latest_map(tag_category),
     }
 }
